@@ -1,0 +1,663 @@
+{
+    "resource_pack_name": "geyser_custom",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "casinoitems_f94829a7c905": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/casinoitems/items/bottomscreencasinoglyph"
+        },
+        "fantasy_weapons_fa8e624cb6cb": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/amethyst_greatblade"
+        },
+        "fantasy_weapons_f272552fb473": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/amethyst_greatblade_e"
+        },
+        "fantasy_weapons_fb97306b02b9": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ancient_greatslab"
+        },
+        "fantasy_weapons_f276195a229d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ancient_greatslab_test"
+        },
+        "fantasy_weapons_fe1078f08cb1": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greataxe"
+        },
+        "fantasy_weapons_fabec5f3b62a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greataxe_e"
+        },
+        "fantasy_weapons_f773b3b80d93": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greatsword"
+        },
+        "fantasy_weapons_f16743bbf2cf": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greatsword_e"
+        },
+        "fantasy_weapons_facaf2a1297a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_sabre"
+        },
+        "fantasy_weapons_fd6aea3a33d1": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_sabre_e"
+        },
+        "fantasy_weapons_f0d9b9692c76": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_scythe"
+        },
+        "fantasy_weapons_fa08013489d2": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_scythe_e"
+        },
+        "fantasy_weapons_f571d8c3204a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_shortsword"
+        },
+        "fantasy_weapons_fa523fae6d34": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_shortsword_e"
+        },
+        "fantasy_weapons_fbcbbe617819": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/berserkers_cleaver"
+        },
+        "fantasy_weapons_fde8a3049565": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/berserkers_cleaver_e"
+        },
+        "fantasy_weapons_f816050ede24": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/berserkers_greataxe"
+        },
+        "fantasy_weapons_f2a80567d793": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_clobberer"
+        },
+        "fantasy_weapons_f16683f64c4d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_greataxe"
+        },
+        "fantasy_weapons_fd1d69f38875": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_greataxe_v1"
+        },
+        "fantasy_weapons_fd25c0f1b2a8": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_greatsword"
+        },
+        "fantasy_weapons_fb2dba4bdbc4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/bloodyvengeance"
+        },
+        "fantasy_weapons_fa78bd399c51": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/cadithpiercer"
+        },
+        "fantasy_weapons_fb8d758330db": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade"
+        },
+        "fantasy_weapons_f2c95e01e865": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_e"
+        },
+        "fantasy_weapons_fb31edba7298": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_gem_cover"
+        },
+        "fantasy_weapons_f188496e1870": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_p"
+        },
+        "fantasy_weapons_fa4ecd41ee21": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_thin"
+        },
+        "fantasy_weapons_f33d7ec89cba": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_v3"
+        },
+        "fantasy_weapons_f05119dbbe21": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/claymore"
+        },
+        "fantasy_weapons_f0dacb50e267": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/colet"
+        },
+        "fantasy_weapons_f764408369ec": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coleteffect"
+        },
+        "fantasy_weapons_f7dd4ce8c0b1": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coleteffectrev"
+        },
+        "fantasy_weapons_ffa3d14c2783": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coleteffect_e"
+        },
+        "fantasy_weapons_f3b25a10590a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coletinv"
+        },
+        "fantasy_weapons_f0ce3d94e1be": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crescent_greataxe"
+        },
+        "fantasy_weapons_ff9d2f45236c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimsoncleaver"
+        },
+        "fantasy_weapons_f6ab85b49a38": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimsoncleaver_e"
+        },
+        "fantasy_weapons_fa71b828d93b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimson_lance"
+        },
+        "fantasy_weapons_f221b943d36b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimson_lance_e"
+        },
+        "fantasy_weapons_f0961b7fb529": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostblade"
+        },
+        "fantasy_weapons_f0bb197f77ab": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostblade_e"
+        },
+        "fantasy_weapons_f1fe6bc736f5": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostcythe"
+        },
+        "fantasy_weapons_ff1433c72492": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostcythe_e"
+        },
+        "fantasy_weapons_f1b5d3dee2ee": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/deathbludgeon"
+        },
+        "fantasy_weapons_ff78f5d0a607": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/demonslayers_greatsword"
+        },
+        "fantasy_weapons_f3c5384fc029": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/demons_blood"
+        },
+        "fantasy_weapons_f39efda8e16d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/demons_blood_e"
+        },
+        "fantasy_weapons_f3e7996b87c4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabre"
+        },
+        "fantasy_weapons_f2c98cc63321": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabreeffect"
+        },
+        "fantasy_weapons_f29606e96936": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabreeffect_e"
+        },
+        "fantasy_weapons_fea17522d5b7": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabre_e"
+        },
+        "fantasy_weapons_fdd13af49684": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/emerald_greatcleaver"
+        },
+        "fantasy_weapons_f2e21d9b86a4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/emerald_sacrificial_cleaver"
+        },
+        "fantasy_weapons_ff54823cc2f0": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/emerald_sacrificial_cleaver_e"
+        },
+        "fantasy_weapons_fa4ed09b46e1": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ethereal_frostblade"
+        },
+        "fantasy_weapons_f71250379397": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ethereal_frostblade_e"
+        },
+        "fantasy_weapons_f794ea2de73a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/flamberge"
+        },
+        "fantasy_weapons_f1e467ddcc5b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gloomsteel_greataxe"
+        },
+        "fantasy_weapons_fd6cfb81f168": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gloomsteel_katana"
+        },
+        "fantasy_weapons_ffb3902502d4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gloomsteel_knife"
+        },
+        "fantasy_weapons_f35c5b48e4ef": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gochunen"
+        },
+        "fantasy_weapons_f63372855181": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gochunen_e"
+        },
+        "fantasy_weapons_fbb76c715d0e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gochunen_effect"
+        },
+        "furnituresplus_f4dbc6ecf5ac": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/acaciagray"
+        },
+        "furnituresplus_f325ac85843b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/amethystfabric"
+        },
+        "furnituresplus_f77dc7a548de": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/bluefabric"
+        },
+        "furnituresplus_f8ae0049e1b2": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/furnituresplus/cyansummer"
+        },
+        "furnituresplus_ff8e49721b31": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/darkgrayfabric"
+        },
+        "furnituresplus_fdef14df0962": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/greenfabric"
+        },
+        "furnituresplus_fa8bbf702b6b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_bottom"
+        },
+        "furnituresplus_faff1b7dc56a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_front"
+        },
+        "furnituresplus_fa889b46557b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_side"
+        },
+        "furnituresplus_fbd249da19cf": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_top"
+        },
+        "furnituresplus_f5461ab692c4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/redfabric"
+        },
+        "furnituresplus_f06c8783f496": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/furnituresplus/yellowfabric"
+        },
+        "furnituresplusfree_fcbf08b614a3": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/acaciagray"
+        },
+        "furnituresplusfree_fb5bf6c94988": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/amethystfabric"
+        },
+        "furnituresplusfree_f0ee07746527": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/bluefabric"
+        },
+        "furnituresplusfree_f9b74b16729d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/blue_dye"
+        },
+        "furnituresplusfree_fb4bdc079632": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/brown_dye"
+        },
+        "furnituresplusfree_f34cbf708a01": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/furnituresplus/cyansummer"
+        },
+        "furnituresplusfree_f621998980cd": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/cyan_dye"
+        },
+        "furnituresplusfree_f753c0741384": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/darkgrayfabric"
+        },
+        "furnituresplusfree_fef009c13330": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/greenfabric"
+        },
+        "furnituresplusfree_f157d45ae8e1": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/green_dye"
+        },
+        "furnituresplusfree_ff356bd68143": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/light_gray_dye"
+        },
+        "furnituresplusfree_f5f4611f4021": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/lime_dye"
+        },
+        "furnituresplusfree_fafff7ec9a16": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_bottom"
+        },
+        "furnituresplusfree_fd8af151f495": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_front"
+        },
+        "furnituresplusfree_f922ec55b473": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_side"
+        },
+        "furnituresplusfree_febd79957442": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_top"
+        },
+        "furnituresplusfree_fc0d82c0abc6": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/magenta_dye"
+        },
+        "furnituresplusfree_fb328eda0c4b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/orange_dye"
+        },
+        "furnituresplusfree_fd4fb795ee50": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/redfabric"
+        },
+        "furnituresplusfree_f215743a8e58": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/red_dye"
+        },
+        "furnituresplusfree_fa9b48213ddf": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/string"
+        },
+        "furnituresplusfree_f0a61ce3c842": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/furnituresplus/yellowfabric"
+        },
+        "furnituresplusfree_f8378387a88a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/yellow_dye"
+        },
+        "summer_f99c6a76d832": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/berrysnowcone"
+        },
+        "summer_fb10598268e0": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/blueberrysnowcone"
+        },
+        "summer_f675febdde1f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/chocolateicecream"
+        },
+        "summer_fc1bde75a5d0": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/snowcone"
+        },
+        "summer_f6ec5cd72b58": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/sugaricecream"
+        },
+        "velocity_ff6d52cc210c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/endersword"
+        },
+        "velocity_fae6e9ea984e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/reciept"
+        },
+        "velocity_ff97b8f7266f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/taco"
+        },
+        "velocity_f1e02c869e9a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/velocity"
+        },
+        "converttest_fe797416827d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/casinoitems/items/bottomscreencasinoglyph"
+        },
+        "converttest_f5d8d75221b6": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/amethyst_greatblade"
+        },
+        "converttest_f75002e1983c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/amethyst_greatblade_e"
+        },
+        "converttest_f4695ea2cb8e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ancient_greatslab"
+        },
+        "converttest_f0040be1f270": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ancient_greatslab_test"
+        },
+        "converttest_fa8dd0544806": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greataxe"
+        },
+        "converttest_f423e58efe5e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greataxe_e"
+        },
+        "converttest_fc416243144b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greatsword"
+        },
+        "converttest_fbe2807f6e8f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_greatsword_e"
+        },
+        "converttest_f0c5cfb22664": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_sabre"
+        },
+        "converttest_f263d80b4b99": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_sabre_e"
+        },
+        "converttest_fb1ff7a68e05": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_scythe"
+        },
+        "converttest_f80e2f8291de": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_scythe_e"
+        },
+        "converttest_f0b9f0a9a212": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_shortsword"
+        },
+        "converttest_f21e759be607": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/azure_shortsword_e"
+        },
+        "converttest_f6def31a55be": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/berserkers_cleaver"
+        },
+        "converttest_f7c399eb72b6": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/berserkers_cleaver_e"
+        },
+        "converttest_f12982077cab": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/berserkers_greataxe"
+        },
+        "converttest_f7c7aa272315": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_clobberer"
+        },
+        "converttest_f7d4dcc57df6": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_greataxe"
+        },
+        "converttest_fb45be390036": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_greataxe_v1"
+        },
+        "converttest_feee8b9bd71a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/black_iron_greatsword"
+        },
+        "converttest_f9416a7fa187": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/bloodyvengeance"
+        },
+        "converttest_f59d0826f203": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/cadithpiercer"
+        },
+        "converttest_f026456ad605": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade"
+        },
+        "converttest_fe70deca31c7": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_e"
+        },
+        "converttest_f802b7ca8314": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_gem_cover"
+        },
+        "converttest_ff1610d4535d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_p"
+        },
+        "converttest_f4bd2c391ca9": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_thin"
+        },
+        "converttest_f270c704ed45": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/calamityblade_v3"
+        },
+        "converttest_fa5ff422d67c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/claymore"
+        },
+        "converttest_f9c73838ce30": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/colet"
+        },
+        "converttest_fadf9b860e4e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coleteffect"
+        },
+        "converttest_f00ab25cdcf5": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coleteffectrev"
+        },
+        "converttest_f7672167a549": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coleteffect_e"
+        },
+        "converttest_ffa8395ee2ab": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/coletinv"
+        },
+        "converttest_fd7aea6c0147": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crescent_greataxe"
+        },
+        "converttest_fc57c2af03ae": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimsoncleaver"
+        },
+        "converttest_f16440434feb": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimsoncleaver_e"
+        },
+        "converttest_f5a63aefe628": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimson_lance"
+        },
+        "converttest_f21c8abf89d5": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crimson_lance_e"
+        },
+        "converttest_f018f6f98ecb": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostblade"
+        },
+        "converttest_faea861cff6c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostblade_e"
+        },
+        "converttest_f862aed9ceb4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostcythe"
+        },
+        "converttest_f3a361f945c9": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/crystal_frostcythe_e"
+        },
+        "converttest_f92eac31d907": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/deathbludgeon"
+        },
+        "converttest_f6edc2a226b0": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/demonslayers_greatsword"
+        },
+        "converttest_f04cdd1b98da": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/demons_blood"
+        },
+        "converttest_fd518bc433ff": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/demons_blood_e"
+        },
+        "converttest_faae280080a8": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabre"
+        },
+        "converttest_f7cd1a22d59a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabreeffect"
+        },
+        "converttest_fd24d6b7bc10": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabreeffect_e"
+        },
+        "converttest_f8ac1ed8f47a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/dragonsabre_e"
+        },
+        "converttest_fda085d4bcd2": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/emerald_greatcleaver"
+        },
+        "converttest_f740bdb16741": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/emerald_sacrificial_cleaver"
+        },
+        "converttest_f4fe68c80247": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/emerald_sacrificial_cleaver_e"
+        },
+        "converttest_f4789bc616f3": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ethereal_frostblade"
+        },
+        "converttest_f386f0823272": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/ethereal_frostblade_e"
+        },
+        "converttest_f56f080abe0c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/flamberge"
+        },
+        "converttest_f6529f8e1e48": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gloomsteel_greataxe"
+        },
+        "converttest_fc7acca0234c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gloomsteel_katana"
+        },
+        "converttest_f65fda60cf24": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gloomsteel_knife"
+        },
+        "converttest_f0c625c7a852": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gochunen"
+        },
+        "converttest_f0d827dd2d40": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gochunen_e"
+        },
+        "converttest_f2cf7f37fe6c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/fantasy_weapons/item/gochunen_effect"
+        },
+        "converttest_fb8adfd07745": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/acaciagray"
+        },
+        "converttest_fe163b3b648f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/amethystfabric"
+        },
+        "converttest_f87dfaef4b48": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/bluefabric"
+        },
+        "converttest_f59e0b18b81d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/cyansummer"
+        },
+        "converttest_f4df6ea4b9b6": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/darkgrayfabric"
+        },
+        "converttest_f9aba884c405": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/greenfabric"
+        },
+        "converttest_f5f4ceb55c0d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_bottom"
+        },
+        "converttest_fc8924889fdc": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_front"
+        },
+        "converttest_fc05faada869": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_side"
+        },
+        "converttest_f8d45b40bf3f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/loom_top"
+        },
+        "converttest_f9a805ad4478": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/redfabric"
+        },
+        "converttest_f562ec1417cf": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplus/item/yellowfabric"
+        },
+        "converttest_f8804382d147": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/acaciagray"
+        },
+        "converttest_fd8c1587fd44": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/amethystfabric"
+        },
+        "converttest_f2cdf2384f0e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/bluefabric"
+        },
+        "converttest_f69d7855b42c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/blue_dye"
+        },
+        "converttest_fda4a77009eb": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/brown_dye"
+        },
+        "converttest_ffb545c9e940": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/cyansummer"
+        },
+        "converttest_f7e0b0543011": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/cyan_dye"
+        },
+        "converttest_f3e94a8318ab": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/darkgrayfabric"
+        },
+        "converttest_ff101934f6fc": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/greenfabric"
+        },
+        "converttest_f8d852bedde6": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/green_dye"
+        },
+        "converttest_f97b98ceea6f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/light_gray_dye"
+        },
+        "converttest_f5e12342c604": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/lime_dye"
+        },
+        "converttest_f21fe9f1a3fc": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/loom_bottom"
+        },
+        "converttest_f76f527a6176": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/loom_front"
+        },
+        "converttest_fd34cd2e88f2": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/loom_side"
+        },
+        "converttest_ff3fb7729306": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/loom_top"
+        },
+        "converttest_f52c052a7afc": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/magenta_dye"
+        },
+        "converttest_fc3edad53d4a": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/orange_dye"
+        },
+        "converttest_f692b89ca29d": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/redfabric"
+        },
+        "converttest_f0aa30122357": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/red_dye"
+        },
+        "converttest_fb7904c8b16b": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/string"
+        },
+        "converttest_f2552d56f29c": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/yellowfabric"
+        },
+        "converttest_f3f8962619be": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/furnituresplusfree/item/yellow_dye"
+        },
+        "converttest_f98eb17a768e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/minecraft/item/empty"
+        },
+        "converttest_fbf3260ab65f": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/berrysnowcone"
+        },
+        "converttest_f4f19b3ae078": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/blueberrysnowcone"
+        },
+        "converttest_f086438f6ef4": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/chocolateicecream"
+        },
+        "converttest_f67e59205547": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/snowcone"
+        },
+        "converttest_f87306103a3e": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/summer/item/sugaricecream"
+        },
+        "converttest_ffb870d05dde": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/endersword"
+        },
+        "converttest_f3b605361d44": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/reciept"
+        },
+        "converttest_fff1109e3262": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/taco"
+        },
+        "converttest_febe801068f1": {
+            "textures": "textures/converttest/output3/itemsadder-geyser-pack/textures/velocity/items/velocity"
+        }
+    }
+}

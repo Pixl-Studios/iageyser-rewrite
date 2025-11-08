@@ -1,0 +1,1218 @@
+{
+    "resource_pack_name": "geyser_custom",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "_iainternal_f4bpa3q5289": {
+            "textures": "textures/_iainternal/entity/player/pbody_2"
+        },
+        "_iainternal_fy49556ggb2": {
+            "textures": "textures/_iainternal/entity/player/phead_0"
+        },
+        "_iainternal_flxokuqucat": {
+            "textures": "textures/_iainternal/entity/player/dummy_1"
+        },
+        "_iainternal_fn2rnstbp40": {
+            "textures": "textures/_iainternal/entity/player/dummy_5"
+        },
+        "_iainternal_fnfzpkancz9": {
+            "textures": "textures/_iainternal/entity/player/dummy_0"
+        },
+        "_iainternal_f0kofhryyom": {
+            "textures": "textures/_iainternal/entity/player/dummy_4"
+        },
+        "_iainternal_fe2y88apsb7": {
+            "textures": "textures/_iainternal/entity/player/pleg_left_1"
+        },
+        "_iainternal_fjy2hwmzgov": {
+            "textures": "textures/_iainternal/entity/player/dummy_2"
+        },
+        "_iainternal_f25gwgxr6iw": {
+            "textures": "textures/_iainternal/entity/player/dummy_3"
+        },
+        "_iainternal_f8ahpwy28bn": {
+            "textures": "textures/_iainternal/entity/player/pleg_right_5"
+        },
+        "_iainternal_f67jz4k0pyf": {
+            "textures": "textures/_iainternal/entity/player/parm_left_3"
+        },
+        "_iainternal_fq9q5yp0vpd": {
+            "textures": "textures/_iainternal/entity/player/parm_right_4"
+        },
+        "ax_emerald_set_fbfw4zeyofk": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_helmet"
+        },
+        "ax_emerald_set_fx4iloqvnev": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_chestplate"
+        },
+        "ax_emerald_set_frxpjdu4icf": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_boots"
+        },
+        "ax_emerald_set_fo66zwass3v": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_leggings"
+        },
+        "velocity_f46ug2zxmow": {
+            "textures": "textures/velocity/ia_auto_gen/coin"
+        },
+        "summer_fao11gjsttd": {
+            "textures": "textures/summer/ia_auto_gen/chocolateicecream"
+        },
+        "_iainternal_frdhrrq08zq": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_search"
+        },
+        "summer_fomf79habj8": {
+            "textures": "textures/summer/ia_auto_gen/berrysnowcone"
+        },
+        "summer_fhv7ejl1v8c": {
+            "textures": "textures/summer/ia_auto_gen/sugaricecream"
+        },
+        "_iainternal_ffbelcehf5k": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_left_blue"
+        },
+        "_iainternal_fz8soxxqrfm": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_cancel"
+        },
+        "velocity_f8igboph1r7": {
+            "textures": "textures/velocity/ia_auto_gen/adminsword"
+        },
+        "_iainternal_f8p9wa53pfz": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_back_orange"
+        },
+        "furnituresplusfree_fwrfu6liagj": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/blackfabric"
+        },
+        "furnituresplusfree_fb9q9j5tt6d": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/acaciagray"
+        },
+        "cooking_expansion_fw04fjrsz0i": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/chocolate_ice_cream"
+        },
+        "_iainternal_fha0901japp": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_right_blue"
+        },
+        "velocity_f893wsqprey": {
+            "textures": "textures/velocity/ia_auto_gen/taco"
+        },
+        "cooking_expansion_fwpjv6fpy61": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/basil"
+        },
+        "cooking_expansion_fe245i8os7r": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/chocolate_bar_wrapped"
+        },
+        "cooking_expansion_fupcx872ypk": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/honey_waffle"
+        },
+        "cooking_expansion_fzwvgj2rwpl": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/gotdog"
+        },
+        "furnituresplusfree_frqsid0dto6": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/greenfabric"
+        },
+        "ax_emerald_set_f7r06ruarnf": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_axe"
+        },
+        "cooking_expansion_f1uycccayox": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/banana_shake"
+        },
+        "cooking_expansion_fe2tkhfk3zh": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/olive_oil"
+        },
+        "furnituresplus_fcq0fnygycn": {
+            "textures": "textures/furnituresplus/ia_auto_gen/acaciagray"
+        },
+        "velocity_fdjmiiw3qa4": {
+            "textures": "textures/velocity/ia_auto_gen/reciept"
+        },
+        "cooking_expansion_f3chjg2uy63": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/beer"
+        },
+        "furnituresplus_fznaad0vhg0": {
+            "textures": "textures/furnituresplus/ia_auto_gen/yellowfabric"
+        },
+        "ax_emerald_set_f406kzvcmfm": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_icon"
+        },
+        "cooking_expansion_f4cycwukg10": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/carrot_juice"
+        },
+        "cooking_expansion_f0u9gxpuj55": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/cooked_sausage"
+        },
+        "cooking_expansion_fycpbuy80sq": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/raw_sausage"
+        },
+        "_iainternal_fppkjivxewn": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_arrow_chest"
+        },
+        "cooking_expansion_fedydksroo2": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pasta"
+        },
+        "cooking_expansion_f3gitpwd0lg": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/muffin"
+        },
+        "cooking_expansion_fcqhq3ky8nk": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/crossaint_batter"
+        },
+        "cooking_expansion_fklvrkwshg7": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/tomato"
+        },
+        "cooking_expansion_fhrpy9xdbot": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/baugette"
+        },
+        "cooking_expansion_fd3libn61jf": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/butter"
+        },
+        "cooking_expansion_fk5pt3cxkz9": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/waffle"
+        },
+        "cooking_expansion_f62urcsgvdv": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/kebab"
+        },
+        "cooking_expansion_f8wzvouq09j": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/bacon_raw"
+        },
+        "summer_frgnyoxf1a7": {
+            "textures": "textures/summer/ia_auto_gen/blueberrysnowcone"
+        },
+        "furnituresplus_f6nmnese1lj": {
+            "textures": "textures/furnituresplus/ia_auto_gen/redfabric"
+        },
+        "furnituresplusfree_f9snk8czskr": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/redfabric"
+        },
+        "furnituresplusfree_f7lryhpkbog": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/amethystfabric"
+        },
+        "cooking_expansion_f0hwoxi3zru": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/taco"
+        },
+        "cooking_expansion_fjko3b3oxhp": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/tomato_shake"
+        },
+        "cooking_expansion_fbhm8p2fw95": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/green_frog_raw"
+        },
+        "velocity_fgmgf2bkkm4": {
+            "textures": "textures/velocity/ia_auto_gen/logo"
+        },
+        "cooking_expansion_fdtg90yifh9": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/french_fries"
+        },
+        "cooking_expansion_fi7nohu6vyr": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/stawberry"
+        },
+        "cooking_expansion_fyj9h7ttt0b": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/toast"
+        },
+        "cooking_expansion_fmytti4mt8w": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/crossaint"
+        },
+        "cooking_expansion_f8irk1k4v39": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/waffle_batter"
+        },
+        "furnituresplusfree_f6xieqoh5p2": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/cyansummerfabric"
+        },
+        "furnituresplus_fqgbkt7ysy6": {
+            "textures": "textures/furnituresplus/ia_auto_gen/cyansummerfabric"
+        },
+        "cooking_expansion_f1vm1xbw2i4": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/raw_pasta"
+        },
+        "cooking_expansion_f763rwa1ekz": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/orange"
+        },
+        "cooking_expansion_f31uq77m6vk": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/vinegar"
+        },
+        "cooking_expansion_fhmvd74bd6y": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/soup"
+        },
+        "_iainternal_fb2w7tg07je": {
+            "textures": "textures/_iainternal/ia_auto_gen/icon_next_orange"
+        },
+        "cooking_expansion_fsraq7nnufn": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pepper"
+        },
+        "furnituresplus_f1sf144iscy": {
+            "textures": "textures/furnituresplus/ia_auto_gen/greenfabric"
+        },
+        "cooking_expansion_f1apxn6jkx0": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/fried_egg"
+        },
+        "cooking_expansion_f0rx7vxxv5v": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/orange_juice"
+        },
+        "cooking_expansion_fj57l3vzr6c": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/tomato_soup"
+        },
+        "cooking_expansion_fim235ouhh5": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pizza"
+        },
+        "cooking_expansion_fm7hvde1v10": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pancake"
+        },
+        "summer_ff4j7ed6ey1": {
+            "textures": "textures/summer/ia_auto_gen/snowcone"
+        },
+        "furnituresplusfree_f8gymo91ybb": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/bluefabric"
+        },
+        "cooking_expansion_ff1ywf6diup": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/lettuce"
+        },
+        "furnituresplus_f3mmejnjzoq": {
+            "textures": "textures/furnituresplus/ia_auto_gen/amethystfabric"
+        },
+        "cooking_expansion_fzt6b08rqnh": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/orange_frog_raw"
+        },
+        "cooking_expansion_f2l7tm3hbb2": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/raw_chicken_tigh"
+        },
+        "cooking_expansion_fg77z964etp": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pancake_batter"
+        },
+        "cooking_expansion_f0tggc9sn0u": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/strawberry_shake"
+        },
+        "cooking_expansion_fp4nit3r10o": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/white_frog_raw"
+        },
+        "cooking_expansion_f9mm1o0oyeb": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/yogurt"
+        },
+        "cooking_expansion_f04dttghp6k": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/frog_leg_cooked"
+        },
+        "cooking_expansion_fi65n8ds001": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/bacon_cooked"
+        },
+        "cooking_expansion_fmd60xfk4ds": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/cooked_chicken_thigh"
+        },
+        "ax_emerald_set_ffigcrrl19y": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_pickaxe"
+        },
+        "ax_emerald_set_fctdh4gfqru": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_shovel"
+        },
+        "cooking_expansion_fyah8vlyoba": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/chocolate_bar"
+        },
+        "cooking_expansion_f95w87mg2le": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/flour"
+        },
+        "cooking_expansion_ftweli9zwzi": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/wine"
+        },
+        "ax_emerald_set_f3t22avi9ds": {
+            "textures": "textures/ax_emerald_set/ia_auto_gen/emerald_sword"
+        },
+        "cooking_expansion_fgbklebpvr7": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pancake_with_choco"
+        },
+        "furnituresplus_fwzinob63zv": {
+            "textures": "textures/furnituresplus/ia_auto_gen/bluefabric"
+        },
+        "cooking_expansion_fki2leipc2j": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/banana"
+        },
+        "cooking_expansion_fya90pa99j5": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/chocolate_donut"
+        },
+        "cooking_expansion_fggz31bwtf9": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/tomato_paste"
+        },
+        "cooking_expansion_flv0e71gl04": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/pancake_with_honey"
+        },
+        "furnituresplusfree_f75si1e00fi": {
+            "textures": "textures/furnituresplusfree/ia_auto_gen/yellowfabric"
+        },
+        "cooking_expansion_fzzzjxkgz15": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/burger"
+        },
+        "cooking_expansion_fyf0z5m05nz": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/soup_glow_berry"
+        },
+        "cooking_expansion_fsolz3gf7kw": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/raw_pancake_batter"
+        },
+        "cooking_expansion_fdupum1m7jj": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/toast_honey"
+        },
+        "furnituresplus_fmvzy3fb8ed": {
+            "textures": "textures/furnituresplus/ia_auto_gen/blackfabric"
+        },
+        "cooking_expansion_fcye8p3k6t5": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/salt"
+        },
+        "cooking_expansion_fugo0qu4v12": {
+            "textures": "textures/cooking_expansion/ia_auto_gen/soup_warped_fungus_stew"
+        },
+        "furnituresplusfree_f216mca6sla": {
+            "textures": "textures/furnituresplusfree/redvibecollection/red_wooden_lamp"
+        },
+        "furnituresplus_f5jpuw6vwo6": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_biglamp"
+        },
+        "furnituresplusfree_f3ilpj4a7ox": {
+            "textures": "textures/furnituresplusfree/blankacollection/white_wooden_lamp"
+        },
+        "furnituresplus_f1c4nwfrj7r": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_biglamp"
+        },
+        "furnituresplus_ffytjmm32c4": {
+            "textures": "textures/furnituresplus/steelcollection/iron_lamp"
+        },
+        "furnituresplus_f31agp1fyr1": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_lamp"
+        },
+        "fantasy_weapons_f15ksng0ipt": {
+            "textures": "textures/fantasy_weapons/item/iron_greataxe"
+        },
+        "fantasy_weapons_ff17asmt0g4": {
+            "textures": "textures/fantasy_weapons/item/skeleton_axe"
+        },
+        "fantasy_weapons_fsuq4450wgu": {
+            "textures": "textures/fantasy_weapons/item/iron_mace"
+        },
+        "furnituresplusfree_ffo182m97h1": {
+            "textures": "textures/furnituresplusfree/summercollection/cyan_lowtable"
+        },
+        "furnituresplusfree_fxd7tnrdr6a": {
+            "textures": "textures/furnituresplusfree/blankacollection/white_wooden_sofa_right"
+        },
+        "furnituresplus_foqhubkm38m": {
+            "textures": "textures/furnituresplus/steelcollection/iron_biglamp"
+        },
+        "fantasy_weapons_flolu78xhtf": {
+            "textures": "textures/fantasy_weapons/item/treacherous_cleaver"
+        },
+        "fantasy_weapons_f5zwskde55f": {
+            "textures": "textures/fantasy_weapons/item/sacrificial_cleaver"
+        },
+        "fantasy_weapons_fed7a2qdwb6": {
+            "textures": "textures/fantasy_weapons/item/emerald_greatcleaver"
+        },
+        "fantasy_weapons_fi6ften1f9f": {
+            "textures": "textures/fantasy_weapons/item/crimson_cleaver"
+        },
+        "fantasy_weapons_f72qdrjw7st": {
+            "textures": "textures/fantasy_weapons/item/iron_halberd"
+        },
+        "fantasy_weapons_f10vcvxu96f": {
+            "textures": "textures/fantasy_weapons/item/ancient_greatslab"
+        },
+        "furnituresplusfree_fksgxiyicx3": {
+            "textures": "textures/furnituresplusfree/steelcollection/iron_lowtable"
+        },
+        "furnituresplusfree_fkv4rdqibr9": {
+            "textures": "textures/furnituresplusfree/steelcollection/iron_lamp"
+        },
+        "summer_fkie2nsiv4w": {
+            "textures": "textures/summer/item/tanning_chair"
+        },
+        "furnituresplusfree_fz1yv4ejual": {
+            "textures": "textures/furnituresplusfree/redvibecollection/red_wooden_sofa_left"
+        },
+        "furnituresplus_fgomcdga4vw": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_lamp"
+        },
+        "furnituresplusfree_falhi3kko2l": {
+            "textures": "textures/furnituresplusfree/steelcollection/iron_sofa_right"
+        },
+        "graves_fb28uwl2ndp": {
+            "textures": "textures/graves/graves/grave"
+        },
+        "fantasy_weapons_ffsim3y6u0m": {
+            "textures": "textures/fantasy_weapons/item/black_iron_clobberer"
+        },
+        "fantasy_weapons_fqj1pp72uyl": {
+            "textures": "textures/fantasy_weapons/item/iron_polearm"
+        },
+        "fantasy_weapons_fs7wvuekm7n": {
+            "textures": "textures/fantasy_weapons/item/iron_battle_axe"
+        },
+        "velocity_fmjgq3b0a1m": {
+            "textures": "textures/velocity/items/waystone_velo"
+        },
+        "fantasy_weapons_fe9tpnbd8f2": {
+            "textures": "textures/fantasy_weapons/item/nature_sword"
+        },
+        "fantasy_weapons_f5jl9a2rotv": {
+            "textures": "textures/fantasy_weapons/item/crystal_frostscythe"
+        },
+        "fantasy_weapons_fr4bfcwrjou": {
+            "textures": "textures/fantasy_weapons/item/wooden_bludgeon"
+        },
+        "fantasy_weapons_fyencwpiaof": {
+            "textures": "textures/fantasy_weapons/item/revenants_gravecleaver"
+        },
+        "fantasy_weapons_fmcy70jcvgi": {
+            "textures": "textures/fantasy_weapons/item/crescent_greataxe"
+        },
+        "fantasy_weapons_f0jpu0bt19m": {
+            "textures": "textures/fantasy_weapons/item/azure_greataxe"
+        },
+        "fantasy_weapons_fay681ddkq8": {
+            "textures": "textures/fantasy_weapons/item/berserkers_cleaver"
+        },
+        "fantasy_weapons_f71dinf36ng": {
+            "textures": "textures/fantasy_weapons/item/iron_sai"
+        },
+        "fantasy_weapons_fsyhzs37c0c": {
+            "textures": "textures/fantasy_weapons/item/viridian_greataxe"
+        },
+        "fantasy_weapons_flunuqjpb1i": {
+            "textures": "textures/fantasy_weapons/item/berserkers_greataxe"
+        },
+        "gardenplus_f1r0uqvcsiy": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_cobble"
+        },
+        "furnituresplusfree_fjxteb788cq": {
+            "textures": "textures/furnituresplusfree/acaciagraycollection/gray_wooden_sofa_left"
+        },
+        "furnituresplusfree_f2vlcm5ttvm": {
+            "textures": "textures/furnituresplusfree/amethystcollection/amethyst_lamp"
+        },
+        "fantasy_weapons_fx40puo5uy0": {
+            "textures": "textures/fantasy_weapons/item/revenants_gravescepter"
+        },
+        "fantasy_weapons_fezbqt46rw8": {
+            "textures": "textures/fantasy_weapons/item/black_iron_greataxe"
+        },
+        "gardenplus_f4g9caxxd3m": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_birch"
+        },
+        "gardenplus_fzv7843349b": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_warped"
+        },
+        "furnituresplusfree_fbgkfeaikbq": {
+            "textures": "textures/furnituresplusfree/blankacollection/white_wooden_lowtable"
+        },
+        "furnituresplus_f6gz6n9ehq4": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_biglamp"
+        },
+        "furnituresplusfree_fg32k77nz7c": {
+            "textures": "textures/furnituresplusfree/acaciagraycollection/gray_wooden_lowtable"
+        },
+        "gardenplus_fiy0bbfvg78": {
+            "textures": "textures/gardenplus/bancs/banc_darkoak_droit"
+        },
+        "gardenplus_f1qqpp0x91h": {
+            "textures": "textures/gardenplus/bancs/banc_spruce_droit"
+        },
+        "furnituresplusfree_fdpxxtpv4y0": {
+            "textures": "textures/furnituresplusfree/summercollection/cyan_wooden_sofa_right"
+        },
+        "gardenplus_fnj2pw2xk5y": {
+            "textures": "textures/gardenplus/bancs/banc_crimson_droit"
+        },
+        "gardenplus_f9r3pjxfn79": {
+            "textures": "textures/gardenplus/plantes/rosier_oak"
+        },
+        "gardenplus_fjfj4bpc7la": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante"
+        },
+        "furnituresplus_fclyxhf29dz": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_biglamp"
+        },
+        "furnituresplus_fhg42uyqv45": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_lamp"
+        },
+        "gardenplus_f2gzcorrg50": {
+            "textures": "textures/gardenplus/plantes/bamboo_cobble"
+        },
+        "furnituresplusfree_fkvxdfqvgzj": {
+            "textures": "textures/furnituresplusfree/amethystcollection/amethyst_sofa_right"
+        },
+        "gardenplus_fk2zhxz98v5": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_jungle"
+        },
+        "gardenplus_f4wngxiftwo": {
+            "textures": "textures/gardenplus/plantes/lilas_birch"
+        },
+        "furnituresplusfree_fo6uz9ii302": {
+            "textures": "textures/furnituresplusfree/summercollection/cyan_wooden_lamp"
+        },
+        "gardenplus_f9oc31ayct2": {
+            "textures": "textures/gardenplus/bancs/banc_oak_droit"
+        },
+        "fantasy_weapons_f9aay71huzz": {
+            "textures": "textures/fantasy_weapons/item/wooden_tonfa"
+        },
+        "furnituresplusfree_fwvbrmt22cy": {
+            "textures": "textures/furnituresplusfree/amethystcollection/amethyst_lowtable"
+        },
+        "fantasy_weapons_feo5tgv8iie": {
+            "textures": "textures/fantasy_weapons/item/gloomsteel_greataxe"
+        },
+        "fantasy_weapons_fgr76ocyz17": {
+            "textures": "textures/fantasy_weapons/item/azure_greatsword"
+        },
+        "gardenplus_fdvp6wbttdt": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_acacia"
+        },
+        "gardenplus_fzyrmp8g9ji": {
+            "textures": "textures/gardenplus/plantes/bamboo_oak"
+        },
+        "furnituresplusfree_fpzo2w6x17l": {
+            "textures": "textures/furnituresplusfree/amethystcollection/amethyst_sofa_left"
+        },
+        "gardenplus_f2oc6yeia4f": {
+            "textures": "textures/gardenplus/plantes/peony_big_cobble"
+        },
+        "gardenplus_f50i3jrtuk2": {
+            "textures": "textures/gardenplus/bancs/banc_birch_droit"
+        },
+        "furnituresplusfree_fz4uw91qlda": {
+            "textures": "textures/furnituresplusfree/steelcollection/iron_sofa_left"
+        },
+        "gardenplus_fcvazo099ai": {
+            "textures": "textures/gardenplus/bancs/banc_jungle_droit"
+        },
+        "gardenplus_fypsdmsn737": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_brick"
+        },
+        "furnituresplusfree_f91qx824387": {
+            "textures": "textures/furnituresplusfree/blankacollection/white_wooden_sofa_left"
+        },
+        "furnituresplusfree_ficd023cmjw": {
+            "textures": "textures/furnituresplusfree/redvibecollection/red_wooden_lowtable"
+        },
+        "furnituresplus_f2elumqr2nm": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_lamp"
+        },
+        "furnituresplusfree_fmrfafmbsso": {
+            "textures": "textures/furnituresplusfree/acaciagraycollection/gray_wooden_sofa_right"
+        },
+        "furnituresplusfree_fs09tkzwr8p": {
+            "textures": "textures/furnituresplusfree/redvibecollection/red_wooden_sofa_right"
+        },
+        "furnituresplusfree_fxu1x09iwcq": {
+            "textures": "textures/furnituresplusfree/acaciagraycollection/gray_wooden_lamp"
+        },
+        "furnituresplusfree_f0tntbhm7z4": {
+            "textures": "textures/furnituresplusfree/machine/fabric_machine_plus"
+        },
+        "gardenplus_fjgpsi55x5i": {
+            "textures": "textures/gardenplus/bancs/banc_acacia_gauche"
+        },
+        "gardenplus_f1lg1zfs25f": {
+            "textures": "textures/gardenplus/plantes/bamboo_brick"
+        },
+        "gardenplus_fd3rfxobxfz": {
+            "textures": "textures/gardenplus/bancs/banc_acacia_droit"
+        },
+        "gardenplus_ffdpuqrv32k": {
+            "textures": "textures/gardenplus/bancs/banc_jungle_gauche"
+        },
+        "techprops_fkqcfdxb4sg": {
+            "textures": "textures/techprops/roboarm_small"
+        },
+        "gardenplus_fxd5k54sf6g": {
+            "textures": "textures/gardenplus/plantes/peony_big_barrel"
+        },
+        "gardenplus_fzd4f5nehxw": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_birch"
+        },
+        "gardenplus_fr9bitoekfg": {
+            "textures": "textures/gardenplus/plantes/bamboo_birch"
+        },
+        "furnituresplusfree_fh9pz86ooyf": {
+            "textures": "textures/furnituresplusfree/summercollection/cyan_wooden_sofa_left"
+        },
+        "gardenplus_f8kt4brs2op": {
+            "textures": "textures/gardenplus/plantes/lilac_big_barrel"
+        },
+        "gardenplus_fm7z8mnec17": {
+            "textures": "textures/gardenplus/bancs/banc_warped_gauche"
+        },
+        "gardenplus_ffgigjjl4ux": {
+            "textures": "textures/gardenplus/plantes/windowpotside_jungle_pink"
+        },
+        "gardenplus_fmdz99y36aw": {
+            "textures": "textures/gardenplus/plantes/rose_big_cobble"
+        },
+        "techprops_ffai8z0owwe": {
+            "textures": "textures/techprops/deskphone"
+        },
+        "gardenplus_fwq2zlmwi7z": {
+            "textures": "textures/gardenplus/plantes/rosier_spruce"
+        },
+        "gardenplus_fzyj89ftupt": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_crimson"
+        },
+        "gardenplus_f7pon16pd4s": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_darkoak"
+        },
+        "gardenplus_f6zv42vb67w": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_spruce"
+        },
+        "gardenplus_fb7qkwwu3d3": {
+            "textures": "textures/gardenplus/bancs/banc_birch_gauche"
+        },
+        "gardenplus_f3idspa7e2h": {
+            "textures": "textures/gardenplus/plantes/windowpotside_acacia_pink"
+        },
+        "gardenplus_fwn9kg9mqic": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_crimson"
+        },
+        "gardenplus_f8k8y70effs": {
+            "textures": "textures/gardenplus/bancs/banc_crimson_gauche"
+        },
+        "gardenplus_fbxhmztm4dy": {
+            "textures": "textures/gardenplus/plantes/rose_big_brick"
+        },
+        "gardenplus_f9wrjr6hf7f": {
+            "textures": "textures/gardenplus/plantes/peony_big_brick"
+        },
+        "furnituresplus_flrf5dvumcv": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_buffettable"
+        },
+        "gardenplus_f33j9brz18v": {
+            "textures": "textures/gardenplus/plantes/peony_dark_oak"
+        },
+        "gardenplus_ffk0dfv01r9": {
+            "textures": "textures/gardenplus/plantes/rose_big_barrel"
+        },
+        "techprops_fbzd1brk33n": {
+            "textures": "textures/techprops/notebook"
+        },
+        "techprops_fuv9kusryb5": {
+            "textures": "textures/techprops/roboarm_big"
+        },
+        "techprops_f7u4b53kyk6": {
+            "textures": "textures/techprops/batterie"
+        },
+        "techprops_fl0u7hd75ep": {
+            "textures": "textures/techprops/table_lamp"
+        },
+        "gardenplus_fh9l014u70o": {
+            "textures": "textures/gardenplus/plantes/bamboo_dark_oak"
+        },
+        "gardenplus_fcdwqqvlq7u": {
+            "textures": "textures/gardenplus/plantes/windowpotside_barrel_pink"
+        },
+        "furnituresplus_f6vpkanjvqm": {
+            "textures": "textures/furnituresplus/machine/fabric_machine_plus"
+        },
+        "furnituresplus_f511woo0ugk": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_lowtable"
+        },
+        "furnituresplus_fnh02frby09": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_sofa_left"
+        },
+        "furnituresplus_f8hntbz3dkn": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_sofa_right"
+        },
+        "gardenplus_fodohv9nhjg": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_jungle"
+        },
+        "gardenplus_f9osntakzhg": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_spurce"
+        },
+        "furnituresplus_fqlwj5txigu": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_diningtable"
+        },
+        "techprops_ft9rzr9jej8": {
+            "textures": "textures/techprops/gamingchair_pink"
+        },
+        "gardenplus_fzad7tepere": {
+            "textures": "textures/gardenplus/bancs/banc_warped_droit"
+        },
+        "techprops_faeaqbftfsq": {
+            "textures": "textures/techprops/drone"
+        },
+        "gardenplus_fg0tt4baeaa": {
+            "textures": "textures/gardenplus/plantes/windowpotside_darkoak_pink"
+        },
+        "furnituresplus_fs6rq48nb0h": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_sofa_left"
+        },
+        "furnituresplus_fzdg3nenbtc": {
+            "textures": "textures/furnituresplus/blankacollection/white_bedside_table"
+        },
+        "gardenplus_fiqoubuthd8": {
+            "textures": "textures/gardenplus/plantes/windowpotside_spruce_pink"
+        },
+        "furnituresplus_fova22169pp": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_sofa_corner"
+        },
+        "techprops_ff7xt4gevh9": {
+            "textures": "textures/techprops/centerhung"
+        },
+        "gardenplus_f9k40xtsovo": {
+            "textures": "textures/gardenplus/plantes/lilac_big_cobble"
+        },
+        "techprops_f32va2wrxkm": {
+            "textures": "textures/techprops/deskpc"
+        },
+        "techprops_f5hjaj84o65": {
+            "textures": "textures/techprops/tv"
+        },
+        "techprops_fee87p869v7": {
+            "textures": "textures/techprops/phone"
+        },
+        "gardenplus_f2wxe4fnj7b": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu"
+        },
+        "gardenplus_f8ivobhmeqm": {
+            "textures": "textures/gardenplus/plantes/lilas_dark_oak"
+        },
+        "gardenplus_fq1mwbbu784": {
+            "textures": "textures/gardenplus/plantes/windowpotside_oak_pink"
+        },
+        "gardenplus_ffw005tftfy": {
+            "textures": "textures/gardenplus/bancs/banc_darkoak_gauche"
+        },
+        "gardenplus_fkq9r2te3p0": {
+            "textures": "textures/gardenplus/plantes/plantesuspendu_warped"
+        },
+        "gardenplus_fuemzpmrgeb": {
+            "textures": "textures/gardenplus/bancs/banc_oak_gauche"
+        },
+        "gardenplus_fzd0i96z4ce": {
+            "textures": "textures/gardenplus/plantes/windowpotside_birch_pink"
+        },
+        "furnituresplus_fvi8mp7agqt": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_sofa_middle"
+        },
+        "gardenplus_fv1koa10xjl": {
+            "textures": "textures/gardenplus/plantes/rosier_birch"
+        },
+        "furnituresplus_f0nrbq9zn6o": {
+            "textures": "textures/furnituresplus/summercollection/cyan_lowtable"
+        },
+        "gardenplus_f3h4q56xz56": {
+            "textures": "textures/gardenplus/plantes/peony_spruce"
+        },
+        "techprops_fopt4o2vukt": {
+            "textures": "textures/techprops/server_cabinet_small"
+        },
+        "gardenplus_fnk0lw4s8ya": {
+            "textures": "textures/gardenplus/plantes/peony_oak"
+        },
+        "techprops_fif96kgqw38": {
+            "textures": "textures/techprops/musicplayer"
+        },
+        "furnituresplus_fl7c8di7rg2": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_sofa_right"
+        },
+        "furnituresplus_f73gxquoar8": {
+            "textures": "textures/furnituresplus/blankacollection/white_sprucepaint"
+        },
+        "furnituresplus_fzhk9jtqbs5": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_sofa_single"
+        },
+        "furnituresplus_fzynpsh7ho9": {
+            "textures": "textures/furnituresplus/steelcollection/iron_sofa_right"
+        },
+        "furnituresplus_faygas22f5r": {
+            "textures": "textures/furnituresplus/summercollection/cyan_storage_furniture"
+        },
+        "furnituresplus_fg71dtoy6fz": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_sofa_corner"
+        },
+        "furnituresplus_f8jpz53mef8": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_sofa_right"
+        },
+        "techprops_f5f6254c8zt": {
+            "textures": "textures/techprops/gamingchair_gray"
+        },
+        "furnituresplus_fqc5bky1sfu": {
+            "textures": "textures/furnituresplus/summercollection/cyan_buffet_table"
+        },
+        "furnituresplus_fv67u1i81uq": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_sofa_left"
+        },
+        "furnituresplus_f5fdq5s3eoq": {
+            "textures": "textures/furnituresplus/steelcollection/iron_storage_furniture"
+        },
+        "gardenplus_fl19gfqfa6y": {
+            "textures": "textures/gardenplus/plantes/peony_birch"
+        },
+        "techprops_flujze23078": {
+            "textures": "textures/techprops/ringlight"
+        },
+        "techprops_f0j2n8dfif7": {
+            "textures": "textures/techprops/microphone"
+        },
+        "gardenplus_f1kkyz0w7nx": {
+            "textures": "textures/gardenplus/bancs/banc_spruce_gauche"
+        },
+        "techprops_fpeoejpfh6t": {
+            "textures": "textures/techprops/scooter"
+        },
+        "furnituresplus_fptj12yzvxw": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_chair"
+        },
+        "furnituresplus_f4i015s1cys": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_sofa_corner"
+        },
+        "gardenplus_fhhafbip7u8": {
+            "textures": "textures/gardenplus/plantes/lilac_big_brick"
+        },
+        "furnituresplus_fwjnmyvr3b0": {
+            "textures": "textures/furnituresplus/steelcollection/iron_buffettable"
+        },
+        "furnituresplus_fojb8orwiq6": {
+            "textures": "textures/furnituresplus/summercollection/cyan_bedside_table"
+        },
+        "furnituresplus_fnq2s8cod4i": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_storage_furniture"
+        },
+        "gardenplus_fvdqqv58mnk": {
+            "textures": "textures/gardenplus/plantes/windowpotside_warped_pink"
+        },
+        "gardenplus_fc8bz0mpvmv": {
+            "textures": "textures/gardenplus/plantes/windowpotside_crimson_pink"
+        },
+        "furnituresplus_fmo39lyx3q3": {
+            "textures": "textures/furnituresplus/steelcollection/iron_sofa_left"
+        },
+        "furnituresplus_f8yrk9o05bv": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_chair"
+        },
+        "furnituresplus_fwxucl5ugjy": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_biglamp"
+        },
+        "gardenplus_fg70tpvyjwx": {
+            "textures": "textures/gardenplus/plantes/dreapleafplante_darkoak"
+        },
+        "furnituresplus_fkneq91vojh": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_sofa_single"
+        },
+        "techprops_fo3yxh1dti4": {
+            "textures": "textures/techprops/printer"
+        },
+        "furnituresplus_fudt8wxn9n7": {
+            "textures": "textures/furnituresplus/steelcollection/iron_chair"
+        },
+        "furnituresplus_fvpx5vvxklg": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_sofa_single"
+        },
+        "furnituresplus_fhdj2i50an9": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_lowtable"
+        },
+        "furnituresplus_fqbu3278w66": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_sofa_single"
+        },
+        "lootcrat_plus_f0z2kp47aq6": {
+            "textures": "textures/lootcrat_plus/normal/amethyst_key"
+        },
+        "furnituresplus_farvptie2l0": {
+            "textures": "textures/furnituresplus/steelcollection/iron_bedside_table"
+        },
+        "lootcrat_plus_frx3qc2ouay": {
+            "textures": "textures/lootcrat_plus/normal/amethyst_box"
+        },
+        "furnituresplus_ft85ppn8ksg": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_sofa_middle"
+        },
+        "furnituresplus_fwyapt4l8s3": {
+            "textures": "textures/furnituresplus/steelcollection/iron_sofa_corner"
+        },
+        "furnituresplus_f93d1if33os": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_sofa_middle"
+        },
+        "furnituresplus_f9l33kdunnv": {
+            "textures": "textures/furnituresplus/steelcollection/iron_paint"
+        },
+        "furnituresplus_fpx0ngjtxsn": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_sofa_right"
+        },
+        "furnituresplus_fh23xlerv4x": {
+            "textures": "textures/furnituresplus/steelcollection/iron_sofa_single"
+        },
+        "gardenplus_fjksojlu4h7": {
+            "textures": "textures/gardenplus/plantes/windowpotside_brick_pink"
+        },
+        "furnituresplus_f4poe8tigrx": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_lowtable"
+        },
+        "furnituresplus_ftzny07k9qe": {
+            "textures": "textures/furnituresplus/amethystcollection/amethys_buffet_table"
+        },
+        "furnituresplus_fwbvuk10dkq": {
+            "textures": "textures/furnituresplus/blankacollection/white_storage_furniture"
+        },
+        "techprops_fvh0lh19tpf": {
+            "textures": "textures/techprops/tvcamera"
+        },
+        "furnituresplus_fqjwzywh3fn": {
+            "textures": "textures/furnituresplus/steelcollection/iron_lowtable"
+        },
+        "furnituresplus_fnfs3zix4xa": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_sofa_single"
+        },
+        "furnituresplus_f26i7eyp8tm": {
+            "textures": "textures/furnituresplus/redvibecollection/red_bedside_table"
+        },
+        "furnituresplus_fp384tntjyu": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_sofa_left"
+        },
+        "furnituresplus_fbuq09lkoxb": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_sofa_left"
+        },
+        "furnituresplus_f7s2mjuni8j": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_diningtable"
+        },
+        "furnituresplus_f2lza29skdz": {
+            "textures": "textures/furnituresplus/redvibecollection/red_storage_furniture"
+        },
+        "gardenplus_fhvpc8t9uc6": {
+            "textures": "textures/gardenplus/plantes/lilas_spruce"
+        },
+        "furnituresplus_facej7qs2zo": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_sofa_middle"
+        },
+        "furnituresplus_fqc1f1ffdkm": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_hanginglamp"
+        },
+        "furnituresplus_fpq3untojle": {
+            "textures": "textures/furnituresplus/others/greenpaintb"
+        },
+        "furnituresplus_fi3tduhee71": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_diningtable"
+        },
+        "fantasy_weapons_fxsnyml0iqc": {
+            "textures": "textures/fantasy_weapons/item/vesper"
+        },
+        "fantasy_weapons_f800mq0eocl": {
+            "textures": "textures/fantasy_weapons/item/solstice"
+        },
+        "fantasy_weapons_fsktn9oie9b": {
+            "textures": "textures/fantasy_weapons/item/lycanbane"
+        },
+        "fantasy_weapons_f6406rb1629": {
+            "textures": "textures/fantasy_weapons/item/gloomsteel_katana"
+        },
+        "furnituresplus_f84vurtcqb3": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_lamp"
+        },
+        "furnituresplus_f16m4tz7zex": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_diningtable"
+        },
+        "lootcrat_plus_fumtoov5tb4": {
+            "textures": "textures/lootcrat_plus/rare/iron_key"
+        },
+        "velocity_f92075lgwgv": {
+            "textures": "textures/velocity/blocks/waystone_velo"
+        },
+        "furnituresplus_f1t9tpnqpr7": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_chair"
+        },
+        "techprops_frsvmha4rli": {
+            "textures": "textures/techprops/server_cabinet_large"
+        },
+        "furnituresplus_f7g80so6k2c": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_diningtable"
+        },
+        "furnituresplus_f82zolphqw3": {
+            "textures": "textures/furnituresplus/redvibecollection/red_wooden_buffettable"
+        },
+        "furnituresplus_f559zyf6z10": {
+            "textures": "textures/furnituresplus/steelcollection/iron_sofa_middle"
+        },
+        "furnituresplus_fuw2opqhj87": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_sofa_corner"
+        },
+        "furnituresplus_f2a459nnu8x": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_sofa_middle"
+        },
+        "fantasy_weapons_fzk359x06m5": {
+            "textures": "textures/fantasy_weapons/item/azure_dagger"
+        },
+        "lootcrat_plus_f3ng9jvkzb0": {
+            "textures": "textures/lootcrat_plus/normal/iron_key"
+        },
+        "fantasy_weapons_fnzt4to35x8": {
+            "textures": "textures/fantasy_weapons/item/gloomsteel_knife"
+        },
+        "lootcrat_plus_fbeq1voyghr": {
+            "textures": "textures/lootcrat_plus/rare/amethyst_box"
+        },
+        "furnituresplus_fh32ibihcvq": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_storage_furniture"
+        },
+        "gardenplus_ff3p1jgr7oi": {
+            "textures": "textures/gardenplus/plantes/lilas_oak"
+        },
+        "gardenplus_fuanvp1hhef": {
+            "textures": "textures/gardenplus/plantes/rosier_dark_oak"
+        },
+        "fantasy_weapons_f588n1e4kh4": {
+            "textures": "textures/fantasy_weapons/item/runic_piercer"
+        },
+        "furnituresplus_ffvkidp3uuk": {
+            "textures": "textures/furnituresplus/redvibecollection/red_oakpaint"
+        },
+        "furnituresplus_f0cuiup2e8k": {
+            "textures": "textures/furnituresplus/others/radio"
+        },
+        "fantasy_weapons_f90fy5w09qf": {
+            "textures": "textures/fantasy_weapons/item/grand_claymore"
+        },
+        "fantasy_weapons_f35xit24qz6": {
+            "textures": "textures/fantasy_weapons/item/azure_sabre"
+        },
+        "fantasy_weapons_f8nqk841hbg": {
+            "textures": "textures/fantasy_weapons/item/windreaper"
+        },
+        "fantasy_weapons_fjo0hdvkv4d": {
+            "textures": "textures/fantasy_weapons/item/iron_dagger"
+        },
+        "fantasy_weapons_fb9zbhnr8lt": {
+            "textures": "textures/fantasy_weapons/item/calamity_blade"
+        },
+        "fantasy_weapons_fidlb5983f0": {
+            "textures": "textures/fantasy_weapons/item/phantomguard_greatsword"
+        },
+        "gardenplus_fi49q78fe4t": {
+            "textures": "textures/gardenplus/plantes/windowpotside_cobble_pink"
+        },
+        "furnituresplus_fvth09swrb9": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_hanginglamp"
+        },
+        "furnituresplus_fp6doj0d6c8": {
+            "textures": "textures/furnituresplus/steelcollection/iron_hanginglamp"
+        },
+        "lootcrat_plus_ftmib95dbnv": {
+            "textures": "textures/lootcrat_plus/rare/amethyst_key"
+        },
+        "furnituresplus_f323sdz1a07": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_chair"
+        },
+        "furnituresplus_fmmreui0n7f": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_buffettable"
+        },
+        "furnituresplus_f1a1o7ohfc6": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_hanginglamp"
+        },
+        "furnituresplus_fh5mzp2uboi": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_bedside_table"
+        },
+        "furnituresplus_faqopkxin6z": {
+            "textures": "textures/furnituresplus/steelcollection/iron_diningtable"
+        },
+        "furnituresplus_fe69pb5hofs": {
+            "textures": "textures/furnituresplus/summercollection/cyan_wooden_hanginglamp"
+        },
+        "lootcrat_plus_fe7yskdj8hp": {
+            "textures": "textures/lootcrat_plus/normal/iron_box"
+        },
+        "fantasy_weapons_f5mbowxq27s": {
+            "textures": "textures/fantasy_weapons/item/talonbrand"
+        },
+        "fantasy_weapons_fp5jltehxg5": {
+            "textures": "textures/fantasy_weapons/item/valhakyra"
+        },
+        "fantasy_weapons_fm7msrc23sx": {
+            "textures": "textures/fantasy_weapons/item/vindicator"
+        },
+        "fantasy_weapons_fzu9cudqt9o": {
+            "textures": "textures/fantasy_weapons/item/heavenly_partisan"
+        },
+        "fantasy_weapons_fp0y57n7i2z": {
+            "textures": "textures/fantasy_weapons/item/iron_broadsword"
+        },
+        "fantasy_weapons_fkyfu5ihtr4": {
+            "textures": "textures/fantasy_weapons/item/demonslayers_greatsword"
+        },
+        "fantasy_weapons_fe8o62tr6a2": {
+            "textures": "textures/fantasy_weapons/item/phantomguard_partisan"
+        },
+        "fantasy_weapons_f3fvqq4delv": {
+            "textures": "textures/fantasy_weapons/item/amethyst_greatblade"
+        },
+        "furnituresplus_fc44jkzv6lo": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_bedside_table"
+        },
+        "fantasy_weapons_f1i4vbbrfze": {
+            "textures": "textures/fantasy_weapons/item/moonlight"
+        },
+        "fantasy_weapons_f9dx7ksmu4h": {
+            "textures": "textures/fantasy_weapons/item/demonic_sword"
+        },
+        "furnituresplus_fg3mxfu8veb": {
+            "textures": "textures/furnituresplus/others/bluepaint"
+        },
+        "furnituresplus_faa1j1qk7mb": {
+            "textures": "textures/furnituresplus/summercollection/cyan_summerpaint"
+        },
+        "fantasy_weapons_fy776wry953": {
+            "textures": "textures/fantasy_weapons/item/dragon_sword"
+        },
+        "furnituresplus_f99ri16z843": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_lowtable"
+        },
+        "furnituresplus_fmfkhg6si8r": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_acaciapaint"
+        },
+        "furnituresplus_fpgv7nwqimn": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_paint"
+        },
+        "furnituresplus_fxwh1rh6b03": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_sofa_corner"
+        },
+        "lootcrat_plus_fn4mlj8ewpu": {
+            "textures": "textures/lootcrat_plus/rare/iron_box"
+        },
+        "furnituresplus_fkzisusai13": {
+            "textures": "textures/furnituresplus/blankacollection/white_wooden_hanginglamp"
+        },
+        "furnituresplus_fyeaquovzj2": {
+            "textures": "textures/furnituresplus/acaciagraycollection/gray_wooden_chair"
+        },
+        "furnituresplus_ft9b38ir7a0": {
+            "textures": "textures/furnituresplus/amethystcollection/amethyst_sofa_right"
+        },
+        "furnituresplus_fysnuydjo3x": {
+            "textures": "textures/furnituresplus/others/greenpaint"
+        },
+        "fantasy_weapons_fy22tsfe4h3": {
+            "textures": "textures/fantasy_weapons/item/uchigatana"
+        },
+        "summer_fds4529te1h": {
+            "textures": "textures/summer/item/beach_umbrella"
+        },
+        "fantasy_weapons_fwyqtr9338o": {
+            "textures": "textures/fantasy_weapons/item/claymore"
+        },
+        "fantasy_weapons_fclziom9r34": {
+            "textures": "textures/fantasy_weapons/item/demons_blood_blade"
+        },
+        "fantasy_weapons_fpjhf0j1llb": {
+            "textures": "textures/fantasy_weapons/item/azure_scythe"
+        },
+        "fantasy_weapons_f8gksce8fck": {
+            "textures": "textures/fantasy_weapons/item/black_iron_greatsword"
+        },
+        "fantasy_weapons_f2qrph96p8w": {
+            "textures": "textures/fantasy_weapons/item/spider_sword"
+        },
+        "fantasy_weapons_ftkpui87132": {
+            "textures": "textures/fantasy_weapons/item/flamberge"
+        },
+        "example_block_fiup8rpcpyt": {
+            "textures": "textures/example_block/ia_auto_gen/trick_ore"
+        },
+        "example_block_fsexwevach0": {
+            "textures": "textures/example_block/ia_auto_gen/andesite_bricks"
+        },
+        "fantasy_weapons_fk94q1l0n7b": {
+            "textures": "textures/fantasy_weapons/item/oculus"
+        },
+        "fantasy_weapons_fvybrs17gwu": {
+            "textures": "textures/fantasy_weapons/item/crystal_frostblade"
+        },
+        "casinoitems_fdl3ju1l6p8": {
+            "textures": "textures/casinoitems/ia_auto_gen/slotmachine"
+        },
+        "example_block_fj96mj0wws9": {
+            "textures": "textures/example_block/ia_auto_gen/croix_block"
+        }
+    }
+}

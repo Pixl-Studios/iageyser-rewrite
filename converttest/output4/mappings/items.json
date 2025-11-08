@@ -1,0 +1,876 @@
+{
+    "items": [
+        {
+            "name": "casinoitems:bottomscreencasinoglyph",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Bottomscreencasinoglyph",
+            "custom_model_data": 947946,
+            "icon": "textures/items/bottomscreencasinoglyph.png"
+        },
+        {
+            "name": "fantasy_weapons:amethyst_greatblade",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Amethyst greatblade",
+            "custom_model_data": 324336,
+            "icon": "textures/items/amethyst_greatblade.png"
+        },
+        {
+            "name": "fantasy_weapons:amethyst_greatblade_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Amethyst greatblade e",
+            "custom_model_data": 630668,
+            "icon": "textures/items/amethyst_greatblade_e.png"
+        },
+        {
+            "name": "fantasy_weapons:ancient_greatslab",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Ancient greatslab",
+            "custom_model_data": 955066,
+            "icon": "textures/items/ancient_greatslab.png"
+        },
+        {
+            "name": "fantasy_weapons:ancient_greatslab_test",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Ancient greatslab test",
+            "custom_model_data": 126841,
+            "icon": "textures/items/ancient_greatslab_test.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_greataxe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure greataxe",
+            "custom_model_data": 915594,
+            "icon": "textures/items/azure_greataxe.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_greataxe_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure greataxe e",
+            "custom_model_data": 955149,
+            "icon": "textures/items/azure_greataxe_e.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_greatsword",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure greatsword",
+            "custom_model_data": 775318,
+            "icon": "textures/items/azure_greatsword.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_greatsword_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure greatsword e",
+            "custom_model_data": 866655,
+            "icon": "textures/items/azure_greatsword_e.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_sabre",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure sabre",
+            "custom_model_data": 258845,
+            "icon": "textures/items/azure_sabre.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_sabre_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure sabre e",
+            "custom_model_data": 762728,
+            "icon": "textures/items/azure_sabre_e.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_scythe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure scythe",
+            "custom_model_data": 978444,
+            "icon": "textures/items/azure_scythe.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_scythe_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure scythe e",
+            "custom_model_data": 429,
+            "icon": "textures/items/azure_scythe_e.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_shortsword",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure shortsword",
+            "custom_model_data": 567600,
+            "icon": "textures/items/azure_shortsword.png"
+        },
+        {
+            "name": "fantasy_weapons:azure_shortsword_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Azure shortsword e",
+            "custom_model_data": 303726,
+            "icon": "textures/items/azure_shortsword_e.png"
+        },
+        {
+            "name": "fantasy_weapons:berserkers_cleaver",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Berserkers cleaver",
+            "custom_model_data": 188490,
+            "icon": "textures/items/berserkers_cleaver.png"
+        },
+        {
+            "name": "fantasy_weapons:berserkers_cleaver_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Berserkers cleaver e",
+            "custom_model_data": 668048,
+            "icon": "textures/items/berserkers_cleaver_e.png"
+        },
+        {
+            "name": "fantasy_weapons:berserkers_greataxe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Berserkers greataxe",
+            "custom_model_data": 111176,
+            "icon": "textures/items/berserkers_greataxe.png"
+        },
+        {
+            "name": "fantasy_weapons:black_iron_clobberer",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Black iron clobberer",
+            "custom_model_data": 260638,
+            "icon": "textures/items/black_iron_clobberer.png"
+        },
+        {
+            "name": "fantasy_weapons:black_iron_greataxe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Black iron greataxe",
+            "custom_model_data": 61976,
+            "icon": "textures/items/black_iron_greataxe.png"
+        },
+        {
+            "name": "fantasy_weapons:black_iron_greataxe_v1",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Black iron greataxe v1",
+            "custom_model_data": 603149,
+            "icon": "textures/items/black_iron_greataxe_v1.png"
+        },
+        {
+            "name": "fantasy_weapons:black_iron_greatsword",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Black iron greatsword",
+            "custom_model_data": 475584,
+            "icon": "textures/items/black_iron_greatsword.png"
+        },
+        {
+            "name": "fantasy_weapons:bloodyvengeance",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Bloodyvengeance",
+            "custom_model_data": 612170,
+            "icon": "textures/items/bloodyvengeance.png"
+        },
+        {
+            "name": "fantasy_weapons:cadithpiercer",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Cadithpiercer",
+            "custom_model_data": 962623,
+            "icon": "textures/items/cadithpiercer.png"
+        },
+        {
+            "name": "fantasy_weapons:calamityblade",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Calamityblade",
+            "custom_model_data": 84390,
+            "icon": "textures/items/calamityblade.png"
+        },
+        {
+            "name": "fantasy_weapons:calamityblade_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Calamityblade e",
+            "custom_model_data": 89405,
+            "icon": "textures/items/calamityblade_e.png"
+        },
+        {
+            "name": "fantasy_weapons:calamityblade_gem_cover",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Calamityblade gem cover",
+            "custom_model_data": 585903,
+            "icon": "textures/items/calamityblade_gem_cover.png"
+        },
+        {
+            "name": "fantasy_weapons:calamityblade_p",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Calamityblade p",
+            "custom_model_data": 473942,
+            "icon": "textures/items/calamityblade_p.png"
+        },
+        {
+            "name": "fantasy_weapons:calamityblade_thin",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Calamityblade thin",
+            "custom_model_data": 434355,
+            "icon": "textures/items/calamityblade_thin.png"
+        },
+        {
+            "name": "fantasy_weapons:calamityblade_v3",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Calamityblade v3",
+            "custom_model_data": 772575,
+            "icon": "textures/items/calamityblade_v3.png"
+        },
+        {
+            "name": "fantasy_weapons:claymore",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Claymore",
+            "custom_model_data": 449827,
+            "icon": "textures/items/claymore.png"
+        },
+        {
+            "name": "fantasy_weapons:colet",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Colet",
+            "custom_model_data": 294267,
+            "icon": "textures/items/colet.png"
+        },
+        {
+            "name": "fantasy_weapons:coleteffect",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Coleteffect",
+            "custom_model_data": 880885,
+            "icon": "textures/items/coleteffect.png"
+        },
+        {
+            "name": "fantasy_weapons:coleteffectrev",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Coleteffectrev",
+            "custom_model_data": 238681,
+            "icon": "textures/items/coleteffectrev.png"
+        },
+        {
+            "name": "fantasy_weapons:coleteffect_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Coleteffect e",
+            "custom_model_data": 434027,
+            "icon": "textures/items/coleteffect_e.png"
+        },
+        {
+            "name": "fantasy_weapons:coletinv",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Coletinv",
+            "custom_model_data": 16007,
+            "icon": "textures/items/coletinv.png"
+        },
+        {
+            "name": "fantasy_weapons:crescent_greataxe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crescent greataxe",
+            "custom_model_data": 49317,
+            "icon": "textures/items/crescent_greataxe.png"
+        },
+        {
+            "name": "fantasy_weapons:crimsoncleaver",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crimsoncleaver",
+            "custom_model_data": 416925,
+            "icon": "textures/items/crimsoncleaver.png"
+        },
+        {
+            "name": "fantasy_weapons:crimsoncleaver_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crimsoncleaver e",
+            "custom_model_data": 852234,
+            "icon": "textures/items/crimsoncleaver_e.png"
+        },
+        {
+            "name": "fantasy_weapons:crimson_lance",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crimson lance",
+            "custom_model_data": 107247,
+            "icon": "textures/items/crimson_lance.png"
+        },
+        {
+            "name": "fantasy_weapons:crimson_lance_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crimson lance e",
+            "custom_model_data": 263943,
+            "icon": "textures/items/crimson_lance_e.png"
+        },
+        {
+            "name": "fantasy_weapons:crystal_frostblade",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crystal frostblade",
+            "custom_model_data": 986451,
+            "icon": "textures/items/crystal_frostblade.png"
+        },
+        {
+            "name": "fantasy_weapons:crystal_frostblade_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crystal frostblade e",
+            "custom_model_data": 893711,
+            "icon": "textures/items/crystal_frostblade_e.png"
+        },
+        {
+            "name": "fantasy_weapons:crystal_frostcythe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crystal frostcythe",
+            "custom_model_data": 198681,
+            "icon": "textures/items/crystal_frostcythe.png"
+        },
+        {
+            "name": "fantasy_weapons:crystal_frostcythe_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Crystal frostcythe e",
+            "custom_model_data": 496089,
+            "icon": "textures/items/crystal_frostcythe_e.png"
+        },
+        {
+            "name": "fantasy_weapons:deathbludgeon",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Deathbludgeon",
+            "custom_model_data": 993311,
+            "icon": "textures/items/deathbludgeon.png"
+        },
+        {
+            "name": "fantasy_weapons:demonslayers_greatsword",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Demonslayers greatsword",
+            "custom_model_data": 344195,
+            "icon": "textures/items/demonslayers_greatsword.png"
+        },
+        {
+            "name": "fantasy_weapons:demons_blood",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Demons blood",
+            "custom_model_data": 918277,
+            "icon": "textures/items/demons_blood.png"
+        },
+        {
+            "name": "fantasy_weapons:demons_blood_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Demons blood e",
+            "custom_model_data": 758969,
+            "icon": "textures/items/demons_blood_e.png"
+        },
+        {
+            "name": "fantasy_weapons:dragonsabre",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Dragonsabre",
+            "custom_model_data": 23263,
+            "icon": "textures/items/dragonsabre.png"
+        },
+        {
+            "name": "fantasy_weapons:dragonsabreeffect",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Dragonsabreeffect",
+            "custom_model_data": 431381,
+            "icon": "textures/items/dragonsabreeffect.png"
+        },
+        {
+            "name": "fantasy_weapons:dragonsabreeffect_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Dragonsabreeffect e",
+            "custom_model_data": 942903,
+            "icon": "textures/items/dragonsabreeffect_e.png"
+        },
+        {
+            "name": "fantasy_weapons:dragonsabre_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Dragonsabre e",
+            "custom_model_data": 956189,
+            "icon": "textures/items/dragonsabre_e.png"
+        },
+        {
+            "name": "fantasy_weapons:emerald_greatcleaver",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Emerald greatcleaver",
+            "custom_model_data": 591741,
+            "icon": "textures/items/emerald_greatcleaver.png"
+        },
+        {
+            "name": "fantasy_weapons:emerald_sacrificial_cleaver",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Emerald sacrificial cleaver",
+            "custom_model_data": 488579,
+            "icon": "textures/items/emerald_sacrificial_cleaver.png"
+        },
+        {
+            "name": "fantasy_weapons:emerald_sacrificial_cleaver_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Emerald sacrificial cleaver e",
+            "custom_model_data": 340208,
+            "icon": "textures/items/emerald_sacrificial_cleaver_e.png"
+        },
+        {
+            "name": "fantasy_weapons:ethereal_frostblade",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Ethereal frostblade",
+            "custom_model_data": 726368,
+            "icon": "textures/items/ethereal_frostblade.png"
+        },
+        {
+            "name": "fantasy_weapons:ethereal_frostblade_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Ethereal frostblade e",
+            "custom_model_data": 979463,
+            "icon": "textures/items/ethereal_frostblade_e.png"
+        },
+        {
+            "name": "fantasy_weapons:flamberge",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Flamberge",
+            "custom_model_data": 663336,
+            "icon": "textures/items/flamberge.png"
+        },
+        {
+            "name": "fantasy_weapons:gloomsteel_greataxe",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Gloomsteel greataxe",
+            "custom_model_data": 109269,
+            "icon": "textures/items/gloomsteel_greataxe.png"
+        },
+        {
+            "name": "fantasy_weapons:gloomsteel_katana",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Gloomsteel katana",
+            "custom_model_data": 774597,
+            "icon": "textures/items/gloomsteel_katana.png"
+        },
+        {
+            "name": "fantasy_weapons:gloomsteel_knife",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Gloomsteel knife",
+            "custom_model_data": 276531,
+            "icon": "textures/items/gloomsteel_knife.png"
+        },
+        {
+            "name": "fantasy_weapons:gochunen",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Gochunen",
+            "custom_model_data": 228900,
+            "icon": "textures/items/gochunen.png"
+        },
+        {
+            "name": "fantasy_weapons:gochunen_e",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Gochunen e",
+            "custom_model_data": 298232,
+            "icon": "textures/items/gochunen_e.png"
+        },
+        {
+            "name": "fantasy_weapons:gochunen_effect",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Gochunen effect",
+            "custom_model_data": 57409,
+            "icon": "textures/items/gochunen_effect.png"
+        },
+        {
+            "name": "furnituresplus:acaciagray",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Acaciagray",
+            "custom_model_data": 220997,
+            "icon": "textures/items/acaciagray.png"
+        },
+        {
+            "name": "furnituresplus:amethystfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Amethystfabric",
+            "custom_model_data": 941900,
+            "icon": "textures/items/amethystfabric.png"
+        },
+        {
+            "name": "furnituresplus:bluefabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Bluefabric",
+            "custom_model_data": 646761,
+            "icon": "textures/items/bluefabric.png"
+        },
+        {
+            "name": "furnituresplus:cyansummer",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Cyansummer",
+            "custom_model_data": 949773,
+            "icon": "textures/items/cyansummer.png"
+        },
+        {
+            "name": "furnituresplus:darkgrayfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Darkgrayfabric",
+            "custom_model_data": 874338,
+            "icon": "textures/items/darkgrayfabric.png"
+        },
+        {
+            "name": "furnituresplus:greenfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Greenfabric",
+            "custom_model_data": 631607,
+            "icon": "textures/items/greenfabric.png"
+        },
+        {
+            "name": "furnituresplus:loom_bottom",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom bottom",
+            "custom_model_data": 940577,
+            "icon": "textures/items/loom_bottom.png"
+        },
+        {
+            "name": "furnituresplus:loom_front",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom front",
+            "custom_model_data": 314066,
+            "icon": "textures/items/loom_front.png"
+        },
+        {
+            "name": "furnituresplus:loom_side",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom side",
+            "custom_model_data": 866809,
+            "icon": "textures/items/loom_side.png"
+        },
+        {
+            "name": "furnituresplus:loom_top",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom top",
+            "custom_model_data": 826753,
+            "icon": "textures/items/loom_top.png"
+        },
+        {
+            "name": "furnituresplus:redfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Redfabric",
+            "custom_model_data": 661535,
+            "icon": "textures/items/redfabric.png"
+        },
+        {
+            "name": "furnituresplus:yellowfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Yellowfabric",
+            "custom_model_data": 785751,
+            "icon": "textures/items/yellowfabric.png"
+        },
+        {
+            "name": "furnituresplusfree:acaciagray",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Acaciagray",
+            "custom_model_data": 119695,
+            "icon": "textures/items/acaciagray.png"
+        },
+        {
+            "name": "furnituresplusfree:amethystfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Amethystfabric",
+            "custom_model_data": 790864,
+            "icon": "textures/items/amethystfabric.png"
+        },
+        {
+            "name": "furnituresplusfree:bluefabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Bluefabric",
+            "custom_model_data": 201059,
+            "icon": "textures/items/bluefabric.png"
+        },
+        {
+            "name": "furnituresplusfree:blue_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Blue dye",
+            "custom_model_data": 65519,
+            "icon": "textures/items/blue_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:brown_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Brown dye",
+            "custom_model_data": 192801,
+            "icon": "textures/items/brown_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:cyansummer",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Cyansummer",
+            "custom_model_data": 972807,
+            "icon": "textures/items/cyansummer.png"
+        },
+        {
+            "name": "furnituresplusfree:cyan_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Cyan dye",
+            "custom_model_data": 926084,
+            "icon": "textures/items/cyan_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:darkgrayfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Darkgrayfabric",
+            "custom_model_data": 832702,
+            "icon": "textures/items/darkgrayfabric.png"
+        },
+        {
+            "name": "furnituresplusfree:greenfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Greenfabric",
+            "custom_model_data": 144299,
+            "icon": "textures/items/greenfabric.png"
+        },
+        {
+            "name": "furnituresplusfree:green_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Green dye",
+            "custom_model_data": 781488,
+            "icon": "textures/items/green_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:light_gray_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Light gray dye",
+            "custom_model_data": 897483,
+            "icon": "textures/items/light_gray_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:lime_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Lime dye",
+            "custom_model_data": 413516,
+            "icon": "textures/items/lime_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:loom_bottom",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom bottom",
+            "custom_model_data": 775293,
+            "icon": "textures/items/loom_bottom.png"
+        },
+        {
+            "name": "furnituresplusfree:loom_front",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom front",
+            "custom_model_data": 855384,
+            "icon": "textures/items/loom_front.png"
+        },
+        {
+            "name": "furnituresplusfree:loom_side",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom side",
+            "custom_model_data": 374155,
+            "icon": "textures/items/loom_side.png"
+        },
+        {
+            "name": "furnituresplusfree:loom_top",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Loom top",
+            "custom_model_data": 559984,
+            "icon": "textures/items/loom_top.png"
+        },
+        {
+            "name": "furnituresplusfree:magenta_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Magenta dye",
+            "custom_model_data": 333192,
+            "icon": "textures/items/magenta_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:orange_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Orange dye",
+            "custom_model_data": 100132,
+            "icon": "textures/items/orange_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:redfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Redfabric",
+            "custom_model_data": 194285,
+            "icon": "textures/items/redfabric.png"
+        },
+        {
+            "name": "furnituresplusfree:red_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Red dye",
+            "custom_model_data": 389622,
+            "icon": "textures/items/red_dye.png"
+        },
+        {
+            "name": "furnituresplusfree:string",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "String",
+            "custom_model_data": 173638,
+            "icon": "textures/items/string.png"
+        },
+        {
+            "name": "furnituresplusfree:yellowfabric",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Yellowfabric",
+            "custom_model_data": 373699,
+            "icon": "textures/items/yellowfabric.png"
+        },
+        {
+            "name": "furnituresplusfree:yellow_dye",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Yellow dye",
+            "custom_model_data": 148612,
+            "icon": "textures/items/yellow_dye.png"
+        },
+        {
+            "name": "summer:berrysnowcone",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Berrysnowcone",
+            "custom_model_data": 677142,
+            "icon": "textures/items/berrysnowcone.png"
+        },
+        {
+            "name": "summer:blueberrysnowcone",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Blueberrysnowcone",
+            "custom_model_data": 319841,
+            "icon": "textures/items/blueberrysnowcone.png"
+        },
+        {
+            "name": "summer:chocolateicecream",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Chocolateicecream",
+            "custom_model_data": 397723,
+            "icon": "textures/items/chocolateicecream.png"
+        },
+        {
+            "name": "summer:snowcone",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Snowcone",
+            "custom_model_data": 240794,
+            "icon": "textures/items/snowcone.png"
+        },
+        {
+            "name": "summer:sugaricecream",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Sugaricecream",
+            "custom_model_data": 83868,
+            "icon": "textures/items/sugaricecream.png"
+        },
+        {
+            "name": "velocity:endersword",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Endersword",
+            "custom_model_data": 394138,
+            "icon": "textures/items/endersword.png"
+        },
+        {
+            "name": "velocity:reciept",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Reciept",
+            "custom_model_data": 974100,
+            "icon": "textures/items/reciept.png"
+        },
+        {
+            "name": "velocity:taco",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Taco",
+            "custom_model_data": 918743,
+            "icon": "textures/items/taco.png"
+        },
+        {
+            "name": "velocity:velocity",
+            "java_id": "minecraft:diamond",
+            "bedrock_id": 264,
+            "display_name": "Velocity",
+            "custom_model_data": 130025,
+            "icon": "textures/items/velocity.png"
+        }
+    ]
+}

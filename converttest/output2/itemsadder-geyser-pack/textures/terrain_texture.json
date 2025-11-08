@@ -1,0 +1,50 @@
+{
+    "resource_pack_name": "geyser_custom",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "casinoitems_f8231d238df8": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/casinoitems/blocks/slotmachine"
+        },
+        "graves_f2c80c99ce59": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/graves/block/mossy_stone_bricks"
+        },
+        "graves_fefc0cfdc555": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/graves/block/nether_wart_block"
+        },
+        "velocity_f54d371600d1": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/polished_blackstone_bricks"
+        },
+        "velocity_f7bcbf8cde1e": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/polished_blackstone_bricks_velologo"
+        },
+        "velocity_fbfdd12770cb": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/waystone"
+        },
+        "velocity_f4743edffc19": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/waystone2"
+        },
+        "converttest_fde3ad930927": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/casinoitems/blocks/slotmachine"
+        },
+        "converttest_fbc5d8151739": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/graves/block/mossy_stone_bricks"
+        },
+        "converttest_faf0379fd969": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/graves/block/nether_wart_block"
+        },
+        "converttest_fd704d97fc1c": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/polished_blackstone_bricks"
+        },
+        "converttest_fcdc6d1525e4": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/polished_blackstone_bricks_velologo"
+        },
+        "converttest_fdb19e135b84": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/waystone"
+        },
+        "converttest_f690d50f5b79": {
+            "textures": "textures/converttest/output2/itemsadder-geyser-pack/textures/velocity/blocks/waystone2"
+        }
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "minecraft:block.wood.break": {
+            "sounds": []
+        },
+        "minecraft:block.wood.fall": {
+            "sounds": []
+        },
+        "minecraft:block.wood.hit": {
+            "sounds": []
+        },
+        "minecraft:block.wood.place": {
+            "sounds": []
+        },
+        "minecraft:block.wood.step": {
+            "sounds": []
+        },
+        "minecraft:block.stone.break": {
+            "sounds": []
+        },
+        "minecraft:block.stone.fall": {
+            "sounds": []
+        },
+        "minecraft:block.stone.hit": {
+            "sounds": []
+        },
+        "minecraft:block.stone.place": {
+            "sounds": []
+        },
+        "minecraft:block.stone.step": {
+            "sounds": []
+        },
+        "minecraft:internal.block.wood.break": {
+            "sounds": [
+                "sounds/dig/wood1",
+                "sounds/dig/wood2",
+                "sounds/dig/wood3",
+                "sounds/dig/wood4"
+            ]
+        },
+        "minecraft:internal.block.wood.fall": {
+            "sounds": [
+                "sounds/step/wood1",
+                "sounds/step/wood2",
+                "sounds/step/wood3",
+                "sounds/step/wood4",
+                "sounds/step/wood5",
+                "sounds/step/wood6"
+            ]
+        },
+        "minecraft:internal.block.wood.hit": {
+            "sounds": [
+                "sounds/step/wood1",
+                "sounds/step/wood2",
+                "sounds/step/wood3",
+                "sounds/step/wood4",
+                "sounds/step/wood5",
+                "sounds/step/wood6"
+            ]
+        },
+        "minecraft:internal.block.wood.place": {
+            "sounds": [
+                "sounds/dig/wood1",
+                "sounds/dig/wood2",
+                "sounds/dig/wood3",
+                "sounds/dig/wood4"
+            ]
+        },
+        "minecraft:internal.block.wood.step": {
+            "sounds": [
+                "sounds/step/wood1",
+                "sounds/step/wood2",
+                "sounds/step/wood3",
+                "sounds/step/wood4",
+                "sounds/step/wood5",
+                "sounds/step/wood6"
+            ]
+        },
+        "minecraft:internal.block.stone.break": {
+            "sounds": [
+                "sounds/dig/stone1",
+                "sounds/dig/stone2",
+                "sounds/dig/stone3",
+                "sounds/dig/stone4"
+            ]
+        },
+        "minecraft:internal.block.stone.fall": {
+            "sounds": [
+                "sounds/step/stone1",
+                "sounds/step/stone2",
+                "sounds/step/stone3",
+                "sounds/step/stone4",
+                "sounds/step/stone5",
+                "sounds/step/stone6"
+            ]
+        },
+        "minecraft:internal.block.stone.hit": {
+            "sounds": [
+                "sounds/step/stone1",
+                "sounds/step/stone2",
+                "sounds/step/stone3",
+                "sounds/step/stone4",
+                "sounds/step/stone5",
+                "sounds/step/stone6"
+            ]
+        },
+        "minecraft:internal.block.stone.place": {
+            "sounds": [
+                "sounds/dig/stone1",
+                "sounds/dig/stone2",
+                "sounds/dig/stone3",
+                "sounds/dig/stone4"
+            ]
+        },
+        "minecraft:internal.block.stone.step": {
+            "sounds": [
+                "sounds/step/stone1",
+                "sounds/step/stone2",
+                "sounds/step/stone3",
+                "sounds/step/stone4",
+                "sounds/step/stone5",
+                "sounds/step/stone6"
+            ]
+        }
+    }
+}

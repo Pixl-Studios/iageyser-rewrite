@@ -1,0 +1,53 @@
+{
+    "blocks": [
+        {
+            "name": "casinoitems:slotmachine",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Slotmachine",
+            "texture": "textures/blocks/slotmachine.png"
+        },
+        {
+            "name": "graves:mossy_stone_bricks",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Mossy stone bricks",
+            "texture": "textures/blocks/mossy_stone_bricks.png"
+        },
+        {
+            "name": "graves:nether_wart_block",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Nether wart block",
+            "texture": "textures/blocks/nether_wart_block.png"
+        },
+        {
+            "name": "velocity:polished_blackstone_bricks",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Polished blackstone bricks",
+            "texture": "textures/blocks/polished_blackstone_bricks.png"
+        },
+        {
+            "name": "velocity:polished_blackstone_bricks_velologo",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Polished blackstone bricks velologo",
+            "texture": "textures/blocks/polished_blackstone_bricks_velologo.png"
+        },
+        {
+            "name": "velocity:waystone",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Waystone",
+            "texture": "textures/blocks/waystone.png"
+        },
+        {
+            "name": "velocity:waystone2",
+            "java_id": "minecraft:note_block",
+            "bedrock_id": 25,
+            "display_name": "Waystone2",
+            "texture": "textures/blocks/waystone2.png"
+        }
+    ]
+}

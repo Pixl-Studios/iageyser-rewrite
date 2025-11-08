@@ -10,6 +10,7 @@ class ItemsAdderParser
     private Filesystem $filesystem;
     private string $packPath;
     private array $items = [];
+    private array $blocks = [];
     private ?string $resourcePackPath = null;
 
     public function __construct(string $packPath)
@@ -47,8 +48,12 @@ class ItemsAdderParser
                 $this->detectItemsFromResourcePack();
             }
 
+            // Detect blocks from resource pack structure
+            $this->detectBlocksFromResourcePack();
+
             return [
                 'items' => $this->items,
+                'blocks' => $this->blocks,
                 'resourcePackPath' => $this->resourcePackPath,
                 'packPath' => $this->packPath
             ];
@@ -463,6 +468,186 @@ class ItemsAdderParser
         }
 
         return null;
+    }
+
+    /**
+     * Detect blocks from resource pack structure
+     * Scans textures/block/ folders to find blocks
+     */
+    private function detectBlocksFromResourcePack(): void
+    {
+        if (!$this->resourcePackPath) {
+            return;
+        }
+
+        $assetsPath = $this->resourcePackPath . '/assets';
+        if (!is_dir($assetsPath)) {
+            return;
+        }
+
+        // Scan all namespaces in the assets folder
+        $iterator = new \DirectoryIterator($assetsPath);
+        
+        foreach ($iterator as $namespaceDir) {
+            if (!$namespaceDir->isDir() || $namespaceDir->isDot()) {
+                continue;
+            }
+
+            $namespace = $namespaceDir->getFilename();
+            
+            // Skip minecraft namespace (vanilla blocks)
+            if ($namespace === 'minecraft') {
+                continue;
+            }
+
+            // Look for textures/block/ and textures/blocks/ folders
+            $texturePaths = [
+                $namespaceDir->getPathname() . '/textures/block',
+                $namespaceDir->getPathname() . '/textures/blocks',
+            ];
+
+            foreach ($texturePaths as $texturePath) {
+                if (!is_dir($texturePath)) {
+                    continue;
+                }
+
+                // Scan for texture files
+                $textureIterator = new \RecursiveIteratorIterator(
+                    new \RecursiveDirectoryIterator($texturePath, \RecursiveDirectoryIterator::SKIP_DOTS)
+                );
+
+                foreach ($textureIterator as $textureFile) {
+                    if (!$textureFile->isFile()) {
+                        continue;
+                    }
+
+                    $ext = strtolower($textureFile->getExtension());
+                    if (!in_array($ext, ['png', 'tga'])) {
+                        continue;
+                    }
+
+                    // Skip .mcmeta files
+                    if (pathinfo($textureFile->getFilename(), PATHINFO_EXTENSION) === 'mcmeta') {
+                        continue;
+                    }
+
+                    // Get relative path from texture folder
+                    $relativePath = str_replace($texturePath . DIRECTORY_SEPARATOR, '', $textureFile->getPathname());
+                    $relativePath = str_replace('\\', '/', $relativePath);
+                    
+                    // Remove extension to get block ID
+                    $blockId = pathinfo($relativePath, PATHINFO_FILENAME);
+                    
+                    // Handle subdirectories - use the full path as block ID
+                    $subDir = dirname($relativePath);
+                    if ($subDir !== '.' && $subDir !== $texturePath) {
+                        $blockId = str_replace('/', '_', $subDir) . '_' . $blockId;
+                    }
+
+                    $fullId = $namespace . ':' . $blockId;
+
+                    // Skip if we already have this block
+                    if (isset($this->blocks[$fullId])) {
+                        continue;
+                    }
+
+                    // Try to find model file
+                    $modelPath = $this->findModelForBlock($namespace, $blockId, $textureFile->getPathname());
+
+                    // Try to find blockstate file
+                    $blockstatePath = $this->findBlockstateForBlock($namespace, $blockId);
+
+                    // Create block entry
+                    $this->blocks[$fullId] = [
+                        'namespace' => $namespace,
+                        'id' => $blockId,
+                        'fullId' => $fullId,
+                        'displayName' => ucfirst(str_replace('_', ' ', $blockId)),
+                        'texture' => $textureFile->getPathname(),
+                        'model' => $modelPath,
+                        'blockstate' => $blockstatePath,
+                        'material' => 'NOTE_BLOCK', // Default material for custom blocks (ItemsAdder often uses note_block)
+                        'raw' => []
+                    ];
+                }
+            }
+        }
+    }
+
+    /**
+     * Find model file for a block
+     */
+    private function findModelForBlock(string $namespace, string $blockId, string $texturePath): ?string
+    {
+        if (!$this->resourcePackPath) {
+            return null;
+        }
+
+        // Try to find model in various locations
+        $basePath = $this->resourcePackPath . '/assets/' . $namespace . '/models';
+        
+        // Remove extension and subdirectory info from block ID for model lookup
+        $modelId = $blockId;
+        if (strpos($modelId, '_') !== false) {
+            $parts = explode('_', $modelId);
+            $modelId = end($parts);
+        }
+
+        $modelPaths = [
+            $basePath . '/block/' . $modelId . '.json',
+            $basePath . '/blocks/' . $modelId . '.json',
+        ];
+
+        // Also try to find model based on texture path structure
+        $textureRelative = str_replace($this->resourcePackPath . '/assets/' . $namespace . '/textures/', '', $texturePath);
+        $textureRelative = str_replace(['block/', 'blocks/'], '', $textureRelative);
+        $textureRelative = dirname($textureRelative);
+        
+        if ($textureRelative !== '.' && $textureRelative !== $this->resourcePackPath . '/assets/' . $namespace . '/textures') {
+            $modelPaths[] = $basePath . '/block/' . str_replace('/', '/', $textureRelative) . '/' . pathinfo($texturePath, PATHINFO_FILENAME) . '.json';
+        }
+
+        foreach ($modelPaths as $path) {
+            if (file_exists($path)) {
+                return $path;
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Find blockstate file for a block
+     */
+    private function findBlockstateForBlock(string $namespace, string $blockId): ?string
+    {
+        if (!$this->resourcePackPath) {
+            return null;
+        }
+
+        $blockstatesPath = $this->resourcePackPath . '/assets/' . $namespace . '/blockstates';
+        if (!is_dir($blockstatesPath)) {
+            return null;
+        }
+
+        // Remove subdirectory info from block ID
+        $blockstateId = $blockId;
+        if (strpos($blockstateId, '_') !== false) {
+            $parts = explode('_', $blockstateId);
+            $blockstateId = end($parts);
+        }
+
+        $blockstateFile = $blockstatesPath . '/' . $blockstateId . '.json';
+        if (file_exists($blockstateFile)) {
+            return $blockstateFile;
+        }
+
+        return null;
+    }
+
+    public function getBlocks(): array
+    {
+        return $this->blocks;
     }
 }
 

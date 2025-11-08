@@ -5,11 +5,13 @@ namespace IAGeyser\Generator;
 class GeyserMappingsGenerator
 {
     private array $items;
+    private array $blocks;
     private int $nextItemId = 1000; // Start from a high number to avoid conflicts
 
-    public function __construct(array $items)
+    public function __construct(array $items, array $blocks = [])
     {
         $this->items = $items;
+        $this->blocks = $blocks;
     }
 
     public function generate(): array
@@ -26,6 +28,125 @@ class GeyserMappingsGenerator
         }
 
         return $mappings;
+    }
+
+    public function generateItemsJson(): string
+    {
+        $mappings = $this->generate();
+        return json_encode($mappings, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+    }
+
+    public function generateBlocksJson(): string
+    {
+        $mappings = [
+            'blocks' => []
+        ];
+
+        foreach ($this->blocks as $fullId => $block) {
+            $geyserBlock = $this->createGeyserBlock($block, $fullId);
+            if ($geyserBlock) {
+                $mappings['blocks'][] = $geyserBlock;
+            }
+        }
+
+        return json_encode($mappings, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+    }
+
+    private function createGeyserBlock(array $block, string $fullId): ?array
+    {
+        // Geyser custom block structure
+        // Maps Java Edition blocks to Bedrock Edition blocks
+        $material = $block['material'] ?? 'NOTE_BLOCK';
+        $javaBlockId = $this->getJavaBlockId($material);
+        
+        $geyserBlock = [
+            'name' => $block['fullId'], // ItemsAdder block identifier (e.g., "itemsadder:custom_block")
+            'java_id' => $javaBlockId, // Java block identifier (e.g., "minecraft:note_block")
+            'bedrock_id' => $this->getBedrockBlockId($material), // Bedrock block ID
+            'display_name' => $block['displayName'],
+        ];
+
+        // Add block states if available
+        if (isset($block['blockstate']) && $block['blockstate']) {
+            $blockStates = $this->extractBlockStates($block['blockstate']);
+            if (!empty($blockStates)) {
+                $geyserBlock['block_states'] = $blockStates;
+            }
+        }
+
+        // Add texture path if available
+        $texturePath = $this->getBlockTexturePath($block);
+        if ($texturePath) {
+            $geyserBlock['texture'] = $texturePath;
+        }
+
+        return $geyserBlock;
+    }
+
+    private function getJavaBlockId(string $material): string
+    {
+        // Convert material name to Java block identifier format
+        $materialLower = strtolower($material);
+        return 'minecraft:' . $materialLower;
+    }
+
+    private function getBedrockBlockId(string $material): int
+    {
+        // Map Java Edition block materials to Bedrock block IDs
+        // ItemsAdder custom blocks often use NOTE_BLOCK as base
+        $blockMap = [
+            'NOTE_BLOCK' => 25, // Note Block
+            'BARRIER' => 416, // Barrier
+            'STRUCTURE_BLOCK' => 252, // Structure Block
+        ];
+
+        return $blockMap[strtoupper($material)] ?? 25; // Default to note block
+    }
+
+    private function getBlockTexturePath(array $block): ?string
+    {
+        if (!$block['texture']) {
+            return null;
+        }
+
+        // Return relative path from resource pack root
+        // Geyser expects: textures/blocks/filename.png
+        $blockId = $block['id'] ?? basename($block['texture'], '.' . pathinfo($block['texture'], PATHINFO_EXTENSION));
+        $filename = $blockId . '.png';
+        
+        return 'textures/blocks/' . $filename;
+    }
+
+    private function extractBlockStates(?string $blockstatePath): array
+    {
+        if (!$blockstatePath || !file_exists($blockstatePath)) {
+            return [];
+        }
+
+        try {
+            $content = file_get_contents($blockstatePath);
+            $blockstateData = json_decode($content, true);
+
+            if (!$blockstateData || !isset($blockstateData['variants'])) {
+                return [];
+            }
+
+            // Extract block states from variants
+            $states = [];
+            foreach ($blockstateData['variants'] as $variant => $model) {
+                // Parse variant string (e.g., "facing=north,powered=false")
+                if (preg_match_all('/(\w+)=(\w+)/', $variant, $matches)) {
+                    for ($i = 0; $i < count($matches[1]); $i++) {
+                        $states[$matches[1][$i]] = $matches[2][$i];
+                    }
+                }
+            }
+
+            return $states;
+        } catch (\Exception $e) {
+            // Ignore errors in blockstate parsing
+            return [];
+        }
     }
 
     private function createGeyserItem(array $item, string $fullId): ?array
@@ -323,8 +444,7 @@ class GeyserMappingsGenerator
 
     public function generateJson(): string
     {
-        $mappings = $this->generate();
-        return json_encode($mappings, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+        return $this->generateItemsJson();
     }
 }
 

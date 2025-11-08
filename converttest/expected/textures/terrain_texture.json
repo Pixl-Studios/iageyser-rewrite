@@ -1,0 +1,29 @@
+{
+    "resource_pack_name": "geyser_custom",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "tduxi03cx53": {
+            "textures": "textures/furnace_blocks/qx99ujewvo"
+        },
+        "tv3q46io01r": {
+            "textures": "textures/furnace_blocks/w67j6cip1w"
+        },
+        "t6gt2r7mb5p": {
+            "textures": "textures/furnace_blocks/xbiyqb6i86"
+        },
+        "t5x0hijy86r": {
+            "textures": "textures/furnace_blocks/7asdbzybej"
+        },
+        "tyrg5hfbd4h": {
+            "textures": "textures/furnace_blocks/gdevw189u7"
+        },
+        "te0j6mfqah1": {
+            "textures": "textures/furnace_blocks/ssdjvyc5fk"
+        },
+        "tk2x4leuxzz": {
+            "textures": "textures/furnace_blocks/d6xpr5g1gv"
+        }
+    }
+}

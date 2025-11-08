@@ -59,9 +59,10 @@ class ConvertCommand extends Command
             $parsedData = $parser->parse();
 
             $items = $parsedData['items'];
+            $blocks = $parsedData['blocks'] ?? [];
             $resourcePackPath = $parsedData['resourcePackPath'];
 
-            $io->success(sprintf('Found %d items in the pack', count($items)));
+            $io->success(sprintf('Found %d items and %d blocks in the pack', count($items), count($blocks)));
 
             if ($resourcePackPath) {
                 $io->info("Resource pack found at: {$resourcePackPath}");
@@ -78,17 +79,24 @@ class ConvertCommand extends Command
 
             // Generate Geyser mappings
             $io->section('Step 2: Generating Geyser mappings');
-            $mappingsGenerator = new GeyserMappingsGenerator($items);
-            $mappingsJson = $mappingsGenerator->generateJson();
+            $mappingsGenerator = new GeyserMappingsGenerator($items, $blocks);
+            $itemsMappingsJson = $mappingsGenerator->generateItemsJson();
+            $blocksMappingsJson = $mappingsGenerator->generateBlocksJson();
 
-            $mappingsFile = $mappingsOutputPath . '/items.json';
-            file_put_contents($mappingsFile, $mappingsJson);
-            $io->success("Mappings saved to: {$mappingsFile}");
+            $itemsMappingsFile = $mappingsOutputPath . '/items.json';
+            file_put_contents($itemsMappingsFile, $itemsMappingsJson);
+            $io->success("Items mappings saved to: {$itemsMappingsFile}");
+
+            if (count($blocks) > 0) {
+                $blocksMappingsFile = $mappingsOutputPath . '/blocks.json';
+                file_put_contents($blocksMappingsFile, $blocksMappingsJson);
+                $io->success("Blocks mappings saved to: {$blocksMappingsFile}");
+            }
 
             // Convert resource pack
             if ($resourcePackPath) {
                 $io->section('Step 3: Converting resource pack');
-                $converter = new ResourcePackConverter($resourcePackPath, $packOutputPath, $items);
+                $converter = new ResourcePackConverter($resourcePackPath, $packOutputPath, $items, $blocks);
                 $converter->convert();
                 $io->success("Resource pack converted to: {$packOutputPath}");
 
@@ -103,23 +111,32 @@ class ConvertCommand extends Command
 
             // Display summary
             $io->section('Conversion Summary');
-            $io->table(
-                ['Item', 'Value'],
-                [
-                    ['Items found', count($items)],
-                    ['Resource pack', $resourcePackPath ? 'Yes' : 'No'],
-                    ['Mappings file', $mappingsFile],
-                    ['Output pack', $packOutputPath],
-                ]
-            );
+            $tableData = [
+                ['Items found', count($items)],
+                ['Blocks found', count($blocks)],
+                ['Resource pack', $resourcePackPath ? 'Yes' : 'No'],
+                ['Items mappings', $itemsMappingsFile],
+            ];
+            
+            if (count($blocks) > 0) {
+                $tableData[] = ['Blocks mappings', $blocksMappingsFile];
+            }
+            
+            $tableData[] = ['Output pack', $packOutputPath];
+            
+            $io->table(['Item', 'Value'], $tableData);
 
             $io->success('Conversion completed successfully!');
             $io->note('Next steps:');
-            $io->listing([
-                'Place the mappings file in Geyser\'s custom_mappings folder',
-                'Place the resource pack in Geyser\'s packs folder',
-                'Restart your server or reload Geyser'
-            ]);
+            $nextSteps = [
+                'Place the items.json file in Geyser\'s custom_mappings folder',
+            ];
+            if (count($blocks) > 0) {
+                $nextSteps[] = 'Place the blocks.json file in Geyser\'s custom_mappings folder';
+            }
+            $nextSteps[] = 'Place the resource pack in Geyser\'s packs folder';
+            $nextSteps[] = 'Restart your server or reload Geyser';
+            $io->listing($nextSteps);
 
             return Command::SUCCESS;
 

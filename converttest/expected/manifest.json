@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Items!",
+        "name": "Furnace Pack",
+        "uuid": "242c349a-1ab2-4e42-af48-172003a6f643",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Items!",
+            "type": "resources",
+            "uuid": "007c0627-7d39-45ef-823e-0da072c6776c",
+            "version": [1, 0, 0]
+        }
+    ]
+}
