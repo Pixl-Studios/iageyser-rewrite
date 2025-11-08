@@ -11,9 +11,8 @@ This guide will walk you through using the PHP CLI tool to convert ItemsAdder pa
 ## Installation
 
 1. **Clone or download this repository**
-   ```bash
-   git clone <repository-url>
-   cd iageyser-rewrite
+   ```Use any method of cloning/downloading
+   for this repo
    ```
 
 2. **Install dependencies**
