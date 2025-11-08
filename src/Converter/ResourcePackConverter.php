@@ -63,18 +63,17 @@ class ResourcePackConverter
     private function convertTextures(): void
     {
         // Copy textures from items first
-        foreach ($this->items as $item) {
+        foreach ($this->items as $fullId => $item) {
             if (!$item['texture'] || !file_exists($item['texture'])) {
                 continue;
             }
 
             $sourcePath = $item['texture'];
-            $filename = basename($sourcePath);
             
-            // Ensure PNG extension
-            if (pathinfo($filename, PATHINFO_EXTENSION) !== 'png') {
-                $filename = pathinfo($filename, PATHINFO_FILENAME) . '.png';
-            }
+            // Use item ID as filename to avoid conflicts
+            // This ensures unique texture names
+            $itemId = $item['id'] ?? basename($sourcePath, '.' . pathinfo($sourcePath, PATHINFO_EXTENSION));
+            $filename = $itemId . '.png';
             
             $destinationPath = $this->outputPath . '/textures/items/' . $filename;
 
@@ -105,7 +104,8 @@ class ResourcePackConverter
         );
 
         foreach ($iterator as $item) {
-            $destinationPath = $destination . '/' . $iterator->getSubPathName();
+            $relativePath = $iterator->getSubPathname();
+            $destinationPath = $destination . '/' . $relativePath;
 
             if ($item->isDir()) {
                 $this->filesystem->mkdir($destinationPath);

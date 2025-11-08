@@ -31,16 +31,24 @@ class GeyserMappingsGenerator
     private function createGeyserItem(array $item, string $fullId): ?array
     {
         // Geyser custom item structure
-        // Note: Geyser custom items format may vary by version
-        // This format works with Geyser's custom items API
+        // Maps Java Edition items with custom model data to Bedrock Edition items
+        $material = $item['material'] ?? 'DIAMOND';
+        $javaItemId = $this->getJavaItemId($material);
+        
         $geyserItem = [
-            'name' => $item['fullId'],
+            'name' => $item['fullId'], // ItemsAdder item identifier (e.g., "itemsadder:custom_item")
+            'java_id' => $javaItemId, // Java item identifier (e.g., "minecraft:diamond")
+            'bedrock_id' => $this->getBedrockItemId($material), // Bedrock item ID
             'display_name' => $item['displayName'],
         ];
 
-        // Add custom model data if present
+        // Add custom model data if present (required for ItemsAdder items)
         if (isset($item['customModelData']) && $item['customModelData'] !== null) {
             $geyserItem['custom_model_data'] = (int)$item['customModelData'];
+        } else {
+            // If no custom model data, we might need to generate one or skip this item
+            // For now, we'll still include it but note that it might not work correctly
+            $geyserItem['custom_model_data'] = $this->generateCustomModelData($fullId);
         }
 
         // Add icon path if texture exists
@@ -48,10 +56,6 @@ class GeyserMappingsGenerator
         if ($iconPath) {
             $geyserItem['icon'] = $iconPath;
         }
-
-        // Add item properties based on material
-        $material = $item['material'] ?? 'DIAMOND';
-        $geyserItem['item_id'] = $this->getBedrockItemId($material);
 
         // Add optional properties
         if (isset($item['maxStackSize']) && $item['maxStackSize'] !== 64) {
@@ -71,6 +75,21 @@ class GeyserMappingsGenerator
         return $geyserItem;
     }
 
+    private function getJavaItemId(string $material): string
+    {
+        // Convert material name to Java item identifier format
+        // e.g., "DIAMOND" -> "minecraft:diamond"
+        $materialLower = strtolower($material);
+        return 'minecraft:' . $materialLower;
+    }
+
+    private function generateCustomModelData(string $fullId): int
+    {
+        // Generate a unique custom model data based on the item's full ID
+        // This ensures each ItemsAdder item gets a unique custom model data value
+        return abs(crc32($fullId)) % 1000000; // Use CRC32 hash to generate a number
+    }
+
     private function getIconPath(array $item): ?string
     {
         if (!$item['texture']) {
@@ -79,17 +98,9 @@ class GeyserMappingsGenerator
 
         // Return relative path from resource pack root
         // Geyser expects: textures/items/filename.png
-        $filename = basename($item['texture']);
-        
-        // Ensure it's a PNG file (or use PNG extension)
-        $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-        if (!in_array($ext, ['png', 'tga'])) {
-            // If no extension or unknown extension, assume PNG
-            $filename = pathinfo($filename, PATHINFO_FILENAME) . '.png';
-        } elseif ($ext === 'tga') {
-            // Convert TGA to PNG extension (texture will need conversion, but path is set)
-            $filename = pathinfo($filename, PATHINFO_FILENAME) . '.png';
-        }
+        // Use item ID to ensure consistency with resource pack converter
+        $itemId = $item['id'] ?? basename($item['texture'], '.' . pathinfo($item['texture'], PATHINFO_EXTENSION));
+        $filename = $itemId . '.png';
         
         return 'textures/items/' . $filename;
     }
