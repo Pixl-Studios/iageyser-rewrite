@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/wooden_sword"},"overrides":[{"predicate":{"custom_model_data":10008},"model":"fantasy_weapons:item/nature_sword"},{"predicate":{"custom_model_data":10009},"model":"item/wooden_sword"}]}

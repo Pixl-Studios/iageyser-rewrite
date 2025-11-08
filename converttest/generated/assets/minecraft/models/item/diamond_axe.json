@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/diamond_axe"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"fantasy_weapons:item/azure_greataxe"},{"predicate":{"custom_model_data":10001},"model":"item/diamond_axe"}]}

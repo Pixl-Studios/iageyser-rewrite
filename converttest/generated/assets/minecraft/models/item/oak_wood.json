@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/oak_wood","overrides":[{"predicate":{"custom_model_data":10000},"model":"summer:item/beach_umbrella"},{"predicate":{"custom_model_data":10001},"model":"item/oak_wood"}]}

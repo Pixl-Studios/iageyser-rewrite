@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"minecraft:model","model":"minecraft:item/iron_shovel"},"entries":[{"threshold":10000,"model":{"type":"model","model":"ax_emerald_set:item/ia_auto/emerald_shovel"}},{"threshold":10001,"model":{"type":"model","model":"item/iron_shovel"}}]},"oversized_in_gui":true}

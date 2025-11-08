@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/stone_sword"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"fantasy_weapons:item/ancient_greatslab"},{"predicate":{"custom_model_data":10001},"model":"item/stone_sword"}]}

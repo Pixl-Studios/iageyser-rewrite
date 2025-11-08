@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"minecraft:model","model":"minecraft:item/iron_pickaxe"},"entries":[{"threshold":10000,"model":{"type":"model","model":"ax_emerald_set:item/ia_auto/emerald_pickaxe"}},{"threshold":10001,"model":{"type":"model","model":"item/iron_pickaxe"}}]},"oversized_in_gui":true}

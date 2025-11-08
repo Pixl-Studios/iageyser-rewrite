@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/red_stained_glass","overrides":[{"predicate":{"custom_model_data":10000},"model":"summer:item/tanning_chair"},{"predicate":{"custom_model_data":10001},"model":"item/red_stained_glass"}]}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_hoe"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"fantasy_weapons:item/azure_scythe"},{"predicate":{"custom_model_data":10001},"model":"item/iron_hoe"}]}

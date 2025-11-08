@@ -1,0 +1,1 @@
+{"parent":"block/cube_all","textures":{"down":"example_block:croix/down","east":"example_block:croix/east","north":"example_block:croix/north","south":"example_block:croix/south","up":"example_block:croix/up","west":"example_block:croix/west","particle":"example_block:croix/down"}}

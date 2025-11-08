@@ -35,14 +35,17 @@ class ItemsAdderParser
         }
 
         try {
+            // Find resourcepack folder first (needed for both items.yml and fallback detection)
+            $this->findResourcePack();
+
             // Find items.yml file
             $itemsYmlPath = $this->findItemsYml();
             if ($itemsYmlPath) {
                 $this->parseItemsYml($itemsYmlPath);
+            } else {
+                // If no items.yml found, try to detect items from resource pack structure
+                $this->detectItemsFromResourcePack();
             }
-
-            // Find resourcepack folder
-            $this->findResourcePack();
 
             return [
                 'items' => $this->items,
@@ -139,6 +142,12 @@ class ItemsAdderParser
 
     private function findResourcePack(): void
     {
+        // First check if the input path itself is a resource pack (contains assets folder)
+        if (is_dir($this->packPath . '/assets')) {
+            $this->resourcePackPath = $this->packPath;
+            return;
+        }
+
         $possiblePaths = [
             $this->packPath . '/resourcepack',
             $this->packPath . '/resource_pack',
@@ -154,15 +163,33 @@ class ItemsAdderParser
         }
 
         // Search for assets folder (Java resource pack structure)
-        $iterator = new \RecursiveIteratorIterator(
-            new \RecursiveDirectoryIterator($this->packPath, \RecursiveDirectoryIterator::SKIP_DOTS)
-        );
+        // Use RecursiveDirectoryIterator to find assets folder at any depth
+        try {
+            $iterator = new \RecursiveIteratorIterator(
+                new \RecursiveDirectoryIterator($this->packPath, \RecursiveDirectoryIterator::SKIP_DOTS),
+                \RecursiveIteratorIterator::SELF_FIRST
+            );
 
-        foreach ($iterator as $file) {
-            if ($file->isDir() && $file->getFilename() === 'assets') {
-                $this->resourcePackPath = $file->getPath();
-                return;
+            foreach ($iterator as $file) {
+                if ($file->isDir() && $file->getFilename() === 'assets') {
+                    // Check if this assets folder contains namespace folders (indicating it's a resource pack)
+                    $namespaceIterator = new \DirectoryIterator($file->getPathname());
+                    $hasNamespaces = false;
+                    foreach ($namespaceIterator as $nsItem) {
+                        if ($nsItem->isDir() && !$nsItem->isDot()) {
+                            $hasNamespaces = true;
+                            break;
+                        }
+                    }
+                    
+                    if ($hasNamespaces) {
+                        $this->resourcePackPath = $file->getPath();
+                        return;
+                    }
+                }
             }
+        } catch (\Exception $e) {
+            // Ignore errors during directory traversal
         }
     }
 
@@ -249,6 +276,193 @@ class ItemsAdderParser
     public function getResourcePackPath(): ?string
     {
         return $this->resourcePackPath;
+    }
+
+    /**
+     * Detect items from resource pack structure when items.yml is not available
+     * Scans textures/item/ and textures/items/ folders to find items
+     */
+    private function detectItemsFromResourcePack(): void
+    {
+        if (!$this->resourcePackPath) {
+            return;
+        }
+
+        $assetsPath = $this->resourcePackPath . '/assets';
+        if (!is_dir($assetsPath)) {
+            return;
+        }
+
+        // Scan all namespaces in the assets folder
+        $iterator = new \DirectoryIterator($assetsPath);
+        
+        foreach ($iterator as $namespaceDir) {
+            if (!$namespaceDir->isDir() || $namespaceDir->isDot()) {
+                continue;
+            }
+
+            $namespace = $namespaceDir->getFilename();
+            
+            // Skip minecraft namespace (vanilla items)
+            if ($namespace === 'minecraft') {
+                continue;
+            }
+
+            // Look for textures/item/ and textures/items/ folders
+            $texturePaths = [
+                $namespaceDir->getPathname() . '/textures/item',
+                $namespaceDir->getPathname() . '/textures/items',
+            ];
+
+            foreach ($texturePaths as $texturePath) {
+                if (!is_dir($texturePath)) {
+                    continue;
+                }
+
+                // Scan for texture files
+                $textureIterator = new \RecursiveIteratorIterator(
+                    new \RecursiveDirectoryIterator($texturePath, \RecursiveDirectoryIterator::SKIP_DOTS)
+                );
+
+                foreach ($textureIterator as $textureFile) {
+                    if (!$textureFile->isFile()) {
+                        continue;
+                    }
+
+                    $ext = strtolower($textureFile->getExtension());
+                    if (!in_array($ext, ['png', 'tga'])) {
+                        continue;
+                    }
+
+                    // Get relative path from texture folder
+                    $relativePath = str_replace($texturePath . DIRECTORY_SEPARATOR, '', $textureFile->getPathname());
+                    $relativePath = str_replace('\\', '/', $relativePath);
+                    
+                    // Remove extension to get item ID
+                    $itemId = pathinfo($relativePath, PATHINFO_FILENAME);
+                    
+                    // Handle subdirectories - use the full path as item ID
+                    $subDir = dirname($relativePath);
+                    if ($subDir !== '.') {
+                        $itemId = str_replace('/', '_', $subDir) . '_' . $itemId;
+                    }
+
+                    $fullId = $namespace . ':' . $itemId;
+
+                    // Skip if we already have this item
+                    if (isset($this->items[$fullId])) {
+                        continue;
+                    }
+
+                    // Try to find model file
+                    $modelPath = $this->findModelForItem($namespace, $itemId, $textureFile->getPathname());
+
+                    // Try to extract custom model data from model file
+                    $customModelData = $this->extractCustomModelData($modelPath);
+
+                    // Create item entry
+                    $this->items[$fullId] = [
+                        'namespace' => $namespace,
+                        'id' => $itemId,
+                        'fullId' => $fullId,
+                        'displayName' => ucfirst(str_replace('_', ' ', $itemId)),
+                        'resource' => null,
+                        'material' => 'DIAMOND', // Default material
+                        'customModelData' => $customModelData,
+                        'durability' => null,
+                        'maxStackSize' => 64,
+                        'lore' => [],
+                        'enchantments' => [],
+                        'texture' => $textureFile->getPathname(),
+                        'model' => $modelPath,
+                        'raw' => []
+                    ];
+                }
+            }
+        }
+    }
+
+    /**
+     * Find model file for an item
+     */
+    private function findModelForItem(string $namespace, string $itemId, string $texturePath): ?string
+    {
+        if (!$this->resourcePackPath) {
+            return null;
+        }
+
+        // Try to find model in various locations
+        $basePath = $this->resourcePackPath . '/assets/' . $namespace . '/models';
+        
+        // Remove extension and subdirectory info from item ID for model lookup
+        $modelId = $itemId;
+        if (strpos($modelId, '_') !== false) {
+            $parts = explode('_', $modelId);
+            $modelId = end($parts);
+        }
+
+        $modelPaths = [
+            $basePath . '/item/' . $modelId . '.json',
+            $basePath . '/items/' . $modelId . '.json',
+            $basePath . '/item/ia_auto/' . $modelId . '.json',
+        ];
+
+        // Also try to find model based on texture path structure
+        $textureRelative = str_replace($this->resourcePackPath . '/assets/' . $namespace . '/textures/', '', $texturePath);
+        $textureRelative = str_replace(['item/', 'items/'], '', $textureRelative);
+        $textureRelative = dirname($textureRelative);
+        
+        if ($textureRelative !== '.') {
+            $modelPaths[] = $basePath . '/item/' . str_replace('/', '/', $textureRelative) . '/' . pathinfo($texturePath, PATHINFO_FILENAME) . '.json';
+        }
+
+        foreach ($modelPaths as $path) {
+            if (file_exists($path)) {
+                return $path;
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * Extract custom model data from model file if it references a parent with predicate
+     */
+    private function extractCustomModelData(?string $modelPath): ?int
+    {
+        if (!$modelPath || !file_exists($modelPath)) {
+            return null;
+        }
+
+        try {
+            $modelContent = file_get_contents($modelPath);
+            $modelData = json_decode($modelContent, true);
+
+            if (!$modelData) {
+                return null;
+            }
+
+            // ItemsAdder models often use predicates with custom_model_data
+            if (isset($modelData['overrides'])) {
+                foreach ($modelData['overrides'] as $override) {
+                    if (isset($override['predicate']['custom_model_data'])) {
+                        return (int)$override['predicate']['custom_model_data'];
+                    }
+                }
+            }
+
+            // Try to extract from parent model name if it contains a number
+            if (isset($modelData['parent'])) {
+                $parent = $modelData['parent'];
+                if (preg_match('/(\d+)/', $parent, $matches)) {
+                    return (int)$matches[1];
+                }
+            }
+        } catch (\Exception $e) {
+            // Ignore errors in model parsing
+        }
+
+        return null;
     }
 }
 

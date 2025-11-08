@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_pickaxe"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"ax_emerald_set:item/ia_auto/emerald_pickaxe"},{"predicate":{"custom_model_data":10001},"model":"item/iron_pickaxe"}]}

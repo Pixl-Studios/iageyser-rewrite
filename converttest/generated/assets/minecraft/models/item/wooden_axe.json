@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/wooden_axe"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"fantasy_weapons:item/wooden_bludgeon"},{"predicate":{"custom_model_data":10001},"model":"fantasy_weapons:item/wooden_tonfa"},{"predicate":{"custom_model_data":10002},"model":"item/wooden_axe"}]}

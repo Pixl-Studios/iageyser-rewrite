@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"minecraft:model","model":"minecraft:item/wooden_sword"},"entries":[{"threshold":10008,"model":{"type":"model","model":"fantasy_weapons:item/nature_sword"}},{"threshold":10009,"model":{"type":"model","model":"item/wooden_sword"}}]},"oversized_in_gui":true}

@@ -1,0 +1,15 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "0": "block/red_mushroom_block",
+    "side": "#0",
+    "updown": "#0",
+    "particle": "#0",
+    "down": "#0",
+    "up": "#0",
+    "north": "#0",
+    "east": "#0",
+    "south": "#0",
+    "west": "#0"
+  }
+}

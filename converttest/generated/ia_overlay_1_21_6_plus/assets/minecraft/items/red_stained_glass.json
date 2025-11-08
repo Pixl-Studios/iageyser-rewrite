@@ -1,0 +1,1 @@
+{"model":{"type":"range_dispatch","property":"custom_model_data","index":0,"fallback":{"type":"minecraft:model","model":"minecraft:block/red_stained_glass"},"entries":[{"threshold":10000,"model":{"type":"model","model":"summer:item/tanning_chair"}},{"threshold":10001,"model":{"type":"model","model":"item/red_stained_glass"}}]},"oversized_in_gui":true}
