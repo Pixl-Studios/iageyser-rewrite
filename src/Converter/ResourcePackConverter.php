@@ -98,13 +98,16 @@ class ResourcePackConverter
             return;
         }
 
+        $sourceRealPath = realpath($source);
         $iterator = new \RecursiveIteratorIterator(
-            new \RecursiveDirectoryIterator($source, \RecursiveDirectoryIterator::SKIP_DOTS),
+            new \RecursiveDirectoryIterator($sourceRealPath, \RecursiveDirectoryIterator::SKIP_DOTS),
             \RecursiveIteratorIterator::SELF_FIRST
         );
 
         foreach ($iterator as $item) {
-            $relativePath = $iterator->getSubPathname();
+            $itemRealPath = $item->getRealPath();
+            $relativePath = str_replace($sourceRealPath . DIRECTORY_SEPARATOR, '', $itemRealPath);
+            $relativePath = str_replace('\\', '/', $relativePath);
             $destinationPath = $destination . '/' . $relativePath;
 
             if ($item->isDir()) {
@@ -115,7 +118,7 @@ class ResourcePackConverter
                 if (in_array($ext, ['png', 'tga'])) {
                     // Map Java texture paths to Bedrock paths
                     $bedrockPath = $this->mapJavaToBedrockPath($destinationPath);
-                    $this->filesystem->copy($item->getPathname(), $bedrockPath, true);
+                    $this->filesystem->copy($itemRealPath, $bedrockPath, true);
                 }
             }
         }

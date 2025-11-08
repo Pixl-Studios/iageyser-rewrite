@@ -6,6 +6,12 @@ A PHP CLI tool to convert Minecraft Java Edition ItemsAdder packs to Geyser-comp
 
 Some code has been generated using Generative AI, However all code errors and bugs have been hand/human fixed.
 
+What was generated with AI?
+
+Part of the ItemsAdderParser.php file, GeyserMappingsGenerator.php and a portion of the ResourcePackConverter.php
+
+so, made with the help of AI
+
 ## Features
 
 - ✅ Convert ItemsAdder items.yml to Geyser custom mappings
@@ -27,24 +33,41 @@ Some code has been generated using Generative AI, However all code errors and bu
    composer install
    ```
 
+## Quick Start
+
+1. **Install dependencies**:
+   ```bash
+   composer install
+   ```
+
+2. **Convert a pack**:
+   ```bash
+   php bin/convert --input=/path/to/itemsadder/pack --output=/path/to/output
+   ```
+
+3. **Install the converted files**:
+   - Copy `output/mappings/items.json` to Geyser's `custom_mappings/` folder
+   - Copy the resource pack folder to Geyser's `packs/` folder
+   - Restart your server
+
 ## Usage
 
-### Basic Usage
+📖 **For detailed usage instructions, examples, and troubleshooting, see [USAGE.md](USAGE.md)**
 
-Convert an ItemsAdder pack to Geyser format:
+### Basic Command
 
 ```bash
 php bin/convert --input=/path/to/itemsadder/pack --output=/path/to/output
 ```
 
-### Options
+### Command Options
 
 - `--input` or `-i`: Path to ItemsAdder pack (folder or ZIP file) - **Required**
 - `--output` or `-o`: Output directory for converted pack (default: `./output`)
 - `--pack-name`: Name for the output pack (default: `itemsadder-geyser-pack`)
 - `--create-zip`: Create a ZIP file of the converted pack
 
-### Examples
+### Quick Examples
 
 ```bash
 # Convert a pack folder
@@ -77,6 +100,8 @@ output/
 1. Place the `items.json` file in Geyser's `custom_mappings` folder
 2. Place the resource pack folder (or ZIP) in Geyser's `packs` folder
 3. Restart your server or reload Geyser
+
+**For detailed installation and troubleshooting instructions, see [USAGE.md](USAGE.md)**
 
 ## Current Status
 
