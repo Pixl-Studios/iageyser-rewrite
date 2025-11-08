@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use IAGeyser\Command\ConvertCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application('ItemsAdder to Geyser Converter', '1.0.0');
+$command = new ConvertCommand();
+$application->add($command);
+$application->setDefaultCommand($command->getName(), true);
+$application->run();
+

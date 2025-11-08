@@ -1,0 +1,25 @@
+{
+    "name": "iageyser/converter",
+    "description": "PHP CLI tool to convert ItemsAdder packs to Geyser format",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "symfony/console": "^6.0",
+        "symfony/yaml": "^6.0",
+        "symfony/filesystem": "^6.0",
+        "ext-zip": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "IAGeyser\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/convert"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
+
