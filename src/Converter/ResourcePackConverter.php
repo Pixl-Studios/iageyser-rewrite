@@ -167,27 +167,50 @@ class ResourcePackConverter
     {
         $textureData = [];
 
-        // Process items
+        // First, scan all textures in the output directory to build complete mapping
+        // This ensures we get correct relative paths
+        $texturesDir = $this->outputPath . '/textures';
+        if (is_dir($texturesDir)) {
+            $this->scanTexturesForMapping($texturesDir, $textureData, 'item');
+        }
+
+        // Then, map items to texture IDs based on the scanned textures
+        // Try to match items to textures by filename
         foreach ($this->items as $fullId => $item) {
             if (!$item['texture']) {
                 continue;
             }
 
-            $textureId = $this->generateTextureId($fullId);
-            $texturePath = $this->getTexturePathForMapping($item['texture']);
-
-            if ($texturePath) {
-                $textureData[$textureId] = [
-                    'textures' => $texturePath
-                ];
-                $this->itemTextureMap[$fullId] = $textureId;
+            // Try to find the texture in the scanned data by matching filename
+            $filename = basename($item['texture'], '.png');
+            $textureId = null;
+            
+            // Search through texture data to find matching texture
+            foreach ($textureData as $id => $data) {
+                $texturePathInData = $data['textures'];
+                // Extract filename from texture path
+                $pathParts = explode('/', $texturePathInData);
+                $filenameInData = basename(end($pathParts), '.png');
+                
+                if ($filenameInData === $filename || str_contains($texturePathInData, $filename)) {
+                    $textureId = $id;
+                    break;
+                }
             }
-        }
-
-        // Also scan for other textures in textures folders
-        $texturesDir = $this->outputPath . '/textures';
-        if (is_dir($texturesDir)) {
-            $this->scanTexturesForMapping($texturesDir, $textureData, 'item');
+            
+            // If not found, generate a new ID (shouldn't happen if scanning worked correctly)
+            if (!$textureId) {
+                $textureId = $this->generateTextureId($fullId);
+                // Try to get the texture path
+                $texturePath = $this->getTexturePathForMapping($item['texture']);
+                if ($texturePath && !isset($textureData[$textureId])) {
+                    $textureData[$textureId] = [
+                        'textures' => $texturePath
+                    ];
+                }
+            }
+            
+            $this->itemTextureMap[$fullId] = $textureId;
         }
 
         $itemTextureJson = [
@@ -245,15 +268,23 @@ class ResourcePackConverter
 
     private function scanTexturesForMapping(string $texturesDir, array &$textureData, string $type): void
     {
-        // Normalize the textures directory path
-        $texturesDirNormalized = str_replace('\\', '/', realpath($texturesDir) ?: $texturesDir);
-        if (substr($texturesDirNormalized, -1) !== '/') {
-            $texturesDirNormalized .= '/';
+        // Get absolute normalized base path
+        $basePath = realpath($texturesDir);
+        if (!$basePath) {
+            // If realpath fails, use the provided path and make it absolute
+            $basePath = $texturesDir;
+            if (!str_starts_with($basePath, '/') && !preg_match('/^[A-Z]:/', $basePath)) {
+                // Relative path - make it absolute from current working directory
+                $basePath = getcwd() . DIRECTORY_SEPARATOR . $basePath;
+            }
         }
+        // Normalize to forward slashes and ensure trailing slash
+        $basePath = str_replace('\\', '/', $basePath);
+        $basePath = rtrim($basePath, '/') . '/';
+        $basePathLen = strlen($basePath);
 
-        $iterator = new \RecursiveIteratorIterator(
-            new \RecursiveDirectoryIterator($texturesDir, \RecursiveDirectoryIterator::SKIP_DOTS)
-        );
+        $directoryIterator = new \RecursiveDirectoryIterator($texturesDir, \RecursiveDirectoryIterator::SKIP_DOTS);
+        $iterator = new \RecursiveIteratorIterator($directoryIterator);
 
         foreach ($iterator as $item) {
             if (!$item->isFile()) {
@@ -265,11 +296,29 @@ class ResourcePackConverter
                 continue;
             }
 
-            // Get the file path and normalize it
-            $filePath = str_replace('\\', '/', $item->getPathname());
+            // Get the full file path and normalize it
+            $fileRealPath = $item->getRealPath();
+            if (!$fileRealPath) {
+                $fileRealPath = $item->getPathname();
+            }
+            $filePath = str_replace('\\', '/', $fileRealPath);
             
-            // Get relative path from textures directory
-            $relativePath = str_replace($texturesDirNormalized, '', $filePath);
+            // Calculate relative path from base directory
+            // Ensure the file path starts with the base path
+            if (strpos($filePath, $basePath) === 0) {
+                $relativePath = substr($filePath, $basePathLen);
+            } else {
+                // Paths don't match - this shouldn't happen, but try case-insensitive or different normalization
+                $filePathLower = strtolower($filePath);
+                $basePathLower = strtolower($basePath);
+                if (strpos($filePathLower, $basePathLower) === 0) {
+                    $relativePath = substr($filePath, strlen($basePath));
+                } else {
+                    // Skip this file if we can't determine relative path
+                    continue;
+                }
+            }
+            
             // Remove .png extension
             $relativePath = preg_replace('/\.png$/i', '', $relativePath);
 
