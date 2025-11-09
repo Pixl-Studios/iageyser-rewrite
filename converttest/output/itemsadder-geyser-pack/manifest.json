@@ -3,7 +3,7 @@
     "header": {
         "name": "ItemsAdder Geyser Pack",
         "description": "Converted ItemsAdder pack for Geyser",
-        "uuid": "ab29e921-95ac-4d6e-b0e2-9566d508be98",
+        "uuid": "f8bbcf46-11e6-46c0-b05c-67da36ad03d1",
         "version": [
             1,
             0,
@@ -11,14 +11,14 @@
         ],
         "min_engine_version": [
             1,
-            16,
+            20,
             0
         ]
     },
     "modules": [
         {
             "type": "resources",
-            "uuid": "7404ecfd-caa3-4143-9a59-178b0d849ee0",
+            "uuid": "bdbbbdc1-d3a6-4d0e-ab41-eaffa9bf25a4",
             "version": [
                 1,
                 0,
