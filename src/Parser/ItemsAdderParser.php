@@ -43,8 +43,14 @@ class ItemsAdderParser
             $itemsYmlPath = $this->findItemsYml();
             if ($itemsYmlPath) {
                 $this->parseItemsYml($itemsYmlPath);
-            } else {
-                // If no items.yml found, try to detect items from resource pack structure
+            }
+            
+            // Parse minecraft item models to extract base item types and CMD values
+            // This is the authoritative source for which base item each custom item uses
+            $this->parseMinecraftItemModels();
+            
+            // If no items found yet, try to detect items from resource pack structure
+            if (empty($this->items)) {
                 $this->detectItemsFromResourcePack();
             }
 
@@ -660,6 +666,187 @@ class ItemsAdderParser
         $blockstateFile = $blockstatesPath . '/' . $blockstateId . '.json';
         if (file_exists($blockstateFile)) {
             return $blockstateFile;
+        }
+
+        return null;
+    }
+
+    /**
+     * Parse minecraft item models to extract base item types and custom model data
+     * This is the authoritative source for which base item each custom item uses
+     */
+    private function parseMinecraftItemModels(): void
+    {
+        if (!$this->resourcePackPath) {
+            return;
+        }
+
+        $minecraftItemModelsPath = $this->resourcePackPath . '/assets/minecraft/models/item';
+        if (!is_dir($minecraftItemModelsPath)) {
+            return;
+        }
+
+        // Scan all JSON files in the minecraft item models directory
+        $iterator = new \DirectoryIterator($minecraftItemModelsPath);
+        
+        foreach ($iterator as $file) {
+            if (!$file->isFile() || $file->getExtension() !== 'json') {
+                continue;
+            }
+
+            $baseItemName = pathinfo($file->getFilename(), PATHINFO_FILENAME);
+            $baseItemId = 'minecraft:' . $baseItemName;
+            
+            // Read the model file
+            $modelContent = file_get_contents($file->getPathname());
+            $modelData = json_decode($modelContent, true);
+            
+            if (!$modelData || !isset($modelData['overrides'])) {
+                continue;
+            }
+
+            // Process each override
+            foreach ($modelData['overrides'] as $override) {
+                if (!isset($override['predicate']['custom_model_data']) || !isset($override['model'])) {
+                    continue;
+                }
+
+                $customModelData = (int)$override['predicate']['custom_model_data'];
+                $modelPath = $override['model'];
+                
+                // Resolve the model path to find the actual texture
+                $texturePath = $this->resolveModelToTexture($modelPath);
+                
+                if (!$texturePath) {
+                    continue;
+                }
+
+                // Extract namespace and item ID from model path
+                // Format: "namespace:path/to/model" or "path/to/model"
+                $modelParts = explode(':', $modelPath, 2);
+                if (count($modelParts) === 2) {
+                    $namespace = $modelParts[0];
+                    $modelRelativePath = $modelParts[1];
+                } else {
+                    // No namespace, assume minecraft
+                    $namespace = 'minecraft';
+                    $modelRelativePath = $modelParts[0];
+                }
+
+                // Extract item ID from model path
+                // e.g., "item/ia_auto/icon_left_blue" -> "icon_left_blue"
+                // e.g., "entity/player/phead_0" -> "player_phead_0"
+                $modelPathParts = explode('/', $modelRelativePath);
+                $itemId = end($modelPathParts);
+                
+                // If there are multiple parts, include the parent directory
+                if (count($modelPathParts) > 1) {
+                    $parentDir = $modelPathParts[count($modelPathParts) - 2];
+                    // Skip common intermediate directories
+                    if (!in_array($parentDir, ['item', 'items', 'ia_auto', 'ia_auto_gen'])) {
+                        $itemId = $parentDir . '_' . $itemId;
+                    }
+                }
+
+                $fullId = $namespace . ':' . $itemId;
+
+                // Only add if we don't already have this item, or update if we do
+                // The minecraft item models are the authoritative source
+                if (!isset($this->items[$fullId])) {
+                    $this->items[$fullId] = [
+                        'namespace' => $namespace,
+                        'id' => $itemId,
+                        'fullId' => $fullId,
+                        'displayName' => ucfirst(str_replace('_', ' ', $itemId)),
+                        'resource' => null,
+                        'material' => strtoupper($baseItemName), // Convert base item name to material
+                        'customModelData' => $customModelData,
+                        'durability' => null,
+                        'maxStackSize' => 64,
+                        'lore' => [],
+                        'enchantments' => [],
+                        'texture' => $texturePath,
+                        'model' => $this->resourcePackPath . '/assets/' . $namespace . '/models/' . $modelRelativePath . '.json',
+                        'raw' => []
+                    ];
+                } else {
+                    // Update existing item with correct material and CMD
+                    $this->items[$fullId]['material'] = strtoupper($baseItemName);
+                    $this->items[$fullId]['customModelData'] = $customModelData;
+                    if ($texturePath) {
+                        $this->items[$fullId]['texture'] = $texturePath;
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * Resolve a model path to its texture
+     * Handles namespace resolution and model inheritance
+     */
+    private function resolveModelToTexture(string $modelPath): ?string
+    {
+        if (!$this->resourcePackPath) {
+            return null;
+        }
+
+        // Parse model path: "namespace:path/to/model" or "path/to/model"
+        $modelParts = explode(':', $modelPath, 2);
+        if (count($modelParts) === 2) {
+            $namespace = $modelParts[0];
+            $modelRelativePath = $modelParts[1];
+        } else {
+            $namespace = 'minecraft';
+            $modelRelativePath = $modelParts[0];
+        }
+
+        // Construct full model path
+        $modelFilePath = $this->resourcePackPath . '/assets/' . $namespace . '/models/' . $modelRelativePath . '.json';
+        
+        if (!file_exists($modelFilePath)) {
+            return null;
+        }
+
+        // Read the model file
+        $modelContent = file_get_contents($modelFilePath);
+        $modelData = json_decode($modelContent, true);
+        
+        if (!$modelData) {
+            return null;
+        }
+
+        // Extract texture from model
+        if (isset($modelData['textures'])) {
+            // Model has textures defined
+            foreach ($modelData['textures'] as $textureKey => $texturePath) {
+                // Skip empty textures
+                if (empty($texturePath) || $texturePath === 'item/empty') {
+                    continue;
+                }
+                
+                // Resolve texture path
+                $textureParts = explode(':', $texturePath, 2);
+                if (count($textureParts) === 2) {
+                    $textureNamespace = $textureParts[0];
+                    $textureRelativePath = $textureParts[1];
+                } else {
+                    $textureNamespace = $namespace;
+                    $textureRelativePath = $texturePath;
+                }
+
+                // Construct full texture path
+                $fullTexturePath = $this->resourcePackPath . '/assets/' . $textureNamespace . '/textures/' . $textureRelativePath . '.png';
+                
+                if (file_exists($fullTexturePath)) {
+                    return $fullTexturePath;
+                }
+            }
+        }
+
+        // If model has a parent, try to resolve from parent
+        if (isset($modelData['parent'])) {
+            return $this->resolveModelToTexture($modelData['parent']);
         }
 
         return null;

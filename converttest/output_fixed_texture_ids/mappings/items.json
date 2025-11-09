@@ -1,0 +1,1719 @@
+{
+    "format_version": 1,
+    "items": {
+        "minecraft:cooked_porkchop": [
+            {
+                "name": "converttest_ff3407faafa6",
+                "custom_model_data": 10023,
+                "icon": "converttest_ff3407faafa6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9ef5fe04278",
+                "custom_model_data": 10024,
+                "icon": "converttest_f9ef5fe04278",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fe0ff47f4839",
+                "custom_model_data": 10025,
+                "icon": "converttest_fe0ff47f4839",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fb071bc50435",
+                "custom_model_data": 10026,
+                "icon": "converttest_fb071bc50435",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_faa2c43e51f7",
+                "custom_model_data": 10027,
+                "icon": "converttest_faa2c43e51f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f584f64a3609",
+                "custom_model_data": 10135,
+                "icon": "converttest_f584f64a3609",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:diamond_axe": [
+            {
+                "name": "converttest_f08c51f806c0",
+                "custom_model_data": 10000,
+                "icon": "converttest_f08c51f806c0",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:diamond_sword": [
+            {
+                "name": "converttest_f6cba22d7481",
+                "custom_model_data": 10007,
+                "icon": "converttest_f6cba22d7481",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f6cba22d7481",
+                "custom_model_data": 10008,
+                "icon": "converttest_f6cba22d7481",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fb4d985ee690",
+                "custom_model_data": 10009,
+                "icon": "converttest_fb4d985ee690",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_axe": [
+            {
+                "name": "converttest_f88335d2d3ab",
+                "custom_model_data": 10000,
+                "icon": "converttest_f88335d2d3ab",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f8b05e60a3c3",
+                "custom_model_data": 10002,
+                "icon": "converttest_f8b05e60a3c3",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7df52c2096e",
+                "custom_model_data": 10003,
+                "icon": "converttest_f7df52c2096e",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3dc89d7dde9",
+                "custom_model_data": 10004,
+                "icon": "converttest_f3dc89d7dde9",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f678626e0bf0",
+                "custom_model_data": 10006,
+                "icon": "converttest_f678626e0bf0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7085e686623",
+                "custom_model_data": 10007,
+                "icon": "converttest_f7085e686623",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f62a21f6dec5",
+                "custom_model_data": 10009,
+                "icon": "converttest_f62a21f6dec5",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fe96c74d9292",
+                "custom_model_data": 10010,
+                "icon": "converttest_fe96c74d9292",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f2fcd060fbf0",
+                "custom_model_data": 10011,
+                "icon": "converttest_f2fcd060fbf0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fecd75a981f3",
+                "custom_model_data": 10012,
+                "icon": "converttest_fecd75a981f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f54e782baa11",
+                "custom_model_data": 10013,
+                "icon": "converttest_f54e782baa11",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f90b5bc023b8",
+                "custom_model_data": 10021,
+                "icon": "converttest_f90b5bc023b8",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_hoe": [
+            {
+                "name": "converttest_fdc3ef0eba26",
+                "custom_model_data": 10000,
+                "icon": "converttest_fdc3ef0eba26",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_pickaxe": [
+            {
+                "name": "converttest_fe8f451570ad",
+                "custom_model_data": 10000,
+                "icon": "converttest_fe8f451570ad",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_shovel": [
+            {
+                "name": "converttest_f3767195ac5f",
+                "custom_model_data": 10000,
+                "icon": "converttest_f3767195ac5f",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_sword": [
+            {
+                "name": "converttest_f860bf63144e",
+                "custom_model_data": 10001,
+                "icon": "converttest_f860bf63144e",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ffd0e0215c53",
+                "custom_model_data": 10005,
+                "icon": "converttest_ffd0e0215c53",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7a9e2cd35ca",
+                "custom_model_data": 10009,
+                "icon": "converttest_f7a9e2cd35ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f51b60b714e6",
+                "custom_model_data": 10013,
+                "icon": "converttest_f51b60b714e6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f02cae025fbe",
+                "custom_model_data": 10014,
+                "icon": "converttest_f02cae025fbe",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fde7560e1e53",
+                "custom_model_data": 10016,
+                "icon": "converttest_fde7560e1e53",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fbcc42e6c6bd",
+                "custom_model_data": 10017,
+                "icon": "converttest_fbcc42e6c6bd",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa7ef30c5677",
+                "custom_model_data": 10018,
+                "icon": "converttest_fa7ef30c5677",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa75f7da75e1",
+                "custom_model_data": 10021,
+                "icon": "converttest_fa75f7da75e1",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0f6722d8675",
+                "custom_model_data": 10022,
+                "icon": "converttest_f0f6722d8675",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f6b7df3a033e",
+                "custom_model_data": 10023,
+                "icon": "converttest_f6b7df3a033e",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f52dd4c91edf",
+                "custom_model_data": 10024,
+                "icon": "converttest_f52dd4c91edf",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f20f22c232c8",
+                "custom_model_data": 10025,
+                "icon": "converttest_f20f22c232c8",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4847786955b",
+                "custom_model_data": 10030,
+                "icon": "converttest_f4847786955b",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0bf39004bd8",
+                "custom_model_data": 10031,
+                "icon": "converttest_f0bf39004bd8",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f49a6eadf357",
+                "custom_model_data": 10033,
+                "icon": "converttest_f49a6eadf357",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:lantern": [
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10000,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10001,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f19445f9a9d4",
+                "custom_model_data": 10002,
+                "icon": "converttest_f19445f9a9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1e2cd0bee71",
+                "custom_model_data": 10003,
+                "icon": "converttest_f1e2cd0bee71",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10004,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10005,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_boots": [
+            {
+                "name": "converttest_fd357531bfac",
+                "custom_model_data": 10000,
+                "icon": "converttest_fd357531bfac",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_chestplate": [
+            {
+                "name": "converttest_f84de9ac36bc",
+                "custom_model_data": 10000,
+                "icon": "converttest_f84de9ac36bc",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_helmet": [
+            {
+                "name": "converttest_fdca2e4c948b",
+                "custom_model_data": 10000,
+                "icon": "converttest_fdca2e4c948b",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_leggings": [
+            {
+                "name": "converttest_f42d6d737d6f",
+                "custom_model_data": 10000,
+                "icon": "converttest_f42d6d737d6f",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:paper": [
+            {
+                "name": "converttest_fc485e1d7d43",
+                "custom_model_data": 10000,
+                "icon": "converttest_fc485e1d7d43",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f821a92c6d6c",
+                "custom_model_data": 10001,
+                "icon": "converttest_f821a92c6d6c",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0a28773307c",
+                "custom_model_data": 10002,
+                "icon": "converttest_f0a28773307c",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f6d18cf85ac2",
+                "custom_model_data": 10003,
+                "icon": "converttest_f6d18cf85ac2",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f52020f27d29",
+                "custom_model_data": 10004,
+                "icon": "converttest_f52020f27d29",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f755a0bd4fcc",
+                "custom_model_data": 10005,
+                "icon": "converttest_f755a0bd4fcc",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fb6a291e908f",
+                "custom_model_data": 10006,
+                "icon": "converttest_fb6a291e908f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3c97069e1a1",
+                "custom_model_data": 10007,
+                "icon": "converttest_f3c97069e1a1",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f8228c4ec87a",
+                "custom_model_data": 10008,
+                "icon": "converttest_f8228c4ec87a",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f08786c21310",
+                "custom_model_data": 10060,
+                "icon": "converttest_f08786c21310",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5b05109baa8",
+                "custom_model_data": 10061,
+                "icon": "converttest_f5b05109baa8",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3fead44b7dd",
+                "custom_model_data": 10062,
+                "icon": "converttest_f3fead44b7dd",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fecc2a263a05",
+                "custom_model_data": 10063,
+                "icon": "converttest_fecc2a263a05",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4c51bc3a0e3",
+                "custom_model_data": 10064,
+                "icon": "converttest_f4c51bc3a0e3",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f53df80d7529",
+                "custom_model_data": 10065,
+                "icon": "converttest_f53df80d7529",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10092,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10093,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10094,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10095,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10096,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10097,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10098,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10099,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f26593cde1a5",
+                "custom_model_data": 10100,
+                "icon": "converttest_f26593cde1a5",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10101,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10102,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1e2cd0bee71",
+                "custom_model_data": 10103,
+                "icon": "converttest_f1e2cd0bee71",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10104,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10105,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10106,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10107,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10108,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10109,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f2136eec1c45",
+                "custom_model_data": 10110,
+                "icon": "converttest_f2136eec1c45",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10112,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10113,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10114,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10115,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10116,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10117,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10118,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10119,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10120,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10121,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10122,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10123,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10124,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10125,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10126,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10127,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10128,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10129,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10130,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10131,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10132,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10133,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10134,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10135,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc87c703a004",
+                "custom_model_data": 10136,
+                "icon": "converttest_fc87c703a004",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff7f4d4959ca",
+                "custom_model_data": 10137,
+                "icon": "converttest_ff7f4d4959ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff7f4d4959ca",
+                "custom_model_data": 10138,
+                "icon": "converttest_ff7f4d4959ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff7f4d4959ca",
+                "custom_model_data": 10139,
+                "icon": "converttest_ff7f4d4959ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff7f4d4959ca",
+                "custom_model_data": 10140,
+                "icon": "converttest_ff7f4d4959ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff7f4d4959ca",
+                "custom_model_data": 10141,
+                "icon": "converttest_ff7f4d4959ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10142,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10143,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10144,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10145,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10146,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10147,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10148,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f4199c9bbae6",
+                "custom_model_data": 10149,
+                "icon": "converttest_f4199c9bbae6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10150,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3cf5f240b05",
+                "custom_model_data": 10151,
+                "icon": "converttest_f3cf5f240b05",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10152,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f05ef5545d78",
+                "custom_model_data": 10153,
+                "icon": "converttest_f05ef5545d78",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f05ef5545d78",
+                "custom_model_data": 10154,
+                "icon": "converttest_f05ef5545d78",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10155,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10156,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3cf5f240b05",
+                "custom_model_data": 10157,
+                "icon": "converttest_f3cf5f240b05",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f05ef5545d78",
+                "custom_model_data": 10158,
+                "icon": "converttest_f05ef5545d78",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10159,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10160,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3cf5f240b05",
+                "custom_model_data": 10161,
+                "icon": "converttest_f3cf5f240b05",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10162,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10163,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10164,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10165,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10166,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10167,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10168,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10169,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff471661acf6",
+                "custom_model_data": 10170,
+                "icon": "converttest_ff471661acf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10171,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10172,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10173,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10174,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10175,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10176,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10177,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10178,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10179,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10180,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd20676da9d4",
+                "custom_model_data": 10181,
+                "icon": "converttest_fd20676da9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0860f166494",
+                "custom_model_data": 10182,
+                "icon": "converttest_f0860f166494",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f566695716bb",
+                "custom_model_data": 10183,
+                "icon": "converttest_f566695716bb",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd2094c686f0",
+                "custom_model_data": 10184,
+                "icon": "converttest_fd2094c686f0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa9afa3fe4f7",
+                "custom_model_data": 10185,
+                "icon": "converttest_fa9afa3fe4f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa9afa3fe4f7",
+                "custom_model_data": 10186,
+                "icon": "converttest_fa9afa3fe4f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f2e89773a83e",
+                "custom_model_data": 10187,
+                "icon": "converttest_f2e89773a83e",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5be61bd361f",
+                "custom_model_data": 10188,
+                "icon": "converttest_f5be61bd361f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa81356e3198",
+                "custom_model_data": 10189,
+                "icon": "converttest_fa81356e3198",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa81356e3198",
+                "custom_model_data": 10190,
+                "icon": "converttest_fa81356e3198",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fe32efc7c5a5",
+                "custom_model_data": 10191,
+                "icon": "converttest_fe32efc7c5a5",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1a583e9c422",
+                "custom_model_data": 10192,
+                "icon": "converttest_f1a583e9c422",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f73aa078b150",
+                "custom_model_data": 10193,
+                "icon": "converttest_f73aa078b150",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f135ff9ea05d",
+                "custom_model_data": 10194,
+                "icon": "converttest_f135ff9ea05d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff664e971eb3",
+                "custom_model_data": 10195,
+                "icon": "converttest_ff664e971eb3",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f40f14ed4978",
+                "custom_model_data": 10196,
+                "icon": "converttest_f40f14ed4978",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1db4dcd30a8",
+                "custom_model_data": 10197,
+                "icon": "converttest_f1db4dcd30a8",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f942288b0e3d",
+                "custom_model_data": 10198,
+                "icon": "converttest_f942288b0e3d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1723590330c",
+                "custom_model_data": 10199,
+                "icon": "converttest_f1723590330c",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f297eb4ad053",
+                "custom_model_data": 10200,
+                "icon": "converttest_f297eb4ad053",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa635ef531ff",
+                "custom_model_data": 10201,
+                "icon": "converttest_fa635ef531ff",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f09233b9656d",
+                "custom_model_data": 10202,
+                "icon": "converttest_f09233b9656d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f2136eec1c45",
+                "custom_model_data": 10336,
+                "icon": "converttest_f2136eec1c45",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10337,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10338,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10339,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10340,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc778a718a62",
+                "custom_model_data": 10341,
+                "icon": "converttest_fc778a718a62",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10342,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f97a54c97cee",
+                "custom_model_data": 10343,
+                "icon": "converttest_f97a54c97cee",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10344,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_ff3d8f304462",
+                "custom_model_data": 10345,
+                "icon": "converttest_ff3d8f304462",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10346,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10347,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0ca59e159d7",
+                "custom_model_data": 10348,
+                "icon": "converttest_f0ca59e159d7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10349,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10350,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10351,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10352,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9c83eb5d370",
+                "custom_model_data": 10353,
+                "icon": "converttest_f9c83eb5d370",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10354,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f86cf138c850",
+                "custom_model_data": 10355,
+                "icon": "converttest_f86cf138c850",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f86cf138c850",
+                "custom_model_data": 10356,
+                "icon": "converttest_f86cf138c850",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fa7d2271fd18",
+                "custom_model_data": 10357,
+                "icon": "converttest_fa7d2271fd18",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10358,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f5fd3dfc7511",
+                "custom_model_data": 10359,
+                "icon": "converttest_f5fd3dfc7511",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f86cf138c850",
+                "custom_model_data": 10360,
+                "icon": "converttest_f86cf138c850",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10361,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10362,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10363,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10364,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f68e09eb7a1d",
+                "custom_model_data": 10365,
+                "icon": "converttest_f68e09eb7a1d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f26593cde1a5",
+                "custom_model_data": 10366,
+                "icon": "converttest_f26593cde1a5",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1ec7db13c93",
+                "custom_model_data": 10367,
+                "icon": "converttest_f1ec7db13c93",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1ec7db13c93",
+                "custom_model_data": 10368,
+                "icon": "converttest_f1ec7db13c93",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f0a5513ac4fc",
+                "custom_model_data": 10369,
+                "icon": "converttest_f0a5513ac4fc",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f19445f9a9d4",
+                "custom_model_data": 10370,
+                "icon": "converttest_f19445f9a9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f19445f9a9d4",
+                "custom_model_data": 10371,
+                "icon": "converttest_f19445f9a9d4",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1ec7db13c93",
+                "custom_model_data": 10372,
+                "icon": "converttest_f1ec7db13c93",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10373,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10374,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10375,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10376,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1771099f41f",
+                "custom_model_data": 10377,
+                "icon": "converttest_f1771099f41f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1e2cd0bee71",
+                "custom_model_data": 10378,
+                "icon": "converttest_f1e2cd0bee71",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f02bc36c1c57",
+                "custom_model_data": 10379,
+                "icon": "converttest_f02bc36c1c57",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f02bc36c1c57",
+                "custom_model_data": 10380,
+                "icon": "converttest_f02bc36c1c57",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fb0215d846ea",
+                "custom_model_data": 10381,
+                "icon": "converttest_fb0215d846ea",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f6e0d976000f",
+                "custom_model_data": 10382,
+                "icon": "converttest_f6e0d976000f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f6e0d976000f",
+                "custom_model_data": 10383,
+                "icon": "converttest_f6e0d976000f",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1e2cd0bee71",
+                "custom_model_data": 10384,
+                "icon": "converttest_f1e2cd0bee71",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10385,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10386,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10387,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10388,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10389,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10390,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10391,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10392,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f83a227921d0",
+                "custom_model_data": 10393,
+                "icon": "converttest_f83a227921d0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10394,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10395,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd9c3142944d",
+                "custom_model_data": 10396,
+                "icon": "converttest_fd9c3142944d",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10397,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10398,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10399,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10400,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10401,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10402,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f12bef241cff",
+                "custom_model_data": 10403,
+                "icon": "converttest_f12bef241cff",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f12bef241cff",
+                "custom_model_data": 10404,
+                "icon": "converttest_f12bef241cff",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10405,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10406,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f93a9921e104",
+                "custom_model_data": 10407,
+                "icon": "converttest_f93a9921e104",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f12bef241cff",
+                "custom_model_data": 10408,
+                "icon": "converttest_f12bef241cff",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f680ae49f7",
+                "custom_model_data": 10409,
+                "icon": "converttest_f7f680ae49f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fd68799ecf20",
+                "custom_model_data": 10410,
+                "icon": "converttest_fd68799ecf20",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f7f0b5d85809",
+                "custom_model_data": 10411,
+                "icon": "converttest_f7f0b5d85809",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f169f5a60845",
+                "custom_model_data": 10412,
+                "icon": "converttest_f169f5a60845",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9f013137ff0",
+                "custom_model_data": 10441,
+                "icon": "converttest_f9f013137ff0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fdc70ee22a40",
+                "custom_model_data": 10442,
+                "icon": "converttest_fdc70ee22a40",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9f013137ff0",
+                "custom_model_data": 10443,
+                "icon": "converttest_f9f013137ff0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fdc70ee22a40",
+                "custom_model_data": 10444,
+                "icon": "converttest_fdc70ee22a40",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9f013137ff0",
+                "custom_model_data": 10445,
+                "icon": "converttest_f9f013137ff0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fdc70ee22a40",
+                "custom_model_data": 10446,
+                "icon": "converttest_fdc70ee22a40",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9f013137ff0",
+                "custom_model_data": 10447,
+                "icon": "converttest_f9f013137ff0",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fdc70ee22a40",
+                "custom_model_data": 10448,
+                "icon": "converttest_fdc70ee22a40",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f8228c4ec87a",
+                "custom_model_data": 10450,
+                "icon": "converttest_f8228c4ec87a",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stick": [
+            {
+                "name": "converttest_f26593cde1a5",
+                "custom_model_data": 10016,
+                "icon": "converttest_f26593cde1a5",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc4b61504c87",
+                "custom_model_data": 10017,
+                "icon": "converttest_fc4b61504c87",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9369c166336",
+                "custom_model_data": 10018,
+                "icon": "converttest_f9369c166336",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f86cf138c850",
+                "custom_model_data": 10019,
+                "icon": "converttest_f86cf138c850",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1038120304e",
+                "custom_model_data": 10020,
+                "icon": "converttest_f1038120304e",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1bb132892fa",
+                "custom_model_data": 10021,
+                "icon": "converttest_f1bb132892fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3e7905c4121",
+                "custom_model_data": 10022,
+                "icon": "converttest_f3e7905c4121",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fb7fadac4614",
+                "custom_model_data": 10023,
+                "icon": "converttest_fb7fadac4614",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f26593cde1a5",
+                "custom_model_data": 10025,
+                "icon": "converttest_f26593cde1a5",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fc4b61504c87",
+                "custom_model_data": 10026,
+                "icon": "converttest_fc4b61504c87",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f9369c166336",
+                "custom_model_data": 10027,
+                "icon": "converttest_f9369c166336",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f86cf138c850",
+                "custom_model_data": 10028,
+                "icon": "converttest_f86cf138c850",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1038120304e",
+                "custom_model_data": 10029,
+                "icon": "converttest_f1038120304e",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f1bb132892fa",
+                "custom_model_data": 10030,
+                "icon": "converttest_f1bb132892fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_f3e7905c4121",
+                "custom_model_data": 10031,
+                "icon": "converttest_f3e7905c4121",
+                "allow_offhand": true
+            },
+            {
+                "name": "converttest_fb7fadac4614",
+                "custom_model_data": 10032,
+                "icon": "converttest_fb7fadac4614",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stone_sword": [
+            {
+                "name": "converttest_f4fe4607584b",
+                "custom_model_data": 10000,
+                "icon": "converttest_f4fe4607584b",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:torch": [
+            {
+                "name": "converttest_f4fe4607584b",
+                "custom_model_data": 10000,
+                "icon": "converttest_f4fe4607584b",
+                "allow_offhand": true
+            }
+        ]
+    }
+}

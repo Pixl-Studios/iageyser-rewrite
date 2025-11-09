@@ -1,0 +1,1719 @@
+{
+    "format_version": 1,
+    "items": {
+        "minecraft:cooked_porkchop": [
+            {
+                "name": "summer_f786e633f30d",
+                "custom_model_data": 10023,
+                "icon": "summer_f786e633f30d",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_f8c997e99001",
+                "custom_model_data": 10024,
+                "icon": "summer_f8c997e99001",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_fb3286b4bacc",
+                "custom_model_data": 10025,
+                "icon": "summer_fb3286b4bacc",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_f5cb5896785f",
+                "custom_model_data": 10026,
+                "icon": "summer_f5cb5896785f",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_fcf53e153f1b",
+                "custom_model_data": 10027,
+                "icon": "summer_fcf53e153f1b",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_fd27e34bdf8e",
+                "custom_model_data": 10135,
+                "icon": "velocity_fd27e34bdf8e",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:diamond_axe": [
+            {
+                "name": "fantasy_weapons_fccd82d946aa",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_fccd82d946aa",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:diamond_sword": [
+            {
+                "name": "velocity_f1215e8057f0",
+                "custom_model_data": 10007,
+                "icon": "velocity_f1215e8057f0",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f1215e8057f0",
+                "custom_model_data": 10008,
+                "icon": "velocity_f1215e8057f0",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f4d2b2514073",
+                "custom_model_data": 10009,
+                "icon": "fantasy_weapons_f4d2b2514073",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_axe": [
+            {
+                "name": "fantasy_weapons_f5d883be1bac",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_f5d883be1bac",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f4544c88d42b",
+                "custom_model_data": 10002,
+                "icon": "fantasy_weapons_f4544c88d42b",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fe3d1101b2ca",
+                "custom_model_data": 10003,
+                "icon": "fantasy_weapons_fe3d1101b2ca",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f904ce48fcf6",
+                "custom_model_data": 10004,
+                "icon": "fantasy_weapons_f904ce48fcf6",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f2dd8851f15b",
+                "custom_model_data": 10006,
+                "icon": "fantasy_weapons_f2dd8851f15b",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fc7653457f1b",
+                "custom_model_data": 10007,
+                "icon": "fantasy_weapons_fc7653457f1b",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f55d6712b085",
+                "custom_model_data": 10009,
+                "icon": "fantasy_weapons_f55d6712b085",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f02f6634f5f7",
+                "custom_model_data": 10010,
+                "icon": "fantasy_weapons_f02f6634f5f7",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f5a53c2b85b2",
+                "custom_model_data": 10011,
+                "icon": "fantasy_weapons_f5a53c2b85b2",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f378f69ca128",
+                "custom_model_data": 10012,
+                "icon": "fantasy_weapons_f378f69ca128",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fee98de5b2b3",
+                "custom_model_data": 10013,
+                "icon": "fantasy_weapons_fee98de5b2b3",
+                "allow_offhand": true
+            },
+            {
+                "name": "ax_emerald_set_f46de37fb28c",
+                "custom_model_data": 10021,
+                "icon": "ax_emerald_set_f46de37fb28c",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_hoe": [
+            {
+                "name": "fantasy_weapons_f5b33689e19c",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_f5b33689e19c",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_pickaxe": [
+            {
+                "name": "ax_emerald_set_f692f0a63e53",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_f692f0a63e53",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_shovel": [
+            {
+                "name": "ax_emerald_set_f5b799fc58ef",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_f5b799fc58ef",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_sword": [
+            {
+                "name": "fantasy_weapons_fe35baf9c9cd",
+                "custom_model_data": 10001,
+                "icon": "fantasy_weapons_fe35baf9c9cd",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f1e4399a3fad",
+                "custom_model_data": 10005,
+                "icon": "fantasy_weapons_f1e4399a3fad",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f35fe98bebf3",
+                "custom_model_data": 10009,
+                "icon": "fantasy_weapons_f35fe98bebf3",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_ffe99f558b4c",
+                "custom_model_data": 10013,
+                "icon": "fantasy_weapons_ffe99f558b4c",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f533b74ab8be",
+                "custom_model_data": 10014,
+                "icon": "fantasy_weapons_f533b74ab8be",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f414220dae8f",
+                "custom_model_data": 10016,
+                "icon": "fantasy_weapons_f414220dae8f",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f5ad3e8a908a",
+                "custom_model_data": 10017,
+                "icon": "fantasy_weapons_f5ad3e8a908a",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fb55696fe410",
+                "custom_model_data": 10018,
+                "icon": "fantasy_weapons_fb55696fe410",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f74911290a5b",
+                "custom_model_data": 10021,
+                "icon": "fantasy_weapons_f74911290a5b",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f82ee9f0bfdc",
+                "custom_model_data": 10022,
+                "icon": "fantasy_weapons_f82ee9f0bfdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f6ceea0369ea",
+                "custom_model_data": 10023,
+                "icon": "fantasy_weapons_f6ceea0369ea",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fe01800211e3",
+                "custom_model_data": 10024,
+                "icon": "fantasy_weapons_fe01800211e3",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f7d6a66fcd16",
+                "custom_model_data": 10025,
+                "icon": "fantasy_weapons_f7d6a66fcd16",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fe4a8b71fc28",
+                "custom_model_data": 10030,
+                "icon": "fantasy_weapons_fe4a8b71fc28",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f23c731dd743",
+                "custom_model_data": 10031,
+                "icon": "fantasy_weapons_f23c731dd743",
+                "allow_offhand": true
+            },
+            {
+                "name": "ax_emerald_set_f38c767e969c",
+                "custom_model_data": 10033,
+                "icon": "ax_emerald_set_f38c767e969c",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:lantern": [
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10000,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10001,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f779c9a52fec",
+                "custom_model_data": 10002,
+                "icon": "furnituresplus_f779c9a52fec",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fa7a60f9ecc3",
+                "custom_model_data": 10003,
+                "icon": "furnituresplus_fa7a60f9ecc3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10004,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10005,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_boots": [
+            {
+                "name": "ax_emerald_set_f53997a3d5e3",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_f53997a3d5e3",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_chestplate": [
+            {
+                "name": "ax_emerald_set_f78ae9d5c073",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_f78ae9d5c073",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_helmet": [
+            {
+                "name": "ax_emerald_set_f8713904b356",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_f8713904b356",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_leggings": [
+            {
+                "name": "ax_emerald_set_f8e5028ec936",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_f8e5028ec936",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:paper": [
+            {
+                "name": "_iainternal_ff63e9e3fb65",
+                "custom_model_data": 10000,
+                "icon": "_iainternal_ff63e9e3fb65",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f74bf3995940",
+                "custom_model_data": 10001,
+                "icon": "_iainternal_f74bf3995940",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fde118200b04",
+                "custom_model_data": 10002,
+                "icon": "_iainternal_fde118200b04",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fd58910b2fc9",
+                "custom_model_data": 10003,
+                "icon": "_iainternal_fd58910b2fc9",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f61023f91ea4",
+                "custom_model_data": 10004,
+                "icon": "_iainternal_f61023f91ea4",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fa727e91b7a0",
+                "custom_model_data": 10005,
+                "icon": "_iainternal_fa727e91b7a0",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fedf23642fed",
+                "custom_model_data": 10006,
+                "icon": "_iainternal_fedf23642fed",
+                "allow_offhand": true
+            },
+            {
+                "name": "ax_emerald_set_ffa8076cf56e",
+                "custom_model_data": 10007,
+                "icon": "ax_emerald_set_ffa8076cf56e",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f917d3e9daef",
+                "custom_model_data": 10008,
+                "icon": "velocity_f917d3e9daef",
+                "allow_offhand": true
+            },
+            {
+                "name": "example_block_f9da7ee780dd",
+                "custom_model_data": 10060,
+                "icon": "example_block_f9da7ee780dd",
+                "allow_offhand": true
+            },
+            {
+                "name": "example_block_fff38de61d25",
+                "custom_model_data": 10061,
+                "icon": "example_block_fff38de61d25",
+                "allow_offhand": true
+            },
+            {
+                "name": "example_block_fcb815b02c2e",
+                "custom_model_data": 10062,
+                "icon": "example_block_fcb815b02c2e",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_fd540b35993f",
+                "custom_model_data": 10063,
+                "icon": "velocity_fd540b35993f",
+                "allow_offhand": true
+            },
+            {
+                "name": "casinoitems_f35aefae8ca8",
+                "custom_model_data": 10064,
+                "icon": "casinoitems_f35aefae8ca8",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f4d9ea8dc221",
+                "custom_model_data": 10065,
+                "icon": "velocity_f4d9ea8dc221",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10092,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10093,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10094,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10095,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10096,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10097,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10098,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10099,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f463c17dea6c",
+                "custom_model_data": 10100,
+                "icon": "furnituresplusfree_f463c17dea6c",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10101,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10102,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fa7a60f9ecc3",
+                "custom_model_data": 10103,
+                "icon": "furnituresplus_fa7a60f9ecc3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10104,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10105,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10106,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10107,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10108,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10109,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f29ca9f615bc",
+                "custom_model_data": 10110,
+                "icon": "furnituresplusfree_f29ca9f615bc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10112,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10113,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10114,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10115,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10116,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10117,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10118,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10119,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10120,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10121,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10122,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10123,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10124,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10125,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10126,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10127,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10128,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10129,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10130,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10131,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10132,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10133,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10134,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10135,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f71160c918a4",
+                "custom_model_data": 10136,
+                "icon": "gardenplus_f71160c918a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f0319e0af6a6",
+                "custom_model_data": 10137,
+                "icon": "gardenplus_f0319e0af6a6",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f0319e0af6a6",
+                "custom_model_data": 10138,
+                "icon": "gardenplus_f0319e0af6a6",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f0319e0af6a6",
+                "custom_model_data": 10139,
+                "icon": "gardenplus_f0319e0af6a6",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f0319e0af6a6",
+                "custom_model_data": 10140,
+                "icon": "gardenplus_f0319e0af6a6",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f0319e0af6a6",
+                "custom_model_data": 10141,
+                "icon": "gardenplus_f0319e0af6a6",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10142,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10143,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10144,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10145,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10146,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10147,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10148,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdebc36c499d",
+                "custom_model_data": 10149,
+                "icon": "gardenplus_fdebc36c499d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10150,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fe26d63b5f18",
+                "custom_model_data": 10151,
+                "icon": "gardenplus_fe26d63b5f18",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10152,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fb8e9f216f68",
+                "custom_model_data": 10153,
+                "icon": "gardenplus_fb8e9f216f68",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fb8e9f216f68",
+                "custom_model_data": 10154,
+                "icon": "gardenplus_fb8e9f216f68",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10155,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10156,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fe26d63b5f18",
+                "custom_model_data": 10157,
+                "icon": "gardenplus_fe26d63b5f18",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fb8e9f216f68",
+                "custom_model_data": 10158,
+                "icon": "gardenplus_fb8e9f216f68",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10159,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10160,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fe26d63b5f18",
+                "custom_model_data": 10161,
+                "icon": "gardenplus_fe26d63b5f18",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10162,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10163,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10164,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10165,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10166,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10167,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10168,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10169,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f20da928b3fb",
+                "custom_model_data": 10170,
+                "icon": "gardenplus_f20da928b3fb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10171,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10172,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10173,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10174,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10175,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10176,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10177,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10178,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10179,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10180,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f24296b779fa",
+                "custom_model_data": 10181,
+                "icon": "gardenplus_f24296b779fa",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f68f35fe798d",
+                "custom_model_data": 10182,
+                "icon": "techprops_f68f35fe798d",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f7c5b3f366f3",
+                "custom_model_data": 10183,
+                "icon": "techprops_f7c5b3f366f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f3e6f390709f",
+                "custom_model_data": 10184,
+                "icon": "techprops_f3e6f390709f",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f3fb098610e4",
+                "custom_model_data": 10185,
+                "icon": "techprops_f3fb098610e4",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f3fb098610e4",
+                "custom_model_data": 10186,
+                "icon": "techprops_f3fb098610e4",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fe3c024ff6b7",
+                "custom_model_data": 10187,
+                "icon": "techprops_fe3c024ff6b7",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f32b00b84f54",
+                "custom_model_data": 10188,
+                "icon": "techprops_f32b00b84f54",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fb515c3ce9fe",
+                "custom_model_data": 10189,
+                "icon": "techprops_fb515c3ce9fe",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fb515c3ce9fe",
+                "custom_model_data": 10190,
+                "icon": "techprops_fb515c3ce9fe",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f0e1732abaee",
+                "custom_model_data": 10191,
+                "icon": "techprops_f0e1732abaee",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f75f14350a2d",
+                "custom_model_data": 10192,
+                "icon": "techprops_f75f14350a2d",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f2f13cec8daa",
+                "custom_model_data": 10193,
+                "icon": "techprops_f2f13cec8daa",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f1bb02d4a5c0",
+                "custom_model_data": 10194,
+                "icon": "techprops_f1bb02d4a5c0",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fddb61e4d8f8",
+                "custom_model_data": 10195,
+                "icon": "techprops_fddb61e4d8f8",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fa69710e0635",
+                "custom_model_data": 10196,
+                "icon": "techprops_fa69710e0635",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f1d441adfd64",
+                "custom_model_data": 10197,
+                "icon": "techprops_f1d441adfd64",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fb9557b5eeed",
+                "custom_model_data": 10198,
+                "icon": "techprops_fb9557b5eeed",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fbd907ddc0f0",
+                "custom_model_data": 10199,
+                "icon": "techprops_fbd907ddc0f0",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f6b501c3608c",
+                "custom_model_data": 10200,
+                "icon": "techprops_f6b501c3608c",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_feca52bc282c",
+                "custom_model_data": 10201,
+                "icon": "techprops_feca52bc282c",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fc21b070ab93",
+                "custom_model_data": 10202,
+                "icon": "techprops_fc21b070ab93",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1bd634c0bab",
+                "custom_model_data": 10336,
+                "icon": "furnituresplus_f1bd634c0bab",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10337,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10338,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10339,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10340,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f32456771728",
+                "custom_model_data": 10341,
+                "icon": "furnituresplusfree_f32456771728",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10342,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fd2038369e9b",
+                "custom_model_data": 10343,
+                "icon": "furnituresplus_fd2038369e9b",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10344,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fb78218f662d",
+                "custom_model_data": 10345,
+                "icon": "furnituresplus_fb78218f662d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10346,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10347,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe32368c8fdc",
+                "custom_model_data": 10348,
+                "icon": "furnituresplus_fe32368c8fdc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10349,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10350,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10351,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10352,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f24824e3e6f3",
+                "custom_model_data": 10353,
+                "icon": "furnituresplusfree_f24824e3e6f3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10354,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faf9aadf96d5",
+                "custom_model_data": 10355,
+                "icon": "furnituresplus_faf9aadf96d5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faf9aadf96d5",
+                "custom_model_data": 10356,
+                "icon": "furnituresplus_faf9aadf96d5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fd0d448285a5",
+                "custom_model_data": 10357,
+                "icon": "furnituresplus_fd0d448285a5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10358,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8929f665a65",
+                "custom_model_data": 10359,
+                "icon": "furnituresplus_f8929f665a65",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faf9aadf96d5",
+                "custom_model_data": 10360,
+                "icon": "furnituresplus_faf9aadf96d5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10361,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10362,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10363,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10364,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fc493afb4af9",
+                "custom_model_data": 10365,
+                "icon": "furnituresplusfree_fc493afb4af9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f284f5d8a8c5",
+                "custom_model_data": 10366,
+                "icon": "furnituresplus_f284f5d8a8c5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f0fcb76e5e5a",
+                "custom_model_data": 10367,
+                "icon": "furnituresplus_f0fcb76e5e5a",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f0fcb76e5e5a",
+                "custom_model_data": 10368,
+                "icon": "furnituresplus_f0fcb76e5e5a",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f5e47093782b",
+                "custom_model_data": 10369,
+                "icon": "furnituresplus_f5e47093782b",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f779c9a52fec",
+                "custom_model_data": 10370,
+                "icon": "furnituresplus_f779c9a52fec",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f779c9a52fec",
+                "custom_model_data": 10371,
+                "icon": "furnituresplus_f779c9a52fec",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f0fcb76e5e5a",
+                "custom_model_data": 10372,
+                "icon": "furnituresplus_f0fcb76e5e5a",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10373,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10374,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10375,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10376,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f66099dab4f4",
+                "custom_model_data": 10377,
+                "icon": "furnituresplusfree_f66099dab4f4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fa7a60f9ecc3",
+                "custom_model_data": 10378,
+                "icon": "furnituresplus_fa7a60f9ecc3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fcb9868465ab",
+                "custom_model_data": 10379,
+                "icon": "furnituresplus_fcb9868465ab",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fcb9868465ab",
+                "custom_model_data": 10380,
+                "icon": "furnituresplus_fcb9868465ab",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8d5c1eaaa61",
+                "custom_model_data": 10381,
+                "icon": "furnituresplus_f8d5c1eaaa61",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fd106af4e22b",
+                "custom_model_data": 10382,
+                "icon": "furnituresplus_fd106af4e22b",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fd106af4e22b",
+                "custom_model_data": 10383,
+                "icon": "furnituresplus_fd106af4e22b",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fa7a60f9ecc3",
+                "custom_model_data": 10384,
+                "icon": "furnituresplus_fa7a60f9ecc3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10385,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10386,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10387,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10388,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10389,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10390,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10391,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10392,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f29cb06dcf3f",
+                "custom_model_data": 10393,
+                "icon": "furnituresplus_f29cb06dcf3f",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10394,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10395,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f120ad3f364e",
+                "custom_model_data": 10396,
+                "icon": "furnituresplusfree_f120ad3f364e",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10397,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10398,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10399,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10400,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10401,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10402,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fdcc5729f63d",
+                "custom_model_data": 10403,
+                "icon": "furnituresplus_fdcc5729f63d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fdcc5729f63d",
+                "custom_model_data": 10404,
+                "icon": "furnituresplus_fdcc5729f63d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10405,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10406,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9feedc9f531",
+                "custom_model_data": 10407,
+                "icon": "furnituresplus_f9feedc9f531",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fdcc5729f63d",
+                "custom_model_data": 10408,
+                "icon": "furnituresplus_fdcc5729f63d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f10128636333",
+                "custom_model_data": 10409,
+                "icon": "furnituresplus_f10128636333",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f2bbf7ee120a",
+                "custom_model_data": 10410,
+                "icon": "furnituresplus_f2bbf7ee120a",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fc8ac0cc8318",
+                "custom_model_data": 10411,
+                "icon": "furnituresplus_fc8ac0cc8318",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1b07cca136e",
+                "custom_model_data": 10412,
+                "icon": "furnituresplus_f1b07cca136e",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f5cd9d2975a7",
+                "custom_model_data": 10441,
+                "icon": "lootcrat_plus_f5cd9d2975a7",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f4a6bf6bf0a4",
+                "custom_model_data": 10442,
+                "icon": "lootcrat_plus_f4a6bf6bf0a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f5cd9d2975a7",
+                "custom_model_data": 10443,
+                "icon": "lootcrat_plus_f5cd9d2975a7",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f4a6bf6bf0a4",
+                "custom_model_data": 10444,
+                "icon": "lootcrat_plus_f4a6bf6bf0a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f5cd9d2975a7",
+                "custom_model_data": 10445,
+                "icon": "lootcrat_plus_f5cd9d2975a7",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f4a6bf6bf0a4",
+                "custom_model_data": 10446,
+                "icon": "lootcrat_plus_f4a6bf6bf0a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f5cd9d2975a7",
+                "custom_model_data": 10447,
+                "icon": "lootcrat_plus_f5cd9d2975a7",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f4a6bf6bf0a4",
+                "custom_model_data": 10448,
+                "icon": "lootcrat_plus_f4a6bf6bf0a4",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f917d3e9daef",
+                "custom_model_data": 10450,
+                "icon": "velocity_f917d3e9daef",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stick": [
+            {
+                "name": "furnituresplusfree_f463c17dea6c",
+                "custom_model_data": 10016,
+                "icon": "furnituresplusfree_f463c17dea6c",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f800c7a0cae8",
+                "custom_model_data": 10017,
+                "icon": "furnituresplusfree_f800c7a0cae8",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f6de3c836eee",
+                "custom_model_data": 10018,
+                "icon": "furnituresplusfree_f6de3c836eee",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fbb498cf366d",
+                "custom_model_data": 10019,
+                "icon": "furnituresplusfree_fbb498cf366d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f55b0d461277",
+                "custom_model_data": 10020,
+                "icon": "furnituresplusfree_f55b0d461277",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fcd510fbc0dd",
+                "custom_model_data": 10021,
+                "icon": "furnituresplusfree_fcd510fbc0dd",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f34c4c44320d",
+                "custom_model_data": 10022,
+                "icon": "furnituresplusfree_f34c4c44320d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f2a03dc0af54",
+                "custom_model_data": 10023,
+                "icon": "furnituresplusfree_f2a03dc0af54",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f284f5d8a8c5",
+                "custom_model_data": 10025,
+                "icon": "furnituresplus_f284f5d8a8c5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1a11a46be61",
+                "custom_model_data": 10026,
+                "icon": "furnituresplus_f1a11a46be61",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f029c939a426",
+                "custom_model_data": 10027,
+                "icon": "furnituresplus_f029c939a426",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faf9aadf96d5",
+                "custom_model_data": 10028,
+                "icon": "furnituresplus_faf9aadf96d5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f89e73949f96",
+                "custom_model_data": 10029,
+                "icon": "furnituresplus_f89e73949f96",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f4fcf109f3db",
+                "custom_model_data": 10030,
+                "icon": "furnituresplus_f4fcf109f3db",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f80d5c3fee60",
+                "custom_model_data": 10031,
+                "icon": "furnituresplus_f80d5c3fee60",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f3ca5957b6cc",
+                "custom_model_data": 10032,
+                "icon": "furnituresplus_f3ca5957b6cc",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stone_sword": [
+            {
+                "name": "fantasy_weapons_f742c4731919",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_f742c4731919",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:torch": [
+            {
+                "name": "fantasy_weapons_f742c4731919",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_f742c4731919",
+                "allow_offhand": true
+            }
+        ]
+    }
+}

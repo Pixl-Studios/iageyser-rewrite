@@ -1,0 +1,83 @@
+{
+    "format_version": 1,
+    "blocks": {
+        "minecraft:note_block": {
+            "name": "note_block",
+            "included_in_creative_inventory": false,
+            "only_override_states": true,
+            "place_air": true,
+            "state_overrides": {
+                "instrument=basedrum,note=20,powered=false": {
+                    "name": "t2e47a19490d",
+                    "geometry": "geometry.furnace.t2e47a19490d",
+                    "material_instances": {
+                        "*": {
+                            "texture": "t2e47a19490d",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=18,powered=false": {
+                    "name": "tab556ac7992",
+                    "geometry": "geometry.furnace.tab556ac7992",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tab556ac7992",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=16,powered=false": {
+                    "name": "t9a9893d09fc",
+                    "geometry": "geometry.furnace.t9a9893d09fc",
+                    "material_instances": {
+                        "*": {
+                            "texture": "t9a9893d09fc",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=15,powered=false": {
+                    "name": "t937859c3270",
+                    "geometry": "geometry.furnace.t937859c3270",
+                    "material_instances": {
+                        "*": {
+                            "texture": "t937859c3270",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=17,powered=false": {
+                    "name": "tc7490e6e4ae",
+                    "geometry": "geometry.furnace.tc7490e6e4ae",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tc7490e6e4ae",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=19,powered=false": {
+                    "name": "tb094877c12c",
+                    "geometry": "geometry.furnace.tb094877c12c",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tb094877c12c",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=21,powered=false": {
+                    "name": "t68db968de3e",
+                    "geometry": "geometry.furnace.t68db968de3e",
+                    "material_instances": {
+                        "*": {
+                            "texture": "t68db968de3e",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -191,40 +191,24 @@ class ResourcePackConverter
                 $filename = basename($item['texture'], '.png');
                 $textureId = null;
                 
-                // First, try to construct the expected texture path
+                // Get the expected texture path (relative from textures/ folder)
                 $expectedTexturePath = $this->getTexturePathForMapping($item['texture']);
                 
-                // Search through texture data to find matching texture
-                foreach ($textureData as $id => $data) {
-                    $texturePathInData = $data['textures'];
-                    // Extract filename from texture path
-                    $pathParts = explode('/', $texturePathInData);
-                    $filenameInData = basename(end($pathParts), '.png');
-                    
-                    // Match by exact path or filename
-                    if ($expectedTexturePath && $texturePathInData === $expectedTexturePath) {
-                        $textureId = $id;
-                        break;
-                    } elseif ($filenameInData === $filename) {
-                        // Also check if the namespace matches
-                        $namespace = explode(':', $fullId)[0];
-                        if (strpos($texturePathInData, $namespace) !== false) {
-                            $textureId = $id;
-                            break;
-                        }
-                    }
+                if (!$expectedTexturePath) {
+                    continue;
                 }
                 
-                // If not found, generate a new ID and add it to the texture data
-                if (!$textureId) {
-                    $textureId = $this->generateTextureId($fullId);
-                    // Try to get the texture path
-                    $texturePath = $expectedTexturePath ?: $this->getTexturePathForMapping($item['texture']);
-                    if ($texturePath && !isset($textureData[$textureId])) {
-                        $textureData[$textureId] = [
-                            'textures' => $texturePath
-                        ];
-                    }
+                // Remove "textures/" prefix to get relative path for ID generation
+                $relativeTexturePath = preg_replace('/^textures\//', '', $expectedTexturePath);
+                
+                // Generate texture ID from the texture path (this ensures consistency)
+                $textureId = $this->generateTextureIdFromPath($relativeTexturePath);
+                
+                // Make sure this texture is in the texture data
+                if (!isset($textureData[$textureId])) {
+                    $textureData[$textureId] = [
+                        'textures' => $expectedTexturePath
+                    ];
                 }
                 
                 $this->itemTextureMap[$fullId] = $textureId;
@@ -409,10 +393,30 @@ class ResourcePackConverter
 
     private function generateTextureIdFromPath(string $path): string
     {
-        // Generate ID from path
+        // Generate ID from texture path
+        // The path should be relative from textures/ folder (e.g., "summer/ia_auto_gen/berrysnowcone")
+        // Remove .png extension if present
+        $path = preg_replace('/\.png$/i', '', $path);
+        
+        // Remove "textures/" prefix if present
+        $path = preg_replace('/^textures\//', '', $path);
+        
+        // Normalize path: replace "item/" or "items/" with "ia_auto_gen/" for consistency
+        // This matches ItemsAdder's Geyser conversion format
+        $path = preg_replace('#/(item|items)/#', '/ia_auto_gen/', $path);
+        
+        // Also handle cases where the texture is directly in a subdirectory
+        // e.g., "namespace/item/texture" -> "namespace/ia_auto_gen/texture"
+        $path = str_replace('/item/', '/ia_auto_gen/', $path);
+        $path = str_replace('/items/', '/ia_auto_gen/', $path);
+        
+        // Generate hash from the normalized path
         $hash = substr(md5($path), 0, 11);
+        
+        // Extract namespace (first part of path)
         $parts = explode('/', $path);
         $namespace = $parts[0] ?? 'unknown';
+        
         return $namespace . '_f' . $hash;
     }
 
