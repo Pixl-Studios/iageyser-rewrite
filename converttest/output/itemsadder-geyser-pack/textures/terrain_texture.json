@@ -3,5 +3,48 @@
     "texture_name": "atlas.terrain",
     "padding": 8,
     "num_mip_levels": 4,
-    "texture_data": []
+    "texture_data": {
+        "casinoitems_fa4a806f1f98": {
+            "textures": "textures/casinoitems/blocks/slotmachine"
+        },
+        "graves_f67815881221": {
+            "textures": "textures/graves/block/mossy_stone_bricks"
+        },
+        "graves_fdf2e2bba173": {
+            "textures": "textures/graves/block/nether_wart_block"
+        },
+        "velocity_f27d42563f84": {
+            "textures": "textures/velocity/blocks/polished_blackstone_bricks"
+        },
+        "velocity_f3abb375a5c3": {
+            "textures": "textures/velocity/blocks/polished_blackstone_bricks_velologo"
+        },
+        "velocity_f71091246b55": {
+            "textures": "textures/velocity/blocks/waystone"
+        },
+        "velocity_f79aecae828e": {
+            "textures": "textures/velocity/blocks/waystone2"
+        },
+        "te1717a1d680": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/casinoitems/blocks/slotmachine"
+        },
+        "tde7dad0adc7": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/graves/block/mossy_stone_bricks"
+        },
+        "t72bfbc1cbd1": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/graves/block/nether_wart_block"
+        },
+        "t5aee76a742e": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/velocity/blocks/polished_blackstone_bricks"
+        },
+        "tf403037d395": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/velocity/blocks/polished_blackstone_bricks_velologo"
+        },
+        "t70ded7d22c5": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/velocity/blocks/waystone"
+        },
+        "t57693dc4749": {
+            "textures": "textures/converttest/output/itemsadder-geyser-pack/textures/velocity/blocks/waystone2"
+        }
+    }
 }

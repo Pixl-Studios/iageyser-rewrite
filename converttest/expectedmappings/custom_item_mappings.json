@@ -1,0 +1,2477 @@
+{
+    "format_version": 1,
+    "items": {
+        "minecraft:player_head": [
+            {
+                "name": "_iainternal_fy49556ggb2",
+                "custom_model_data": 10000,
+                "icon": "_iainternal_fy49556ggb2",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f67jz4k0pyf",
+                "custom_model_data": 10001,
+                "icon": "_iainternal_f67jz4k0pyf",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f4bpa3q5289",
+                "custom_model_data": 10002,
+                "icon": "_iainternal_f4bpa3q5289",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fe2y88apsb7",
+                "custom_model_data": 10003,
+                "icon": "_iainternal_fe2y88apsb7",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f8ahpwy28bn",
+                "custom_model_data": 10004,
+                "icon": "_iainternal_f8ahpwy28bn",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fq9q5yp0vpd",
+                "custom_model_data": 10005,
+                "icon": "_iainternal_fq9q5yp0vpd",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fnfzpkancz9",
+                "custom_model_data": 10006,
+                "icon": "_iainternal_fnfzpkancz9",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_flxokuqucat",
+                "custom_model_data": 10007,
+                "icon": "_iainternal_flxokuqucat",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fjy2hwmzgov",
+                "custom_model_data": 10008,
+                "icon": "_iainternal_fjy2hwmzgov",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f25gwgxr6iw",
+                "custom_model_data": 10009,
+                "icon": "_iainternal_f25gwgxr6iw",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f0kofhryyom",
+                "custom_model_data": 10010,
+                "icon": "_iainternal_f0kofhryyom",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fn2rnstbp40",
+                "custom_model_data": 10011,
+                "icon": "_iainternal_fn2rnstbp40",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_helmet": [
+            {
+                "name": "ax_emerald_set_fbfw4zeyofk",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_fbfw4zeyofk",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_chestplate": [
+            {
+                "name": "ax_emerald_set_fx4iloqvnev",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_fx4iloqvnev",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_boots": [
+            {
+                "name": "ax_emerald_set_frxpjdu4icf",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_frxpjdu4icf",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:leather_leggings": [
+            {
+                "name": "ax_emerald_set_fo66zwass3v",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_fo66zwass3v",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:diamond_sword": [
+            {
+                "name": "velocity_f46ug2zxmow",
+                "custom_model_data": 10007,
+                "icon": "velocity_f46ug2zxmow",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f8igboph1r7",
+                "custom_model_data": 10008,
+                "icon": "velocity_f8igboph1r7",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fgr76ocyz17",
+                "custom_model_data": 10009,
+                "icon": "fantasy_weapons_fgr76ocyz17",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:cooked_porkchop": [
+            {
+                "name": "summer_ff4j7ed6ey1",
+                "custom_model_data": 10023,
+                "icon": "summer_ff4j7ed6ey1",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_fomf79habj8",
+                "custom_model_data": 10024,
+                "icon": "summer_fomf79habj8",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_frgnyoxf1a7",
+                "custom_model_data": 10025,
+                "icon": "summer_frgnyoxf1a7",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_fhv7ejl1v8c",
+                "custom_model_data": 10026,
+                "icon": "summer_fhv7ejl1v8c",
+                "allow_offhand": true
+            },
+            {
+                "name": "summer_fao11gjsttd",
+                "custom_model_data": 10027,
+                "icon": "summer_fao11gjsttd",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f893wsqprey",
+                "custom_model_data": 10135,
+                "icon": "velocity_f893wsqprey",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:paper": [
+            {
+                "name": "_iainternal_ffbelcehf5k",
+                "custom_model_data": 10000,
+                "icon": "_iainternal_ffbelcehf5k",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fha0901japp",
+                "custom_model_data": 10001,
+                "icon": "_iainternal_fha0901japp",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_frdhrrq08zq",
+                "custom_model_data": 10002,
+                "icon": "_iainternal_frdhrrq08zq",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fz8soxxqrfm",
+                "custom_model_data": 10003,
+                "icon": "_iainternal_fz8soxxqrfm",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fppkjivxewn",
+                "custom_model_data": 10004,
+                "icon": "_iainternal_fppkjivxewn",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_f8p9wa53pfz",
+                "custom_model_data": 10005,
+                "icon": "_iainternal_f8p9wa53pfz",
+                "allow_offhand": true
+            },
+            {
+                "name": "_iainternal_fb2w7tg07je",
+                "custom_model_data": 10006,
+                "icon": "_iainternal_fb2w7tg07je",
+                "allow_offhand": true
+            },
+            {
+                "name": "ax_emerald_set_f406kzvcmfm",
+                "custom_model_data": 10007,
+                "icon": "ax_emerald_set_f406kzvcmfm",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_fmjgq3b0a1m",
+                "custom_model_data": 10008,
+                "icon": "velocity_fmjgq3b0a1m",
+                "allow_offhand": true
+            },
+            {
+                "name": "example_block_fsexwevach0",
+                "custom_model_data": 10060,
+                "icon": "example_block_fsexwevach0",
+                "allow_offhand": true
+            },
+            {
+                "name": "example_block_fj96mj0wws9",
+                "custom_model_data": 10061,
+                "icon": "example_block_fj96mj0wws9",
+                "allow_offhand": true
+            },
+            {
+                "name": "example_block_fiup8rpcpyt",
+                "custom_model_data": 10062,
+                "icon": "example_block_fiup8rpcpyt",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_fdjmiiw3qa4",
+                "custom_model_data": 10063,
+                "icon": "velocity_fdjmiiw3qa4",
+                "allow_offhand": true
+            },
+            {
+                "name": "casinoitems_fdl3ju1l6p8",
+                "custom_model_data": 10064,
+                "icon": "casinoitems_fdl3ju1l6p8",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_fgmgf2bkkm4",
+                "custom_model_data": 10065,
+                "icon": "velocity_fgmgf2bkkm4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fz1yv4ejual",
+                "custom_model_data": 10092,
+                "icon": "furnituresplusfree_fz1yv4ejual",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fs09tkzwr8p",
+                "custom_model_data": 10093,
+                "icon": "furnituresplusfree_fs09tkzwr8p",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_ficd023cmjw",
+                "custom_model_data": 10094,
+                "icon": "furnituresplusfree_ficd023cmjw",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f91qx824387",
+                "custom_model_data": 10095,
+                "icon": "furnituresplusfree_f91qx824387",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fxd7tnrdr6a",
+                "custom_model_data": 10096,
+                "icon": "furnituresplusfree_fxd7tnrdr6a",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fbgkfeaikbq",
+                "custom_model_data": 10097,
+                "icon": "furnituresplusfree_fbgkfeaikbq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fh9pz86ooyf",
+                "custom_model_data": 10098,
+                "icon": "furnituresplusfree_fh9pz86ooyf",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fdpxxtpv4y0",
+                "custom_model_data": 10099,
+                "icon": "furnituresplusfree_fdpxxtpv4y0",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_ffo182m97h1",
+                "custom_model_data": 10100,
+                "icon": "furnituresplusfree_ffo182m97h1",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fjxteb788cq",
+                "custom_model_data": 10101,
+                "icon": "furnituresplusfree_fjxteb788cq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fmrfafmbsso",
+                "custom_model_data": 10102,
+                "icon": "furnituresplusfree_fmrfafmbsso",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fg32k77nz7c",
+                "custom_model_data": 10103,
+                "icon": "furnituresplusfree_fg32k77nz7c",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fz4uw91qlda",
+                "custom_model_data": 10104,
+                "icon": "furnituresplusfree_fz4uw91qlda",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_falhi3kko2l",
+                "custom_model_data": 10105,
+                "icon": "furnituresplusfree_falhi3kko2l",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fksgxiyicx3",
+                "custom_model_data": 10106,
+                "icon": "furnituresplusfree_fksgxiyicx3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fpzo2w6x17l",
+                "custom_model_data": 10107,
+                "icon": "furnituresplusfree_fpzo2w6x17l",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fkvxdfqvgzj",
+                "custom_model_data": 10108,
+                "icon": "furnituresplusfree_fkvxdfqvgzj",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fwvbrmt22cy",
+                "custom_model_data": 10109,
+                "icon": "furnituresplusfree_fwvbrmt22cy",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f0tntbhm7z4",
+                "custom_model_data": 10110,
+                "icon": "furnituresplusfree_f0tntbhm7z4",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fjgpsi55x5i",
+                "custom_model_data": 10112,
+                "icon": "gardenplus_fjgpsi55x5i",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fd3rfxobxfz",
+                "custom_model_data": 10113,
+                "icon": "gardenplus_fd3rfxobxfz",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fb7qkwwu3d3",
+                "custom_model_data": 10114,
+                "icon": "gardenplus_fb7qkwwu3d3",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f50i3jrtuk2",
+                "custom_model_data": 10115,
+                "icon": "gardenplus_f50i3jrtuk2",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f8k8y70effs",
+                "custom_model_data": 10116,
+                "icon": "gardenplus_f8k8y70effs",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fnj2pw2xk5y",
+                "custom_model_data": 10117,
+                "icon": "gardenplus_fnj2pw2xk5y",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_ffw005tftfy",
+                "custom_model_data": 10118,
+                "icon": "gardenplus_ffw005tftfy",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fiy0bbfvg78",
+                "custom_model_data": 10119,
+                "icon": "gardenplus_fiy0bbfvg78",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_ffdpuqrv32k",
+                "custom_model_data": 10120,
+                "icon": "gardenplus_ffdpuqrv32k",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fcvazo099ai",
+                "custom_model_data": 10121,
+                "icon": "gardenplus_fcvazo099ai",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fuemzpmrgeb",
+                "custom_model_data": 10122,
+                "icon": "gardenplus_fuemzpmrgeb",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f9oc31ayct2",
+                "custom_model_data": 10123,
+                "icon": "gardenplus_f9oc31ayct2",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f1kkyz0w7nx",
+                "custom_model_data": 10124,
+                "icon": "gardenplus_f1kkyz0w7nx",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f1qqpp0x91h",
+                "custom_model_data": 10125,
+                "icon": "gardenplus_f1qqpp0x91h",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fm7z8mnec17",
+                "custom_model_data": 10126,
+                "icon": "gardenplus_fm7z8mnec17",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fzad7tepere",
+                "custom_model_data": 10127,
+                "icon": "gardenplus_fzad7tepere",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fjfj4bpc7la",
+                "custom_model_data": 10128,
+                "icon": "gardenplus_fjfj4bpc7la",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fg70tpvyjwx",
+                "custom_model_data": 10129,
+                "icon": "gardenplus_fg70tpvyjwx",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f4g9caxxd3m",
+                "custom_model_data": 10130,
+                "icon": "gardenplus_f4g9caxxd3m",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fwn9kg9mqic",
+                "custom_model_data": 10131,
+                "icon": "gardenplus_fwn9kg9mqic",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f9osntakzhg",
+                "custom_model_data": 10132,
+                "icon": "gardenplus_f9osntakzhg",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fzv7843349b",
+                "custom_model_data": 10133,
+                "icon": "gardenplus_fzv7843349b",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f1r0uqvcsiy",
+                "custom_model_data": 10134,
+                "icon": "gardenplus_f1r0uqvcsiy",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fodohv9nhjg",
+                "custom_model_data": 10135,
+                "icon": "gardenplus_fodohv9nhjg",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fypsdmsn737",
+                "custom_model_data": 10136,
+                "icon": "gardenplus_fypsdmsn737",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fzyrmp8g9ji",
+                "custom_model_data": 10137,
+                "icon": "gardenplus_fzyrmp8g9ji",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fh9l014u70o",
+                "custom_model_data": 10138,
+                "icon": "gardenplus_fh9l014u70o",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fr9bitoekfg",
+                "custom_model_data": 10139,
+                "icon": "gardenplus_fr9bitoekfg",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f1lg1zfs25f",
+                "custom_model_data": 10140,
+                "icon": "gardenplus_f1lg1zfs25f",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f2gzcorrg50",
+                "custom_model_data": 10141,
+                "icon": "gardenplus_f2gzcorrg50",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f2wxe4fnj7b",
+                "custom_model_data": 10142,
+                "icon": "gardenplus_f2wxe4fnj7b",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fzd4f5nehxw",
+                "custom_model_data": 10143,
+                "icon": "gardenplus_fzd4f5nehxw",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f7pon16pd4s",
+                "custom_model_data": 10144,
+                "icon": "gardenplus_f7pon16pd4s",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fzyj89ftupt",
+                "custom_model_data": 10145,
+                "icon": "gardenplus_fzyj89ftupt",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fk2zhxz98v5",
+                "custom_model_data": 10146,
+                "icon": "gardenplus_fk2zhxz98v5",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f6zv42vb67w",
+                "custom_model_data": 10147,
+                "icon": "gardenplus_f6zv42vb67w",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fkq9r2te3p0",
+                "custom_model_data": 10148,
+                "icon": "gardenplus_fkq9r2te3p0",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fdvp6wbttdt",
+                "custom_model_data": 10149,
+                "icon": "gardenplus_fdvp6wbttdt",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f9r3pjxfn79",
+                "custom_model_data": 10150,
+                "icon": "gardenplus_f9r3pjxfn79",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fuanvp1hhef",
+                "custom_model_data": 10151,
+                "icon": "gardenplus_fuanvp1hhef",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fwq2zlmwi7z",
+                "custom_model_data": 10152,
+                "icon": "gardenplus_fwq2zlmwi7z",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fv1koa10xjl",
+                "custom_model_data": 10153,
+                "icon": "gardenplus_fv1koa10xjl",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f4wngxiftwo",
+                "custom_model_data": 10154,
+                "icon": "gardenplus_f4wngxiftwo",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fhvpc8t9uc6",
+                "custom_model_data": 10155,
+                "icon": "gardenplus_fhvpc8t9uc6",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_ff3p1jgr7oi",
+                "custom_model_data": 10156,
+                "icon": "gardenplus_ff3p1jgr7oi",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f8ivobhmeqm",
+                "custom_model_data": 10157,
+                "icon": "gardenplus_f8ivobhmeqm",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fl19gfqfa6y",
+                "custom_model_data": 10158,
+                "icon": "gardenplus_fl19gfqfa6y",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f3h4q56xz56",
+                "custom_model_data": 10159,
+                "icon": "gardenplus_f3h4q56xz56",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fnk0lw4s8ya",
+                "custom_model_data": 10160,
+                "icon": "gardenplus_fnk0lw4s8ya",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f33j9brz18v",
+                "custom_model_data": 10161,
+                "icon": "gardenplus_f33j9brz18v",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fxd5k54sf6g",
+                "custom_model_data": 10162,
+                "icon": "gardenplus_fxd5k54sf6g",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f9wrjr6hf7f",
+                "custom_model_data": 10163,
+                "icon": "gardenplus_f9wrjr6hf7f",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f2oc6yeia4f",
+                "custom_model_data": 10164,
+                "icon": "gardenplus_f2oc6yeia4f",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_ffk0dfv01r9",
+                "custom_model_data": 10165,
+                "icon": "gardenplus_ffk0dfv01r9",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fbxhmztm4dy",
+                "custom_model_data": 10166,
+                "icon": "gardenplus_fbxhmztm4dy",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fmdz99y36aw",
+                "custom_model_data": 10167,
+                "icon": "gardenplus_fmdz99y36aw",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f8kt4brs2op",
+                "custom_model_data": 10168,
+                "icon": "gardenplus_f8kt4brs2op",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fhhafbip7u8",
+                "custom_model_data": 10169,
+                "icon": "gardenplus_fhhafbip7u8",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f9k40xtsovo",
+                "custom_model_data": 10170,
+                "icon": "gardenplus_f9k40xtsovo",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_f3idspa7e2h",
+                "custom_model_data": 10171,
+                "icon": "gardenplus_f3idspa7e2h",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fcdwqqvlq7u",
+                "custom_model_data": 10172,
+                "icon": "gardenplus_fcdwqqvlq7u",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fzd0i96z4ce",
+                "custom_model_data": 10173,
+                "icon": "gardenplus_fzd0i96z4ce",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fjksojlu4h7",
+                "custom_model_data": 10174,
+                "icon": "gardenplus_fjksojlu4h7",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fi49q78fe4t",
+                "custom_model_data": 10175,
+                "icon": "gardenplus_fi49q78fe4t",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fc8bz0mpvmv",
+                "custom_model_data": 10176,
+                "icon": "gardenplus_fc8bz0mpvmv",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fg0tt4baeaa",
+                "custom_model_data": 10177,
+                "icon": "gardenplus_fg0tt4baeaa",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_ffgigjjl4ux",
+                "custom_model_data": 10178,
+                "icon": "gardenplus_ffgigjjl4ux",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fq1mwbbu784",
+                "custom_model_data": 10179,
+                "icon": "gardenplus_fq1mwbbu784",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fiqoubuthd8",
+                "custom_model_data": 10180,
+                "icon": "gardenplus_fiqoubuthd8",
+                "allow_offhand": true
+            },
+            {
+                "name": "gardenplus_fvdqqv58mnk",
+                "custom_model_data": 10181,
+                "icon": "gardenplus_fvdqqv58mnk",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fbzd1brk33n",
+                "custom_model_data": 10182,
+                "icon": "techprops_fbzd1brk33n",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f32va2wrxkm",
+                "custom_model_data": 10183,
+                "icon": "techprops_f32va2wrxkm",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_ff7xt4gevh9",
+                "custom_model_data": 10184,
+                "icon": "techprops_ff7xt4gevh9",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fkqcfdxb4sg",
+                "custom_model_data": 10185,
+                "icon": "techprops_fkqcfdxb4sg",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fuv9kusryb5",
+                "custom_model_data": 10186,
+                "icon": "techprops_fuv9kusryb5",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f5hjaj84o65",
+                "custom_model_data": 10187,
+                "icon": "techprops_f5hjaj84o65",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fvh0lh19tpf",
+                "custom_model_data": 10188,
+                "icon": "techprops_fvh0lh19tpf",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fopt4o2vukt",
+                "custom_model_data": 10189,
+                "icon": "techprops_fopt4o2vukt",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_frsvmha4rli",
+                "custom_model_data": 10190,
+                "icon": "techprops_frsvmha4rli",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_ffai8z0owwe",
+                "custom_model_data": 10191,
+                "icon": "techprops_ffai8z0owwe",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_flujze23078",
+                "custom_model_data": 10192,
+                "icon": "techprops_flujze23078",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f0j2n8dfif7",
+                "custom_model_data": 10193,
+                "icon": "techprops_f0j2n8dfif7",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fif96kgqw38",
+                "custom_model_data": 10194,
+                "icon": "techprops_fif96kgqw38",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fo3yxh1dti4",
+                "custom_model_data": 10195,
+                "icon": "techprops_fo3yxh1dti4",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fee87p869v7",
+                "custom_model_data": 10196,
+                "icon": "techprops_fee87p869v7",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f5f6254c8zt",
+                "custom_model_data": 10197,
+                "icon": "techprops_f5f6254c8zt",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_ft9rzr9jej8",
+                "custom_model_data": 10198,
+                "icon": "techprops_ft9rzr9jej8",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_faeaqbftfsq",
+                "custom_model_data": 10199,
+                "icon": "techprops_faeaqbftfsq",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fpeoejpfh6t",
+                "custom_model_data": 10200,
+                "icon": "techprops_fpeoejpfh6t",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_f7u4b53kyk6",
+                "custom_model_data": 10201,
+                "icon": "techprops_f7u4b53kyk6",
+                "allow_offhand": true
+            },
+            {
+                "name": "techprops_fl0u7hd75ep",
+                "custom_model_data": 10202,
+                "icon": "techprops_fl0u7hd75ep",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f6vpkanjvqm",
+                "custom_model_data": 10336,
+                "icon": "furnituresplus_f6vpkanjvqm",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fnh02frby09",
+                "custom_model_data": 10337,
+                "icon": "furnituresplus_fnh02frby09",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_facej7qs2zo",
+                "custom_model_data": 10338,
+                "icon": "furnituresplus_facej7qs2zo",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8jpz53mef8",
+                "custom_model_data": 10339,
+                "icon": "furnituresplus_f8jpz53mef8",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fova22169pp",
+                "custom_model_data": 10340,
+                "icon": "furnituresplus_fova22169pp",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fzhk9jtqbs5",
+                "custom_model_data": 10341,
+                "icon": "furnituresplus_fzhk9jtqbs5",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f4poe8tigrx",
+                "custom_model_data": 10342,
+                "icon": "furnituresplus_f4poe8tigrx",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f82zolphqw3",
+                "custom_model_data": 10343,
+                "icon": "furnituresplus_f82zolphqw3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f26i7eyp8tm",
+                "custom_model_data": 10344,
+                "icon": "furnituresplus_f26i7eyp8tm",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_ffvkidp3uuk",
+                "custom_model_data": 10345,
+                "icon": "furnituresplus_ffvkidp3uuk",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fptj12yzvxw",
+                "custom_model_data": 10346,
+                "icon": "furnituresplus_fptj12yzvxw",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fqlwj5txigu",
+                "custom_model_data": 10347,
+                "icon": "furnituresplus_fqlwj5txigu",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f2lza29skdz",
+                "custom_model_data": 10348,
+                "icon": "furnituresplus_f2lza29skdz",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fs6rq48nb0h",
+                "custom_model_data": 10349,
+                "icon": "furnituresplus_fs6rq48nb0h",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f93d1if33os",
+                "custom_model_data": 10350,
+                "icon": "furnituresplus_f93d1if33os",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8hntbz3dkn",
+                "custom_model_data": 10351,
+                "icon": "furnituresplus_f8hntbz3dkn",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fg71dtoy6fz",
+                "custom_model_data": 10352,
+                "icon": "furnituresplus_fg71dtoy6fz",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fqbu3278w66",
+                "custom_model_data": 10353,
+                "icon": "furnituresplus_fqbu3278w66",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f511woo0ugk",
+                "custom_model_data": 10354,
+                "icon": "furnituresplus_f511woo0ugk",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_flrf5dvumcv",
+                "custom_model_data": 10355,
+                "icon": "furnituresplus_flrf5dvumcv",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fzdg3nenbtc",
+                "custom_model_data": 10356,
+                "icon": "furnituresplus_fzdg3nenbtc",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f73gxquoar8",
+                "custom_model_data": 10357,
+                "icon": "furnituresplus_f73gxquoar8",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1t9tpnqpr7",
+                "custom_model_data": 10358,
+                "icon": "furnituresplus_f1t9tpnqpr7",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f16m4tz7zex",
+                "custom_model_data": 10359,
+                "icon": "furnituresplus_f16m4tz7zex",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fwbvuk10dkq",
+                "custom_model_data": 10360,
+                "icon": "furnituresplus_fwbvuk10dkq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fv67u1i81uq",
+                "custom_model_data": 10361,
+                "icon": "furnituresplus_fv67u1i81uq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_ft85ppn8ksg",
+                "custom_model_data": 10362,
+                "icon": "furnituresplus_ft85ppn8ksg",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fpx0ngjtxsn",
+                "custom_model_data": 10363,
+                "icon": "furnituresplus_fpx0ngjtxsn",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f4i015s1cys",
+                "custom_model_data": 10364,
+                "icon": "furnituresplus_f4i015s1cys",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fnfs3zix4xa",
+                "custom_model_data": 10365,
+                "icon": "furnituresplus_fnfs3zix4xa",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f0nrbq9zn6o",
+                "custom_model_data": 10366,
+                "icon": "furnituresplus_f0nrbq9zn6o",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fqc5bky1sfu",
+                "custom_model_data": 10367,
+                "icon": "furnituresplus_fqc5bky1sfu",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fojb8orwiq6",
+                "custom_model_data": 10368,
+                "icon": "furnituresplus_fojb8orwiq6",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faa1j1qk7mb",
+                "custom_model_data": 10369,
+                "icon": "furnituresplus_faa1j1qk7mb",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f8yrk9o05bv",
+                "custom_model_data": 10370,
+                "icon": "furnituresplus_f8yrk9o05bv",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f7s2mjuni8j",
+                "custom_model_data": 10371,
+                "icon": "furnituresplus_f7s2mjuni8j",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faygas22f5r",
+                "custom_model_data": 10372,
+                "icon": "furnituresplus_faygas22f5r",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fp384tntjyu",
+                "custom_model_data": 10373,
+                "icon": "furnituresplus_fp384tntjyu",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fvi8mp7agqt",
+                "custom_model_data": 10374,
+                "icon": "furnituresplus_fvi8mp7agqt",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fl7c8di7rg2",
+                "custom_model_data": 10375,
+                "icon": "furnituresplus_fl7c8di7rg2",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fuw2opqhj87",
+                "custom_model_data": 10376,
+                "icon": "furnituresplus_fuw2opqhj87",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fkneq91vojh",
+                "custom_model_data": 10377,
+                "icon": "furnituresplus_fkneq91vojh",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fhdj2i50an9",
+                "custom_model_data": 10378,
+                "icon": "furnituresplus_fhdj2i50an9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fmmreui0n7f",
+                "custom_model_data": 10379,
+                "icon": "furnituresplus_fmmreui0n7f",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fh5mzp2uboi",
+                "custom_model_data": 10380,
+                "icon": "furnituresplus_fh5mzp2uboi",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fmfkhg6si8r",
+                "custom_model_data": 10381,
+                "icon": "furnituresplus_fmfkhg6si8r",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fyeaquovzj2",
+                "custom_model_data": 10382,
+                "icon": "furnituresplus_fyeaquovzj2",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f7g80so6k2c",
+                "custom_model_data": 10383,
+                "icon": "furnituresplus_f7g80so6k2c",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fnq2s8cod4i",
+                "custom_model_data": 10384,
+                "icon": "furnituresplus_fnq2s8cod4i",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fmo39lyx3q3",
+                "custom_model_data": 10385,
+                "icon": "furnituresplus_fmo39lyx3q3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f559zyf6z10",
+                "custom_model_data": 10386,
+                "icon": "furnituresplus_f559zyf6z10",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fzynpsh7ho9",
+                "custom_model_data": 10387,
+                "icon": "furnituresplus_fzynpsh7ho9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fwyapt4l8s3",
+                "custom_model_data": 10388,
+                "icon": "furnituresplus_fwyapt4l8s3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fh23xlerv4x",
+                "custom_model_data": 10389,
+                "icon": "furnituresplus_fh23xlerv4x",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fqjwzywh3fn",
+                "custom_model_data": 10390,
+                "icon": "furnituresplus_fqjwzywh3fn",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fwjnmyvr3b0",
+                "custom_model_data": 10391,
+                "icon": "furnituresplus_fwjnmyvr3b0",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_farvptie2l0",
+                "custom_model_data": 10392,
+                "icon": "furnituresplus_farvptie2l0",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f9l33kdunnv",
+                "custom_model_data": 10393,
+                "icon": "furnituresplus_f9l33kdunnv",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fudt8wxn9n7",
+                "custom_model_data": 10394,
+                "icon": "furnituresplus_fudt8wxn9n7",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_faqopkxin6z",
+                "custom_model_data": 10395,
+                "icon": "furnituresplus_faqopkxin6z",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f5fdq5s3eoq",
+                "custom_model_data": 10396,
+                "icon": "furnituresplus_f5fdq5s3eoq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fbuq09lkoxb",
+                "custom_model_data": 10397,
+                "icon": "furnituresplus_fbuq09lkoxb",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_ft9b38ir7a0",
+                "custom_model_data": 10398,
+                "icon": "furnituresplus_ft9b38ir7a0",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f2a459nnu8x",
+                "custom_model_data": 10399,
+                "icon": "furnituresplus_f2a459nnu8x",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fxwh1rh6b03",
+                "custom_model_data": 10400,
+                "icon": "furnituresplus_fxwh1rh6b03",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fvpx5vvxklg",
+                "custom_model_data": 10401,
+                "icon": "furnituresplus_fvpx5vvxklg",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f99ri16z843",
+                "custom_model_data": 10402,
+                "icon": "furnituresplus_f99ri16z843",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_ftzny07k9qe",
+                "custom_model_data": 10403,
+                "icon": "furnituresplus_ftzny07k9qe",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fc44jkzv6lo",
+                "custom_model_data": 10404,
+                "icon": "furnituresplus_fc44jkzv6lo",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fpgv7nwqimn",
+                "custom_model_data": 10405,
+                "icon": "furnituresplus_fpgv7nwqimn",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f323sdz1a07",
+                "custom_model_data": 10406,
+                "icon": "furnituresplus_f323sdz1a07",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fi3tduhee71",
+                "custom_model_data": 10407,
+                "icon": "furnituresplus_fi3tduhee71",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fh32ibihcvq",
+                "custom_model_data": 10408,
+                "icon": "furnituresplus_fh32ibihcvq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f0cuiup2e8k",
+                "custom_model_data": 10409,
+                "icon": "furnituresplus_f0cuiup2e8k",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fg3mxfu8veb",
+                "custom_model_data": 10410,
+                "icon": "furnituresplus_fg3mxfu8veb",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fysnuydjo3x",
+                "custom_model_data": 10411,
+                "icon": "furnituresplus_fysnuydjo3x",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fpq3untojle",
+                "custom_model_data": 10412,
+                "icon": "furnituresplus_fpq3untojle",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_frx3qc2ouay",
+                "custom_model_data": 10441,
+                "icon": "lootcrat_plus_frx3qc2ouay",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_fe7yskdj8hp",
+                "custom_model_data": 10442,
+                "icon": "lootcrat_plus_fe7yskdj8hp",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f0z2kp47aq6",
+                "custom_model_data": 10443,
+                "icon": "lootcrat_plus_f0z2kp47aq6",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_f3ng9jvkzb0",
+                "custom_model_data": 10444,
+                "icon": "lootcrat_plus_f3ng9jvkzb0",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_fbeq1voyghr",
+                "custom_model_data": 10445,
+                "icon": "lootcrat_plus_fbeq1voyghr",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_fn4mlj8ewpu",
+                "custom_model_data": 10446,
+                "icon": "lootcrat_plus_fn4mlj8ewpu",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_ftmib95dbnv",
+                "custom_model_data": 10447,
+                "icon": "lootcrat_plus_ftmib95dbnv",
+                "allow_offhand": true
+            },
+            {
+                "name": "lootcrat_plus_fumtoov5tb4",
+                "custom_model_data": 10448,
+                "icon": "lootcrat_plus_fumtoov5tb4",
+                "allow_offhand": true
+            },
+            {
+                "name": "velocity_f92075lgwgv",
+                "custom_model_data": 10450,
+                "icon": "velocity_f92075lgwgv",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stick": [
+            {
+                "name": "furnituresplusfree_f6xieqoh5p2",
+                "custom_model_data": 10016,
+                "icon": "furnituresplusfree_f6xieqoh5p2",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fb9q9j5tt6d",
+                "custom_model_data": 10017,
+                "icon": "furnituresplusfree_fb9q9j5tt6d",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f9snk8czskr",
+                "custom_model_data": 10018,
+                "icon": "furnituresplusfree_f9snk8czskr",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f75si1e00fi",
+                "custom_model_data": 10019,
+                "icon": "furnituresplusfree_f75si1e00fi",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fwrfu6liagj",
+                "custom_model_data": 10020,
+                "icon": "furnituresplusfree_fwrfu6liagj",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_frqsid0dto6",
+                "custom_model_data": 10021,
+                "icon": "furnituresplusfree_frqsid0dto6",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f8gymo91ybb",
+                "custom_model_data": 10022,
+                "icon": "furnituresplusfree_f8gymo91ybb",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f7lryhpkbog",
+                "custom_model_data": 10023,
+                "icon": "furnituresplusfree_f7lryhpkbog",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fqgbkt7ysy6",
+                "custom_model_data": 10025,
+                "icon": "furnituresplus_fqgbkt7ysy6",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fcq0fnygycn",
+                "custom_model_data": 10026,
+                "icon": "furnituresplus_fcq0fnygycn",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f6nmnese1lj",
+                "custom_model_data": 10027,
+                "icon": "furnituresplus_f6nmnese1lj",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fznaad0vhg0",
+                "custom_model_data": 10028,
+                "icon": "furnituresplus_fznaad0vhg0",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fmvzy3fb8ed",
+                "custom_model_data": 10029,
+                "icon": "furnituresplus_fmvzy3fb8ed",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1sf144iscy",
+                "custom_model_data": 10030,
+                "icon": "furnituresplus_f1sf144iscy",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fwzinob63zv",
+                "custom_model_data": 10031,
+                "icon": "furnituresplus_fwzinob63zv",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f3mmejnjzoq",
+                "custom_model_data": 10032,
+                "icon": "furnituresplus_f3mmejnjzoq",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:apple": [
+            {
+                "name": "cooking_expansion_fi65n8ds001",
+                "custom_model_data": 10031,
+                "icon": "cooking_expansion_fi65n8ds001",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f8wzvouq09j",
+                "custom_model_data": 10032,
+                "icon": "cooking_expansion_f8wzvouq09j",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fki2leipc2j",
+                "custom_model_data": 10033,
+                "icon": "cooking_expansion_fki2leipc2j",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f1uycccayox",
+                "custom_model_data": 10034,
+                "icon": "cooking_expansion_f1uycccayox",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fwpjv6fpy61",
+                "custom_model_data": 10035,
+                "icon": "cooking_expansion_fwpjv6fpy61",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fhrpy9xdbot",
+                "custom_model_data": 10036,
+                "icon": "cooking_expansion_fhrpy9xdbot",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f3chjg2uy63",
+                "custom_model_data": 10037,
+                "icon": "cooking_expansion_f3chjg2uy63",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fzzzjxkgz15",
+                "custom_model_data": 10038,
+                "icon": "cooking_expansion_fzzzjxkgz15",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fd3libn61jf",
+                "custom_model_data": 10039,
+                "icon": "cooking_expansion_fd3libn61jf",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f4cycwukg10",
+                "custom_model_data": 10040,
+                "icon": "cooking_expansion_f4cycwukg10",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fyah8vlyoba",
+                "custom_model_data": 10041,
+                "icon": "cooking_expansion_fyah8vlyoba",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fe245i8os7r",
+                "custom_model_data": 10042,
+                "icon": "cooking_expansion_fe245i8os7r",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fya90pa99j5",
+                "custom_model_data": 10043,
+                "icon": "cooking_expansion_fya90pa99j5",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fw04fjrsz0i",
+                "custom_model_data": 10044,
+                "icon": "cooking_expansion_fw04fjrsz0i",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fmd60xfk4ds",
+                "custom_model_data": 10045,
+                "icon": "cooking_expansion_fmd60xfk4ds",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f0u9gxpuj55",
+                "custom_model_data": 10046,
+                "icon": "cooking_expansion_f0u9gxpuj55",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fmytti4mt8w",
+                "custom_model_data": 10047,
+                "icon": "cooking_expansion_fmytti4mt8w",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fcqhq3ky8nk",
+                "custom_model_data": 10048,
+                "icon": "cooking_expansion_fcqhq3ky8nk",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f95w87mg2le",
+                "custom_model_data": 10049,
+                "icon": "cooking_expansion_f95w87mg2le",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fdtg90yifh9",
+                "custom_model_data": 10050,
+                "icon": "cooking_expansion_fdtg90yifh9",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f1apxn6jkx0",
+                "custom_model_data": 10051,
+                "icon": "cooking_expansion_f1apxn6jkx0",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f04dttghp6k",
+                "custom_model_data": 10052,
+                "icon": "cooking_expansion_f04dttghp6k",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fzwvgj2rwpl",
+                "custom_model_data": 10053,
+                "icon": "cooking_expansion_fzwvgj2rwpl",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fbhm8p2fw95",
+                "custom_model_data": 10054,
+                "icon": "cooking_expansion_fbhm8p2fw95",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fupcx872ypk",
+                "custom_model_data": 10055,
+                "icon": "cooking_expansion_fupcx872ypk",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f62urcsgvdv",
+                "custom_model_data": 10056,
+                "icon": "cooking_expansion_f62urcsgvdv",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_ff1ywf6diup",
+                "custom_model_data": 10057,
+                "icon": "cooking_expansion_ff1ywf6diup",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f3gitpwd0lg",
+                "custom_model_data": 10058,
+                "icon": "cooking_expansion_f3gitpwd0lg",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fe2tkhfk3zh",
+                "custom_model_data": 10059,
+                "icon": "cooking_expansion_fe2tkhfk3zh",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f763rwa1ekz",
+                "custom_model_data": 10060,
+                "icon": "cooking_expansion_f763rwa1ekz",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fzt6b08rqnh",
+                "custom_model_data": 10061,
+                "icon": "cooking_expansion_fzt6b08rqnh",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f0rx7vxxv5v",
+                "custom_model_data": 10062,
+                "icon": "cooking_expansion_f0rx7vxxv5v",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fm7hvde1v10",
+                "custom_model_data": 10063,
+                "icon": "cooking_expansion_fm7hvde1v10",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fg77z964etp",
+                "custom_model_data": 10064,
+                "icon": "cooking_expansion_fg77z964etp",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fgbklebpvr7",
+                "custom_model_data": 10065,
+                "icon": "cooking_expansion_fgbklebpvr7",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_flv0e71gl04",
+                "custom_model_data": 10066,
+                "icon": "cooking_expansion_flv0e71gl04",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fedydksroo2",
+                "custom_model_data": 10067,
+                "icon": "cooking_expansion_fedydksroo2",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fsraq7nnufn",
+                "custom_model_data": 10068,
+                "icon": "cooking_expansion_fsraq7nnufn",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fim235ouhh5",
+                "custom_model_data": 10069,
+                "icon": "cooking_expansion_fim235ouhh5",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f2l7tm3hbb2",
+                "custom_model_data": 10070,
+                "icon": "cooking_expansion_f2l7tm3hbb2",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fsolz3gf7kw",
+                "custom_model_data": 10071,
+                "icon": "cooking_expansion_fsolz3gf7kw",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f1vm1xbw2i4",
+                "custom_model_data": 10072,
+                "icon": "cooking_expansion_f1vm1xbw2i4",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fycpbuy80sq",
+                "custom_model_data": 10073,
+                "icon": "cooking_expansion_fycpbuy80sq",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fcye8p3k6t5",
+                "custom_model_data": 10074,
+                "icon": "cooking_expansion_fcye8p3k6t5",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fhmvd74bd6y",
+                "custom_model_data": 10075,
+                "icon": "cooking_expansion_fhmvd74bd6y",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fyf0z5m05nz",
+                "custom_model_data": 10076,
+                "icon": "cooking_expansion_fyf0z5m05nz",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fugo0qu4v12",
+                "custom_model_data": 10077,
+                "icon": "cooking_expansion_fugo0qu4v12",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fi7nohu6vyr",
+                "custom_model_data": 10078,
+                "icon": "cooking_expansion_fi7nohu6vyr",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f0tggc9sn0u",
+                "custom_model_data": 10079,
+                "icon": "cooking_expansion_f0tggc9sn0u",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f0hwoxi3zru",
+                "custom_model_data": 10080,
+                "icon": "cooking_expansion_f0hwoxi3zru",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fyj9h7ttt0b",
+                "custom_model_data": 10081,
+                "icon": "cooking_expansion_fyj9h7ttt0b",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fdupum1m7jj",
+                "custom_model_data": 10082,
+                "icon": "cooking_expansion_fdupum1m7jj",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fklvrkwshg7",
+                "custom_model_data": 10083,
+                "icon": "cooking_expansion_fklvrkwshg7",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fggz31bwtf9",
+                "custom_model_data": 10084,
+                "icon": "cooking_expansion_fggz31bwtf9",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fjko3b3oxhp",
+                "custom_model_data": 10085,
+                "icon": "cooking_expansion_fjko3b3oxhp",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fj57l3vzr6c",
+                "custom_model_data": 10086,
+                "icon": "cooking_expansion_fj57l3vzr6c",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f31uq77m6vk",
+                "custom_model_data": 10087,
+                "icon": "cooking_expansion_f31uq77m6vk",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fk5pt3cxkz9",
+                "custom_model_data": 10088,
+                "icon": "cooking_expansion_fk5pt3cxkz9",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f8irk1k4v39",
+                "custom_model_data": 10089,
+                "icon": "cooking_expansion_f8irk1k4v39",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_fp4nit3r10o",
+                "custom_model_data": 10090,
+                "icon": "cooking_expansion_fp4nit3r10o",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_ftweli9zwzi",
+                "custom_model_data": 10091,
+                "icon": "cooking_expansion_ftweli9zwzi",
+                "allow_offhand": true
+            },
+            {
+                "name": "cooking_expansion_f9mm1o0oyeb",
+                "custom_model_data": 10092,
+                "icon": "cooking_expansion_f9mm1o0oyeb",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_axe": [
+            {
+                "name": "fantasy_weapons_fezbqt46rw8",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_fezbqt46rw8",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fsyhzs37c0c",
+                "custom_model_data": 10001,
+                "icon": "fantasy_weapons_fsyhzs37c0c",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fmcy70jcvgi",
+                "custom_model_data": 10002,
+                "icon": "fantasy_weapons_fmcy70jcvgi",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_flunuqjpb1i",
+                "custom_model_data": 10003,
+                "icon": "fantasy_weapons_flunuqjpb1i",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fay681ddkq8",
+                "custom_model_data": 10004,
+                "icon": "fantasy_weapons_fay681ddkq8",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fx40puo5uy0",
+                "custom_model_data": 10005,
+                "icon": "fantasy_weapons_fx40puo5uy0",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f5jl9a2rotv",
+                "custom_model_data": 10006,
+                "icon": "fantasy_weapons_f5jl9a2rotv",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_ffsim3y6u0m",
+                "custom_model_data": 10007,
+                "icon": "fantasy_weapons_ffsim3y6u0m",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fyencwpiaof",
+                "custom_model_data": 10008,
+                "icon": "fantasy_weapons_fyencwpiaof",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_feo5tgv8iie",
+                "custom_model_data": 10009,
+                "icon": "fantasy_weapons_feo5tgv8iie",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fed7a2qdwb6",
+                "custom_model_data": 10010,
+                "icon": "fantasy_weapons_fed7a2qdwb6",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f5zwskde55f",
+                "custom_model_data": 10011,
+                "icon": "fantasy_weapons_f5zwskde55f",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fi6ften1f9f",
+                "custom_model_data": 10012,
+                "icon": "fantasy_weapons_fi6ften1f9f",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_ff17asmt0g4",
+                "custom_model_data": 10013,
+                "icon": "fantasy_weapons_ff17asmt0g4",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_flolu78xhtf",
+                "custom_model_data": 10014,
+                "icon": "fantasy_weapons_flolu78xhtf",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fsuq4450wgu",
+                "custom_model_data": 10015,
+                "icon": "fantasy_weapons_fsuq4450wgu",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f71dinf36ng",
+                "custom_model_data": 10016,
+                "icon": "fantasy_weapons_f71dinf36ng",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f15ksng0ipt",
+                "custom_model_data": 10017,
+                "icon": "fantasy_weapons_f15ksng0ipt",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fqj1pp72uyl",
+                "custom_model_data": 10018,
+                "icon": "fantasy_weapons_fqj1pp72uyl",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f72qdrjw7st",
+                "custom_model_data": 10019,
+                "icon": "fantasy_weapons_f72qdrjw7st",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fs7wvuekm7n",
+                "custom_model_data": 10020,
+                "icon": "fantasy_weapons_fs7wvuekm7n",
+                "allow_offhand": true
+            },
+            {
+                "name": "ax_emerald_set_f7r06ruarnf",
+                "custom_model_data": 10021,
+                "icon": "ax_emerald_set_f7r06ruarnf",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_pickaxe": [
+            {
+                "name": "ax_emerald_set_ffigcrrl19y",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_ffigcrrl19y",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_shovel": [
+            {
+                "name": "ax_emerald_set_fctdh4gfqru",
+                "custom_model_data": 10000,
+                "icon": "ax_emerald_set_fctdh4gfqru",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_sword": [
+            {
+                "name": "fantasy_weapons_f3fvqq4delv",
+                "custom_model_data": 10001,
+                "icon": "fantasy_weapons_f3fvqq4delv",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fidlb5983f0",
+                "custom_model_data": 10002,
+                "icon": "fantasy_weapons_fidlb5983f0",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fzu9cudqt9o",
+                "custom_model_data": 10003,
+                "icon": "fantasy_weapons_fzu9cudqt9o",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fp5jltehxg5",
+                "custom_model_data": 10004,
+                "icon": "fantasy_weapons_fp5jltehxg5",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f8gksce8fck",
+                "custom_model_data": 10005,
+                "icon": "fantasy_weapons_f8gksce8fck",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fe8o62tr6a2",
+                "custom_model_data": 10006,
+                "icon": "fantasy_weapons_fe8o62tr6a2",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f5mbowxq27s",
+                "custom_model_data": 10007,
+                "icon": "fantasy_weapons_f5mbowxq27s",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f8nqk841hbg",
+                "custom_model_data": 10008,
+                "icon": "fantasy_weapons_f8nqk841hbg",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fvybrs17gwu",
+                "custom_model_data": 10009,
+                "icon": "fantasy_weapons_fvybrs17gwu",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fsktn9oie9b",
+                "custom_model_data": 10010,
+                "icon": "fantasy_weapons_fsktn9oie9b",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f90fy5w09qf",
+                "custom_model_data": 10011,
+                "icon": "fantasy_weapons_f90fy5w09qf",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f800mq0eocl",
+                "custom_model_data": 10012,
+                "icon": "fantasy_weapons_f800mq0eocl",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f6406rb1629",
+                "custom_model_data": 10013,
+                "icon": "fantasy_weapons_f6406rb1629",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fnzt4to35x8",
+                "custom_model_data": 10014,
+                "icon": "fantasy_weapons_fnzt4to35x8",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fxsnyml0iqc",
+                "custom_model_data": 10015,
+                "icon": "fantasy_weapons_fxsnyml0iqc",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fb9zbhnr8lt",
+                "custom_model_data": 10016,
+                "icon": "fantasy_weapons_fb9zbhnr8lt",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fclziom9r34",
+                "custom_model_data": 10017,
+                "icon": "fantasy_weapons_fclziom9r34",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fkyfu5ihtr4",
+                "custom_model_data": 10018,
+                "icon": "fantasy_weapons_fkyfu5ihtr4",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f1i4vbbrfze",
+                "custom_model_data": 10019,
+                "icon": "fantasy_weapons_f1i4vbbrfze",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fk94q1l0n7b",
+                "custom_model_data": 10020,
+                "icon": "fantasy_weapons_fk94q1l0n7b",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fzk359x06m5",
+                "custom_model_data": 10021,
+                "icon": "fantasy_weapons_fzk359x06m5",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f35xit24qz6",
+                "custom_model_data": 10022,
+                "icon": "fantasy_weapons_f35xit24qz6",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fy776wry953",
+                "custom_model_data": 10023,
+                "icon": "fantasy_weapons_fy776wry953",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f2qrph96p8w",
+                "custom_model_data": 10024,
+                "icon": "fantasy_weapons_f2qrph96p8w",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f588n1e4kh4",
+                "custom_model_data": 10025,
+                "icon": "fantasy_weapons_f588n1e4kh4",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f9dx7ksmu4h",
+                "custom_model_data": 10026,
+                "icon": "fantasy_weapons_f9dx7ksmu4h",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fm7msrc23sx",
+                "custom_model_data": 10027,
+                "icon": "fantasy_weapons_fm7msrc23sx",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fjo0hdvkv4d",
+                "custom_model_data": 10028,
+                "icon": "fantasy_weapons_fjo0hdvkv4d",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fp0y57n7i2z",
+                "custom_model_data": 10029,
+                "icon": "fantasy_weapons_fp0y57n7i2z",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_ftkpui87132",
+                "custom_model_data": 10030,
+                "icon": "fantasy_weapons_ftkpui87132",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fwyqtr9338o",
+                "custom_model_data": 10031,
+                "icon": "fantasy_weapons_fwyqtr9338o",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_fy22tsfe4h3",
+                "custom_model_data": 10032,
+                "icon": "fantasy_weapons_fy22tsfe4h3",
+                "allow_offhand": true
+            },
+            {
+                "name": "ax_emerald_set_f3t22avi9ds",
+                "custom_model_data": 10033,
+                "icon": "ax_emerald_set_f3t22avi9ds",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:torch": [
+            {
+                "name": "furnituresplusfree_f216mca6sla",
+                "custom_model_data": 10000,
+                "icon": "furnituresplusfree_f216mca6sla",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f3ilpj4a7ox",
+                "custom_model_data": 10001,
+                "icon": "furnituresplusfree_f3ilpj4a7ox",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fo6uz9ii302",
+                "custom_model_data": 10002,
+                "icon": "furnituresplusfree_fo6uz9ii302",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fxu1x09iwcq",
+                "custom_model_data": 10003,
+                "icon": "furnituresplusfree_fxu1x09iwcq",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_fkv4rdqibr9",
+                "custom_model_data": 10004,
+                "icon": "furnituresplusfree_fkv4rdqibr9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplusfree_f2vlcm5ttvm",
+                "custom_model_data": 10005,
+                "icon": "furnituresplusfree_f2vlcm5ttvm",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1c4nwfrj7r",
+                "custom_model_data": 10006,
+                "icon": "furnituresplus_f1c4nwfrj7r",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f84vurtcqb3",
+                "custom_model_data": 10007,
+                "icon": "furnituresplus_f84vurtcqb3",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fclyxhf29dz",
+                "custom_model_data": 10008,
+                "icon": "furnituresplus_fclyxhf29dz",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f2elumqr2nm",
+                "custom_model_data": 10009,
+                "icon": "furnituresplus_f2elumqr2nm",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f6gz6n9ehq4",
+                "custom_model_data": 10010,
+                "icon": "furnituresplus_f6gz6n9ehq4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f31agp1fyr1",
+                "custom_model_data": 10011,
+                "icon": "furnituresplus_f31agp1fyr1",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f5jpuw6vwo6",
+                "custom_model_data": 10012,
+                "icon": "furnituresplus_f5jpuw6vwo6",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fhg42uyqv45",
+                "custom_model_data": 10013,
+                "icon": "furnituresplus_fhg42uyqv45",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_foqhubkm38m",
+                "custom_model_data": 10014,
+                "icon": "furnituresplus_foqhubkm38m",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_ffytjmm32c4",
+                "custom_model_data": 10015,
+                "icon": "furnituresplus_ffytjmm32c4",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fwxucl5ugjy",
+                "custom_model_data": 10016,
+                "icon": "furnituresplus_fwxucl5ugjy",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fgomcdga4vw",
+                "custom_model_data": 10017,
+                "icon": "furnituresplus_fgomcdga4vw",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stone_sword": [
+            {
+                "name": "fantasy_weapons_f10vcvxu96f",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_f10vcvxu96f",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:red_stained_glass": [
+            {
+                "name": "summer_fkie2nsiv4w",
+                "custom_model_data": 10000,
+                "icon": "summer_fkie2nsiv4w",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:stone": [
+            {
+                "name": "graves_fb28uwl2ndp",
+                "custom_model_data": 10000,
+                "icon": "graves_fb28uwl2ndp",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:wooden_sword": [
+            {
+                "name": "fantasy_weapons_fe9tpnbd8f2",
+                "custom_model_data": 10008,
+                "icon": "fantasy_weapons_fe9tpnbd8f2",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:wooden_axe": [
+            {
+                "name": "fantasy_weapons_fr4bfcwrjou",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_fr4bfcwrjou",
+                "allow_offhand": true
+            },
+            {
+                "name": "fantasy_weapons_f9aay71huzz",
+                "custom_model_data": 10001,
+                "icon": "fantasy_weapons_f9aay71huzz",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:diamond_axe": [
+            {
+                "name": "fantasy_weapons_f0jpu0bt19m",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_f0jpu0bt19m",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:lantern": [
+            {
+                "name": "furnituresplus_fqc1f1ffdkm",
+                "custom_model_data": 10000,
+                "icon": "furnituresplus_fqc1f1ffdkm",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fkzisusai13",
+                "custom_model_data": 10001,
+                "icon": "furnituresplus_fkzisusai13",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fe69pb5hofs",
+                "custom_model_data": 10002,
+                "icon": "furnituresplus_fe69pb5hofs",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fvth09swrb9",
+                "custom_model_data": 10003,
+                "icon": "furnituresplus_fvth09swrb9",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_fp6doj0d6c8",
+                "custom_model_data": 10004,
+                "icon": "furnituresplus_fp6doj0d6c8",
+                "allow_offhand": true
+            },
+            {
+                "name": "furnituresplus_f1a1o7ohfc6",
+                "custom_model_data": 10005,
+                "icon": "furnituresplus_f1a1o7ohfc6",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:oak_wood": [
+            {
+                "name": "summer_fds4529te1h",
+                "custom_model_data": 10000,
+                "icon": "summer_fds4529te1h",
+                "allow_offhand": true
+            }
+        ],
+        "minecraft:iron_hoe": [
+            {
+                "name": "fantasy_weapons_fpjhf0j1llb",
+                "custom_model_data": 10000,
+                "icon": "fantasy_weapons_fpjhf0j1llb",
+                "allow_offhand": true
+            }
+        ]
+    }
+}

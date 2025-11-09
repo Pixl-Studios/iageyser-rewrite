@@ -77,9 +77,22 @@ class ConvertCommand extends Command
             $filesystem->mkdir($packOutputPath);
             $filesystem->mkdir($mappingsOutputPath);
 
-            // Generate Geyser mappings
-            $io->section('Step 2: Generating Geyser mappings');
-            $mappingsGenerator = new GeyserMappingsGenerator($items, $blocks);
+            // Convert resource pack first to get texture maps
+            $itemTextureMap = [];
+            $blockTextureMap = [];
+            
+            if ($resourcePackPath) {
+                $io->section('Step 2: Converting resource pack');
+                $converter = new ResourcePackConverter($resourcePackPath, $packOutputPath, $items, $blocks);
+                $textureMaps = $converter->convert();
+                $itemTextureMap = $textureMaps['itemTextureMap'] ?? [];
+                $blockTextureMap = $textureMaps['terrainTextureMap'] ?? [];
+                $io->success("Resource pack converted to: {$packOutputPath}");
+            }
+
+            // Generate Geyser mappings with texture maps
+            $io->section('Step 3: Generating Geyser mappings');
+            $mappingsGenerator = new GeyserMappingsGenerator($items, $blocks, $itemTextureMap, $blockTextureMap);
             $itemsMappingsJson = $mappingsGenerator->generateItemsJson();
             $blocksMappingsJson = $mappingsGenerator->generateBlocksJson();
 
@@ -93,20 +106,12 @@ class ConvertCommand extends Command
                 $io->success("Blocks mappings saved to: {$blocksMappingsFile}");
             }
 
-            // Convert resource pack
-            if ($resourcePackPath) {
-                $io->section('Step 3: Converting resource pack');
-                $converter = new ResourcePackConverter($resourcePackPath, $packOutputPath, $items, $blocks);
-                $converter->convert();
-                $io->success("Resource pack converted to: {$packOutputPath}");
-
-                // Create ZIP if requested
-                if ($createZip) {
-                    $io->section('Step 4: Creating ZIP file');
-                    $zipPath = $outputPath . '/' . $packName . '.zip';
-                    $converter->createZip($zipPath);
-                    $io->success("ZIP file created: {$zipPath}");
-                }
+            // Create ZIP if requested
+            if ($createZip && $resourcePackPath) {
+                $io->section('Step 4: Creating ZIP file');
+                $zipPath = $outputPath . '/' . $packName . '.zip';
+                $converter->createZip($zipPath);
+                $io->success("ZIP file created: {$zipPath}");
             }
 
             // Display summary

@@ -1,0 +1,91 @@
+{
+    "format_version": 1,
+    "blocks": {
+        "minecraft:note_block": {
+            "name": "note_block",
+            "included_in_creative_inventory": false,
+            "only_override_states": true,
+            "place_air": true,
+            "state_overrides": {
+                "instrument=basedrum,note=20,powered=false": {
+                    "name": "tduxi03cx53",
+                    "geometry": "geometry.furnace.tduxi03cx53",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tduxi03cx53",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=18,powered=false": {
+                    "name": "t5x0hijy86r",
+                    "geometry": "geometry.furnace.t5x0hijy86r",
+                    "material_instances": {
+                        "*": {
+                            "texture": "t5x0hijy86r",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=16,powered=false": {
+                    "name": "tyrg5hfbd4h",
+                    "geometry": "geometry.furnace.tyrg5hfbd4h",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tyrg5hfbd4h",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=15,powered=false": {
+                    "name": "te0j6mfqah1",
+                    "geometry": "geometry.furnace.te0j6mfqah1",
+                    "material_instances": {
+                        "*": {
+                            "texture": "te0j6mfqah1",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=17,powered=false": {
+                    "name": "tk2x4leuxzz",
+                    "geometry": "geometry.furnace.tk2x4leuxzz",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tk2x4leuxzz",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        },
+        "minecraft:brown_mushroom_block": {
+            "name": "brown_mushroom_block",
+            "included_in_creative_inventory": false,
+            "only_override_states": true,
+            "place_air": true,
+            "state_overrides": {
+                "down=false,east=false,north=false,south=false,up=false,west=false": {
+                    "name": "tv3q46io01r",
+                    "geometry": "geometry.furnace.tv3q46io01r",
+                    "material_instances": {
+                        "*": {
+                            "texture": "tv3q46io01r",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "down=false,east=false,north=false,south=false,up=false,west=true": {
+                    "name": "t6gt2r7mb5p",
+                    "geometry": "geometry.furnace.t6gt2r7mb5p",
+                    "material_instances": {
+                        "*": {
+                            "texture": "t6gt2r7mb5p",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

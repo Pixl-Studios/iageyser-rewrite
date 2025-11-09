@@ -314,15 +314,23 @@ class ItemsAdderParser
             }
 
             // Look for textures/item/ and textures/items/ folders
+            // Also look for entity/ textures (used by _iainternal)
             $texturePaths = [
                 $namespaceDir->getPathname() . '/textures/item',
                 $namespaceDir->getPathname() . '/textures/items',
+                $namespaceDir->getPathname() . '/textures/entity',
+                $namespaceDir->getPathname() . '/textures/ia_auto_gen',
             ];
 
             foreach ($texturePaths as $texturePath) {
                 if (!is_dir($texturePath)) {
                     continue;
                 }
+                
+                // Determine if this is an entity, GUI, or item texture path
+                $isEntityPath = strpos($texturePath, '/entity/') !== false;
+                $isGuiPath = strpos($texturePath, '/gui/') !== false || strpos($texturePath, '/icons/') !== false || strpos($texturePath, '/hud/') !== false;
+                $isItemPath = strpos($texturePath, '/item') !== false || strpos($texturePath, '/ia_auto_gen') !== false;
 
                 // Scan for texture files
                 $textureIterator = new \RecursiveIteratorIterator(
@@ -348,7 +356,7 @@ class ItemsAdderParser
                     
                     // Handle subdirectories - use the full path as item ID
                     $subDir = dirname($relativePath);
-                    if ($subDir !== '.') {
+                    if ($subDir !== '.' && $subDir !== $relativePath) {
                         $itemId = str_replace('/', '_', $subDir) . '_' . $itemId;
                     }
 
@@ -365,6 +373,18 @@ class ItemsAdderParser
                     // Try to extract custom model data from model file
                     $customModelData = $this->extractCustomModelData($modelPath);
 
+                    // Determine material based on namespace and texture path
+                    $material = 'DIAMOND'; // Default material
+                    if ($namespace === '_iainternal') {
+                        // _iainternal entity textures use PLAYER_HEAD
+                        if ($isEntityPath || strpos($relativePath, 'entity/') !== false) {
+                            $material = 'PLAYER_HEAD';
+                        } elseif ($isGuiPath || strpos($relativePath, 'icons/') !== false || strpos($relativePath, 'gui/') !== false) {
+                            // GUI icons use PAPER
+                            $material = 'PAPER';
+                        }
+                    }
+
                     // Create item entry
                     $this->items[$fullId] = [
                         'namespace' => $namespace,
@@ -372,7 +392,7 @@ class ItemsAdderParser
                         'fullId' => $fullId,
                         'displayName' => ucfirst(str_replace('_', ' ', $itemId)),
                         'resource' => null,
-                        'material' => 'DIAMOND', // Default material
+                        'material' => $material,
                         'customModelData' => $customModelData,
                         'durability' => null,
                         'maxStackSize' => 64,

@@ -23,7 +23,7 @@ class ResourcePackConverter
         $this->blocks = $blocks;
     }
 
-    public function convert(): void
+    public function convert(): array
     {
         // Create output directory structure
         $this->filesystem->mkdir($this->outputPath);
@@ -45,6 +45,12 @@ class ResourcePackConverter
 
         // Convert models and create attachables
         $this->convertModels();
+        
+        // Return texture maps for use in mappings generation
+        return [
+            'itemTextureMap' => $this->itemTextureMap,
+            'terrainTextureMap' => $this->terrainTextureMap
+        ];
     }
 
     private function createManifest(): void
@@ -174,44 +180,55 @@ class ResourcePackConverter
             $this->scanTexturesForMapping($texturesDir, $textureData, 'item');
         }
 
-        // Then, map items to texture IDs based on the scanned textures
-        // Try to match items to textures by filename
-        foreach ($this->items as $fullId => $item) {
-            if (!$item['texture']) {
-                continue;
-            }
+            // Then, map items to texture IDs based on the scanned textures
+            // Try to match items to textures by filename or path
+            foreach ($this->items as $fullId => $item) {
+                if (!$item['texture']) {
+                    continue;
+                }
 
-            // Try to find the texture in the scanned data by matching filename
-            $filename = basename($item['texture'], '.png');
-            $textureId = null;
-            
-            // Search through texture data to find matching texture
-            foreach ($textureData as $id => $data) {
-                $texturePathInData = $data['textures'];
-                // Extract filename from texture path
-                $pathParts = explode('/', $texturePathInData);
-                $filenameInData = basename(end($pathParts), '.png');
+                // Try to find the texture in the scanned data by matching filename or path
+                $filename = basename($item['texture'], '.png');
+                $textureId = null;
                 
-                if ($filenameInData === $filename || str_contains($texturePathInData, $filename)) {
-                    $textureId = $id;
-                    break;
+                // First, try to construct the expected texture path
+                $expectedTexturePath = $this->getTexturePathForMapping($item['texture']);
+                
+                // Search through texture data to find matching texture
+                foreach ($textureData as $id => $data) {
+                    $texturePathInData = $data['textures'];
+                    // Extract filename from texture path
+                    $pathParts = explode('/', $texturePathInData);
+                    $filenameInData = basename(end($pathParts), '.png');
+                    
+                    // Match by exact path or filename
+                    if ($expectedTexturePath && $texturePathInData === $expectedTexturePath) {
+                        $textureId = $id;
+                        break;
+                    } elseif ($filenameInData === $filename) {
+                        // Also check if the namespace matches
+                        $namespace = explode(':', $fullId)[0];
+                        if (strpos($texturePathInData, $namespace) !== false) {
+                            $textureId = $id;
+                            break;
+                        }
+                    }
                 }
-            }
-            
-            // If not found, generate a new ID (shouldn't happen if scanning worked correctly)
-            if (!$textureId) {
-                $textureId = $this->generateTextureId($fullId);
-                // Try to get the texture path
-                $texturePath = $this->getTexturePathForMapping($item['texture']);
-                if ($texturePath && !isset($textureData[$textureId])) {
-                    $textureData[$textureId] = [
-                        'textures' => $texturePath
-                    ];
+                
+                // If not found, generate a new ID and add it to the texture data
+                if (!$textureId) {
+                    $textureId = $this->generateTextureId($fullId);
+                    // Try to get the texture path
+                    $texturePath = $expectedTexturePath ?: $this->getTexturePathForMapping($item['texture']);
+                    if ($texturePath && !isset($textureData[$textureId])) {
+                        $textureData[$textureId] = [
+                            'textures' => $texturePath
+                        ];
+                    }
                 }
+                
+                $this->itemTextureMap[$fullId] = $textureId;
             }
-            
-            $this->itemTextureMap[$fullId] = $textureId;
-        }
 
         $itemTextureJson = [
             'resource_pack_name' => 'geyser_custom',
@@ -235,21 +252,41 @@ class ResourcePackConverter
             $this->scanTexturesForMapping($texturesDir, $textureData, 'block');
         }
 
-        // Then process blocks to ensure they're all mapped
+        // Then process blocks to map them to texture IDs
         foreach ($this->blocks as $fullId => $block) {
             if (!$block['texture']) {
                 continue;
             }
 
-            $textureId = $this->generateTextureId($fullId, 'block');
-            $texturePath = $this->getTexturePathForMapping($block['texture']);
-
-            if ($texturePath && !isset($textureData[$textureId])) {
-                $textureData[$textureId] = [
-                    'textures' => $texturePath
-                ];
-                $this->terrainTextureMap[$fullId] = $textureId;
+            // Try to find the texture in the scanned data
+            $expectedTexturePath = $this->getTexturePathForMapping($block['texture']);
+            $textureId = null;
+            
+            // Search through texture data to find matching texture
+            foreach ($textureData as $id => $data) {
+                $texturePathInData = $data['textures'];
+                if ($expectedTexturePath && $texturePathInData === $expectedTexturePath) {
+                    $textureId = $id;
+                    break;
+                }
             }
+            
+            // If not found, generate a new ID (block texture IDs don't include namespace, just hash with 't' prefix)
+            if (!$textureId) {
+                // Block texture IDs are shorter and don't include namespace prefix
+                $texturePath = $expectedTexturePath ?: $this->getTexturePathForMapping($block['texture']);
+                if ($texturePath) {
+                    // Generate block texture ID: just 't' + hash (no namespace)
+                    $textureId = 't' . substr(md5($texturePath), 0, 11);
+                    if (!isset($textureData[$textureId])) {
+                        $textureData[$textureId] = [
+                            'textures' => $texturePath
+                        ];
+                    }
+                }
+            }
+            
+            $this->terrainTextureMap[$fullId] = $textureId;
         }
 
         $terrainTextureJson = [
@@ -325,8 +362,23 @@ class ResourcePackConverter
             // Determine if it's an item or block texture
             $isItem = strpos($relativePath, '/item/') !== false || strpos($relativePath, '/items/') !== false;
             $isBlock = strpos($relativePath, '/block/') !== false || strpos($relativePath, '/blocks/') !== false;
+            
+            // Also check for entity textures (like _iainternal/entity) - these are items
+            $isEntity = strpos($relativePath, '/entity/') !== false;
+            // Check for GUI/HUD/icons - these can be items too
+            $isGui = strpos($relativePath, '/gui/') !== false || strpos($relativePath, '/hud/') !== false || strpos($relativePath, '/icons/') !== false;
+            
+            // Include _iainternal namespace items (not blocks)
+            $isInternal = strpos($relativePath, '_iainternal/') === 0 || strpos($relativePath, '_iainternal/') !== false;
 
-            if (($type === 'item' && $isItem) || ($type === 'block' && $isBlock)) {
+            if ($type === 'item' && ($isItem || $isEntity || ($isGui && $isInternal) || ($isInternal && !$isBlock))) {
+            } elseif ($type === 'block' && $isBlock && !$isInternal) {
+            } else {
+                continue;
+            }
+            
+            if (($type === 'item' && ($isItem || $isEntity || ($isGui && $isInternal) || ($isInternal && !$isBlock))) || 
+                ($type === 'block' && $isBlock && !$isInternal)) {
                 // Generate texture ID
                 $textureId = $this->generateTextureIdFromPath($relativePath);
                 

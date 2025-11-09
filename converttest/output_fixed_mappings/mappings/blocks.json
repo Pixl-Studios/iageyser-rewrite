@@ -1,0 +1,83 @@
+{
+    "format_version": 1,
+    "blocks": {
+        "minecraft:note_block": {
+            "name": "note_block",
+            "included_in_creative_inventory": false,
+            "only_override_states": true,
+            "place_air": true,
+            "state_overrides": {
+                "instrument=basedrum,note=20,powered=false": {
+                    "name": "casinoitems_f8231d238df8",
+                    "geometry": "geometry.furnace.casinoitems_slotmachine_f35aefae8ca8",
+                    "material_instances": {
+                        "*": {
+                            "texture": "casinoitems_f8231d238df8",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=18,powered=false": {
+                    "name": "graves_f2c80c99ce59",
+                    "geometry": "geometry.furnace.graves_mossy_stone_bricks_f17c2b414e89",
+                    "material_instances": {
+                        "*": {
+                            "texture": "graves_f2c80c99ce59",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=16,powered=false": {
+                    "name": "graves_fefc0cfdc555",
+                    "geometry": "geometry.furnace.graves_nether_wart_block_f2c42080db04",
+                    "material_instances": {
+                        "*": {
+                            "texture": "graves_fefc0cfdc555",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=15,powered=false": {
+                    "name": "velocity_f54d371600d1",
+                    "geometry": "geometry.furnace.velocity_polished_blackstone_bricks_f613d02c1275",
+                    "material_instances": {
+                        "*": {
+                            "texture": "velocity_f54d371600d1",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=17,powered=false": {
+                    "name": "velocity_f7bcbf8cde1e",
+                    "geometry": "geometry.furnace.velocity_polished_blackstone_bricks_velologo_feb16648e5fb",
+                    "material_instances": {
+                        "*": {
+                            "texture": "velocity_f7bcbf8cde1e",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=19,powered=false": {
+                    "name": "velocity_fbfdd12770cb",
+                    "geometry": "geometry.furnace.velocity_waystone_f3e17d1f1114",
+                    "material_instances": {
+                        "*": {
+                            "texture": "velocity_fbfdd12770cb",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                },
+                "instrument=basedrum,note=21,powered=false": {
+                    "name": "velocity_f4743edffc19",
+                    "geometry": "geometry.furnace.velocity_waystone2_fb0bb46a29be",
+                    "material_instances": {
+                        "*": {
+                            "texture": "velocity_f4743edffc19",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
