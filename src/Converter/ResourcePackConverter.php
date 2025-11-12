@@ -476,6 +476,7 @@ class ResourcePackConverter
 
     private function convertModels(): void
     {
+        // This will not work for complex geometry, planned fix soon!
         // This is a complex conversion - Java models to Bedrock geometry
         // For now, we'll copy the structure and create basic attachables
         // Full model conversion would require parsing Java JSON models and converting to Bedrock format
