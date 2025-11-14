@@ -12,6 +12,15 @@ Part of the ItemsAdderParser.php file, GeyserMappingsGenerator.php and a portion
 
 so, made with the help of AI
 
+## Questions And Answers
+
+Q: Will it ever go paid?
+A: No, Likely not, as I see making paid converters, as a cashgrab, and also, the converters license doesn't allow for this.
+Q: Blocks are invisible, why?
+A: They aren't supported YET...
+Q: Items are invisible, why?
+A: THis is a bug with 3d items, planned fix soon!
+
 ## Features
 
 - ✅ Convert ItemsAdder items.yml to Geyser custom mappings
