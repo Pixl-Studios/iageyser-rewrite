@@ -2,6 +2,10 @@
 
 A PHP CLI tool to convert Minecraft Java Edition ItemsAdder packs to Geyser-compatible resource packs and custom mappings.
 
+# Moved to GitLab
+
+Here, its open-source, https://gitlab.com/pixlstudios/iageyser-rewrite
+
 ## Disclosure
 
 Some code has been generated using Generative AI, However all code errors and bugs have been hand/human fixed.
